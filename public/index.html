@@ -3,138 +3,174 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Porsche Panamera — конструктор тюнинга</title>
-  <meta name="description" content="Живой конструктор Porsche Panamera: цвет кузова, цвет дисков, тонировка, плёнка/финиш, свет — всё меняется на фото сразу. Собери и поделись ссылкой.">
-  <meta name="theme-color" content="#0e1014">
-  <meta name="color-scheme" content="dark">
+  <title>Porsche Panamera — конфигуратор</title>
+  <meta name="description" content="Конфигуратор Porsche Panamera уровня заводского: цвет кузова, диски, тонировка, плёнка/финиш, свет — меняются на фото мгновенно, живая цена, готовые билды, ссылка для Telegram.">
+  <meta name="theme-color" content="#eceae6">
+  <meta name="color-scheme" content="light">
   <meta name="format-detection" content="telephone=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Panamera Studio">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Porsche Panamera — конструктор тюнинга">
-  <meta property="og:description" content="Цвет, диски, тонировка, плёнка, свет — меняется на фото вживую. Собери свой билд и пришли ссылкой.">
+  <meta property="og:title" content="Porsche Panamera — конфигуратор">
+  <meta property="og:description" content="Заводского уровня конфигуратор: цвет, диски, тонировка, плёнка, свет — вживую, с живой ценой. Собери билд и пришли ссылкой.">
   <meta property="og:url" content="https://alexautorental.github.io/panamera-studio/">
   <meta property="og:image" content="https://alexautorental.github.io/panamera-studio/panamera_official_assets/images/2H-volcano-grey-metallic/front-left.jpg">
   <meta property="og:image:width" content="1920"><meta property="og:image:height" content="1080">
   <meta property="og:locale" content="ru_RU">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%23111317'/%3E%3Ctext%20x='16'%20y='23'%20font-family='Arial'%20font-size='18'%20font-weight='700'%20fill='%23d7b65a'%20text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%23b50019'/%3E%3Ctext%20x='16'%20y='23'%20font-family='Arial'%20font-size='18'%20font-weight='700'%20fill='white'%20text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
   <style>
     :root{
-      --bg:#0e1014;--panel:#171b22;--panel2:#1d222b;--line:#2a313c;--ink:#eef1f5;--muted:#9aa3b0;
-      --muted2:#6f7785;--accent:#d7b65a;--ok:#37b06a;--warn:#d98a2b;--bad:#d9544f;--exc:#3d7bd6;--concept:#a86fd6;
-      --radius:13px;
+      --bg:#eceae6;--panel:#fff;--panel2:#f5f3ef;--line:#dcd8d1;--line2:#e7e3dc;
+      --ink:#1a1a1a;--muted:#6c6862;--muted2:#9a958d;--accent:#b50019;--on-accent:#fff;
+      --ok:#1f7a3d;--warn:#9a5b12;--bad:#b32018;--exc:#1d4ed8;--concept:#7a1fa2;
+      --radius:14px;--shadow:0 10px 30px rgba(30,25,20,.10);--shadow-sm:0 4px 14px rgba(30,25,20,.07);
     }
     *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
     html,body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;overflow-x:clip;-webkit-text-size-adjust:100%}
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow-x:clip;-webkit-text-size-adjust:100%}
     button,input{font:inherit;color:inherit}
-    .app{max-width:1280px;margin:0 auto}
-    header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line);
-      background:rgba(14,16,20,.92);backdrop-filter:blur(10px);position:sticky;top:0;z-index:40}
-    header h1{margin:0;font-size:clamp(14px,2.2vw,18px);font-weight:680;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    header .sub{font-size:10.5px;color:var(--muted)}
-    .hbtns{display:flex;gap:7px;flex:0 0 auto}
-    .btn{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:8px 11px;font-size:12.5px;cursor:pointer;white-space:nowrap}
+    .app{max-width:1320px;margin:0 auto}
+    /* header */
+    header{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:11px 18px;border-bottom:1px solid var(--line);
+      background:rgba(236,234,230,.9);backdrop-filter:blur(12px);position:sticky;top:0;z-index:45}
+    .brand{min-width:0;display:flex;align-items:center;gap:10px}
+    .brand .logo{width:30px;height:30px;border-radius:7px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;flex:0 0 auto}
+    .brand h1{margin:0;font-size:clamp(14px,2vw,17px);font-weight:700;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .brand .sub{font-size:10.5px;color:var(--muted)}
+    .price{display:flex;flex-direction:column;align-items:flex-end;line-height:1.05;margin-left:auto;flex:0 0 auto}
+    .price .pl{font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+    .price .pn{font-size:clamp(17px,2.4vw,23px);font-weight:760;color:var(--ink);font-variant-numeric:tabular-nums}
+    .price .pb{font-size:9.5px;color:var(--muted2)}
+    .hbtns{display:flex;gap:8px;flex:0 0 auto}
+    .btn{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:9px 13px;font-size:12.5px;cursor:pointer;white-space:nowrap;box-shadow:var(--shadow-sm)}
     .btn:active{transform:translateY(1px)}
-    .btn.primary{background:var(--accent);color:#1a1407;border-color:var(--accent);font-weight:650}
-    .btn.ghost{background:transparent}
-    /* layout: desktop 2col, mobile stacked w/ sticky stage */
-    main{display:grid;grid-template-columns:minmax(0,1fr) 430px;gap:16px;padding:14px}
-    .stage{position:sticky;top:60px;align-self:start}
-    .viewer{position:relative;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#0a0c10;box-shadow:0 16px 40px rgba(0,0,0,.45);touch-action:pan-y}
+    .btn.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent);font-weight:650}
+    .btn.ghost{background:transparent;box-shadow:none}
+    /* category nav */
+    .catnav{position:sticky;top:54px;z-index:40;display:flex;gap:6px;overflow-x:auto;padding:9px 14px;background:rgba(236,234,230,.92);
+      backdrop-filter:blur(10px);border-bottom:1px solid var(--line);scrollbar-width:none}
+    .catnav::-webkit-scrollbar{display:none}
+    .catnav a{flex:0 0 auto;font-size:12.5px;color:var(--muted);text-decoration:none;padding:6px 12px;border-radius:20px;border:1px solid transparent;white-space:nowrap}
+    .catnav a.active{color:var(--ink);background:var(--panel);border-color:var(--line);font-weight:600;box-shadow:var(--shadow-sm)}
+    /* layout */
+    main{display:grid;grid-template-columns:minmax(0,1fr) 440px;gap:20px;padding:18px}
+    .stage{position:sticky;top:108px;align-self:start}
+    .viewer{position:relative;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#e6e2db;box-shadow:var(--shadow);touch-action:pan-y}
     .viewer::before{content:"";display:block;aspect-ratio:16/9}
-    #carCanvas,#stockImg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:filter .3s ease}
+    #carCanvas,#stockImg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:filter .3s ease,opacity .3s ease}
     #stockImg{display:none}
     .viewer.compare #stockImg{display:block;clip-path:inset(0 0 0 var(--split,50%))}
-    .viewer.compare #carCanvas{clip-path:inset(0 calc(100% - var(--split,50%)) 0 0)}
-    .split-line{position:absolute;top:0;bottom:0;left:var(--split,50%);width:2px;background:var(--accent);display:none;z-index:4}
-    .split-handle{position:absolute;top:50%;left:var(--split,50%);transform:translate(-50%,-50%);width:32px;height:32px;border-radius:50%;
-      background:var(--accent);color:#1a1407;display:none;align-items:center;justify-content:center;font-weight:800;cursor:ew-resize;z-index:5}
+    .viewer.compare #carCanvas{clip-path:inset(0 calc(100% - var(--split,50%)) 0 0)!important;opacity:1!important}
+    .split-line{position:absolute;top:0;bottom:0;left:var(--split,50%);width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.25);display:none;z-index:4}
+    .split-handle{position:absolute;top:50%;left:var(--split,50%);transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;
+      background:#fff;color:var(--accent);display:none;align-items:center;justify-content:center;font-weight:800;cursor:ew-resize;z-index:5;box-shadow:var(--shadow-sm)}
     .viewer.compare .split-line,.viewer.compare .split-handle{display:flex}
-    .ba-tag{position:absolute;top:8px;font-size:10px;background:rgba(0,0,0,.55);border:1px solid var(--line);padding:2px 7px;border-radius:20px;z-index:4;display:none}
-    .viewer.compare .ba-tag{display:block}.ba-tag.l{left:8px}.ba-tag.r{right:8px}
-    .vtools{position:absolute;top:9px;right:9px;z-index:6;display:flex;gap:6px}
-    .vtool{width:36px;height:36px;border-radius:9px;border:1px solid rgba(255,255,255,.18);background:rgba(10,12,16,.6);color:#fff;
+    .ba-tag{position:absolute;top:9px;font-size:10px;background:rgba(20,18,16,.6);color:#fff;padding:3px 8px;border-radius:20px;z-index:4;display:none}
+    .viewer.compare .ba-tag{display:block}.ba-tag.l{left:9px}.ba-tag.r{right:9px}
+    .vtools{position:absolute;top:10px;right:10px;z-index:6;display:flex;gap:6px}
+    .vtool{width:38px;height:38px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(20,18,16,.5);color:#fff;
       display:flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer;backdrop-filter:blur(8px)}
-    .vtool[aria-pressed=true]{background:var(--accent);color:#1a1407;border-color:var(--accent)}
-    .badges-ov{position:absolute;left:9px;bottom:9px;right:54px;z-index:5;display:flex;gap:5px;flex-wrap:wrap;max-height:40%;overflow:hidden}
-    .mchip{font-size:10px;line-height:1;padding:4px 7px;border-radius:20px;background:rgba(10,12,16,.7);border:1px solid var(--line);backdrop-filter:blur(6px)}
-    .viewer.loading::after{content:"";position:absolute;top:50%;left:50%;width:30px;height:30px;margin:-15px;border:3px solid rgba(255,255,255,.22);
+    .vtool[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .badges-ov{position:absolute;left:10px;bottom:10px;right:56px;z-index:5;display:flex;gap:5px;flex-wrap:wrap;max-height:42%;overflow:hidden}
+    .mchip{font-size:10.5px;line-height:1;padding:5px 8px;border-radius:20px;background:rgba(20,18,16,.62);color:#fff;backdrop-filter:blur(6px)}
+    .viewer.loading::after{content:"";position:absolute;top:50%;left:50%;width:30px;height:30px;margin:-15px;border:3px solid rgba(20,18,16,.18);
       border-top-color:var(--accent);border-radius:50%;animation:sp .7s linear infinite;z-index:3}
     @keyframes sp{to{transform:rotate(360deg)}}
-    .cap{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:9px;flex-wrap:wrap}
-    .cap .t{font-weight:650;font-size:14px}.cap .m{color:var(--muted);font-size:11.5px}
-    .nav{display:flex;gap:6px}.nav button{border:1px solid var(--line);background:var(--panel2);border-radius:9px;padding:6px 10px;font-size:12.5px;cursor:pointer}
-    .strip{display:flex;gap:7px;margin-top:9px;overflow-x:auto;padding-bottom:3px;scrollbar-width:thin}
-    .athumb{flex:0 0 auto;width:74px;border:1px solid var(--line);border-radius:9px;overflow:hidden;cursor:pointer;background:#0a0c10}
+    .cap{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:11px;flex-wrap:wrap}
+    .cap .t{font-weight:680;font-size:15px}.cap .m{color:var(--muted);font-size:11.5px}
+    .nav{display:flex;gap:6px}.nav button{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:7px 11px;font-size:12.5px;cursor:pointer;box-shadow:var(--shadow-sm)}
+    .strip{display:flex;gap:8px;margin-top:11px;overflow-x:auto;padding-bottom:3px;scrollbar-width:thin}
+    .athumb{flex:0 0 auto;width:84px;border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;background:#fff}
     .athumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
-    .athumb span{display:block;font-size:9px;text-align:center;padding:2px;color:var(--muted)}
-    .athumb[aria-pressed=true]{border-color:var(--accent);outline:2px solid color-mix(in srgb,var(--accent),transparent 72%)}
+    .athumb span{display:block;font-size:9.5px;text-align:center;padding:3px;color:var(--muted)}
+    .athumb[aria-pressed=true]{border-color:var(--accent);outline:2px solid color-mix(in srgb,var(--accent),transparent 78%)}
     /* options */
-    .opts{display:flex;flex-direction:column;gap:12px;min-width:0}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px}
-    .card h2{margin:0 0 9px;font-size:12px;font-weight:680;letter-spacing:.4px;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:8px}
-    .card h2 .live{font-size:9px;color:#1a1407;background:var(--ok);padding:2px 6px;border-radius:20px;font-weight:700;letter-spacing:.3px}
-    .row{display:flex;gap:7px;flex-wrap:wrap}
-    .row.scroll{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
-    .chip{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:8px 10px;font-size:12.5px;cursor:pointer;
-      display:flex;align-items:center;gap:7px;white-space:nowrap}
+    .opts{display:flex;flex-direction:column;gap:14px;min-width:0}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:15px;box-shadow:var(--shadow-sm);scroll-margin-top:116px}
+    .card h2{margin:0 0 11px;font-size:12.5px;font-weight:720;letter-spacing:.3px;text-transform:uppercase;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:8px}
+    .card h2 .live{font-size:9px;color:#fff;background:var(--ok);padding:2px 7px;border-radius:20px;font-weight:700;letter-spacing:.4px}
+    .row{display:flex;gap:8px;flex-wrap:wrap}
+    .row.scroll{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px;scrollbar-width:thin}
+    .chip{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:9px 11px;font-size:12.5px;cursor:pointer;
+      display:flex;align-items:center;gap:8px;white-space:nowrap;transition:border-color .15s,background .15s}
+    .chip:hover{border-color:var(--muted2)}
     .chip:active{transform:translateY(1px)}
-    .chip[aria-pressed=true]{border-color:var(--accent);background:#241f10;outline:1px solid color-mix(in srgb,var(--accent),transparent 60%)}
-    .chip .sw{width:18px;height:18px;border-radius:5px;border:1px solid rgba(255,255,255,.22);flex:0 0 auto}
+    .chip[aria-pressed=true]{border-color:var(--accent);background:#fbe9eb;outline:1px solid color-mix(in srgb,var(--accent),transparent 62%)}
+    .chip .sw{width:20px;height:20px;border-radius:6px;border:1px solid rgba(20,18,16,.16);flex:0 0 auto;box-shadow:inset 0 1px 2px rgba(0,0,0,.12)}
     .chip .bd{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
-    .preset{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel2),#161b22);border-radius:10px;padding:9px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap}
-    .cstrip{display:flex;gap:6px;overflow-x:auto;padding-bottom:5px;scrollbar-width:thin}
-    .cchip{flex:0 0 auto;width:32px;height:32px;border-radius:8px;border:1px solid rgba(255,255,255,.18);background-size:cover;background-position:center;cursor:pointer}
-    .cchip[aria-pressed=true]{border-color:var(--accent);outline:2px solid color-mix(in srgb,var(--accent),transparent 64%)}
-    .fil{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
-    .fb{border:1px solid var(--line);background:var(--panel2);border-radius:8px;padding:5px 8px;font-size:11px;cursor:pointer;color:var(--muted)}
-    .fb[aria-pressed=true]{border-color:var(--accent);color:var(--ink);background:#241f10}
-    .search{width:100%;border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:8px 10px;margin-bottom:8px}
-    .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
-    .seg button{border:0;background:transparent;padding:6px 9px;font-size:11.5px;cursor:pointer;color:var(--muted)}
-    .seg button[aria-pressed=true]{background:var(--accent);color:#1a1407;font-weight:650}
+    .preset{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:10px 13px;font-size:12.5px;cursor:pointer;white-space:nowrap;box-shadow:var(--shadow-sm)}
+    .preset:hover{border-color:var(--accent)}
+    .cstrip{display:flex;gap:7px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+    .cchip{flex:0 0 auto;width:36px;height:36px;border-radius:9px;border:1px solid rgba(20,18,16,.16);background-size:cover;background-position:center;cursor:pointer;box-shadow:var(--shadow-sm)}
+    .cchip[aria-pressed=true]{border-color:var(--accent);outline:2px solid color-mix(in srgb,var(--accent),transparent 66%)}
+    .fil{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}
+    .fb{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:6px 9px;font-size:11px;cursor:pointer;color:var(--muted)}
+    .fb[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:#fbe9eb;font-weight:600}
+    .search{width:100%;border:1px solid var(--line);background:var(--panel2);border-radius:11px;padding:9px 11px;margin-bottom:9px}
+    .seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+    .seg button{border:0;background:transparent;padding:7px 10px;font-size:11.5px;cursor:pointer;color:var(--muted)}
+    .seg button[aria-pressed=true]{background:var(--accent);color:#fff;font-weight:650}
     details.extra summary{cursor:pointer;font-size:12px;color:var(--muted);list-style:none}
     details.extra summary::-webkit-details-marker{display:none}
-    .note{font-size:10.5px;color:var(--muted2);margin-top:7px}
-    .sum{display:flex;flex-direction:column;gap:5px;margin:4px 0 9px}
-    .si{display:flex;align-items:center;gap:8px;font-size:12px;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel2)}
-    .si .k{color:var(--muted);flex:0 0 86px}.si .v{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .si .b{font-size:9px;padding:2px 6px;border-radius:20px;border:1px solid var(--line);flex:0 0 auto}
-    .budget{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:4px 0}
-    .budget .n{font-size:17px;font-weight:720;color:var(--accent)}
-    .meter{height:7px;border-radius:6px;background:var(--panel2);overflow:hidden;border:1px solid var(--line);margin:5px 0}
-    .meter>span{display:block;height:100%;background:linear-gradient(90deg,var(--ok),var(--accent),var(--bad))}
-    .warn{font-size:11px;color:var(--warn);background:rgba(217,138,43,.08);border:1px solid rgba(217,138,43,.3);border-radius:9px;padding:7px 9px;margin-top:7px}
-    .legend{display:flex;gap:9px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin-top:8px}
+    .note{font-size:10.5px;color:var(--muted2);margin-top:8px;line-height:1.45}
+    .sum{display:flex;flex-direction:column;gap:6px;margin:4px 0 10px}
+    .si{display:flex;align-items:center;gap:8px;font-size:12.5px;padding:7px 9px;border:1px solid var(--line);border-radius:9px;background:var(--panel2)}
+    .si .k{color:var(--muted);flex:0 0 88px}.si .v{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:560}
+    .si .b{font-size:9px;padding:2px 7px;border-radius:20px;border:1px solid var(--line);flex:0 0 auto}
+    .totalbox{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:2px 0 4px;padding:10px 12px;border:1px solid var(--line);border-radius:11px;background:var(--panel2)}
+    .totalbox .lab{font-size:11px;color:var(--muted)}
+    .totalbox .n{font-size:21px;font-weight:780;color:var(--ink);font-variant-numeric:tabular-nums}
+    .budget{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:7px 0 2px}
+    .budget .lb{font-size:11px;color:var(--muted)}.budget .n{font-size:14px;font-weight:680;color:var(--accent)}
+    .meter{height:7px;border-radius:6px;background:var(--line2);overflow:hidden;border:1px solid var(--line);margin:5px 0 9px}
+    .meter>span{display:block;height:100%;background:linear-gradient(90deg,var(--ok),var(--warn),var(--bad))}
+    .warn{font-size:11px;color:var(--warn);background:#fbf1e3;border:1px solid #e7cfa6;border-radius:10px;padding:8px 10px;margin-top:8px}
+    .legend{display:flex;gap:10px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin-top:9px}
     .legend span{display:flex;align-items:center;gap:4px}.legend .d{width:8px;height:8px;border-radius:50%}
-    .disc{font-size:10.5px;color:var(--muted2);padding:12px 14px;border-top:1px solid var(--line);line-height:1.5}
-    .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--accent);color:#1a1407;padding:9px 15px;border-radius:10px;
-      font-size:12.5px;font-weight:600;z-index:60;opacity:0;transition:opacity .25s;pointer-events:none}
+    .disc{font-size:10.5px;color:var(--muted2);padding:14px 18px 90px;border-top:1px solid var(--line);line-height:1.5}
+    /* mobile bottom price bar */
+    .bbar{display:none}
+    .toast{position:fixed;left:50%;bottom:78px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:11px;
+      font-size:12.5px;font-weight:600;z-index:70;opacity:0;transition:opacity .25s;pointer-events:none}
     .toast.show{opacity:1}
     @media (max-width:900px){
-      main{grid-template-columns:1fr;gap:10px;padding:10px}
-      .stage{position:sticky;top:52px;z-index:30;background:var(--bg);padding-bottom:6px;margin:-2px;}
-      .viewer{box-shadow:0 8px 20px rgba(0,0,0,.5)}
-      .strip{margin-top:7px}
-      .athumb{width:58px}
+      main{grid-template-columns:1fr;gap:12px;padding:11px}
+      header .price{display:none}
+      .catnav{top:53px}
+      .stage{position:sticky;top:100px;z-index:30;background:var(--bg);padding-bottom:7px}
+      .athumb{width:64px}
+      .card{scroll-margin-top:150px}
+      .bbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:55;align-items:center;justify-content:space-between;gap:12px;
+        padding:9px 14px env(safe-area-inset-bottom);background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+      .bbar .bp{line-height:1.1}.bbar .bp b{font-size:17px;font-variant-numeric:tabular-nums}.bbar .bp span{display:block;font-size:10px;color:var(--muted)}
+      .toast{bottom:74px}
     }
   </style>
 </head>
 <body>
   <div class="app">
     <header>
-      <div style="min-width:0">
-        <h1>Porsche Panamera — конструктор</h1>
-        <div class="sub" id="sub">972 / G3</div>
+      <div class="brand">
+        <div class="logo">P</div>
+        <div style="min-width:0">
+          <h1>Panamera — конфигуратор</h1>
+          <div class="sub" id="sub">972 / G3</div>
+        </div>
+      </div>
+      <div class="price">
+        <div class="pl">Конфигурация</div>
+        <div class="pn" id="priceTotal">≈ €—</div>
+        <div class="pb" id="priceBreak"></div>
       </div>
       <div class="hbtns">
-        <button class="btn ghost" id="rnd" title="Случайный">🎲</button>
+        <button class="btn ghost" id="rnd" title="Случайный билд">🎲</button>
         <button class="btn" id="copy">Copy</button>
         <button class="btn primary" id="share">Поделиться</button>
       </div>
     </header>
+    <nav class="catnav" id="catnav"></nav>
     <main>
       <section class="stage">
         <div class="viewer loading" id="viewer" style="--split:50%">
@@ -157,15 +193,15 @@
       </section>
 
       <aside class="opts">
-        <section class="card">
+        <section class="card" id="c-presets">
           <h2>Пресеты</h2>
           <div class="row scroll" id="presets"></div>
-          <div style="display:flex;gap:7px;align-items:center;margin-top:8px;flex-wrap:wrap">
+          <div style="display:flex;gap:7px;align-items:center;margin-top:9px;flex-wrap:wrap">
             <span style="font-size:10.5px;color:var(--muted)">Стиль:</span><div class="seg" id="styleSeg"></div>
           </div>
         </section>
 
-        <section class="card">
+        <section class="card" id="c-color">
           <h2>Цвет кузова <span class="live">LIVE</span></h2>
           <div class="fil" id="cfilters"></div>
           <input class="search" id="csearch" type="search" placeholder="Поиск: yachting, gulf, green…">
@@ -173,41 +209,42 @@
           <div class="note" id="cmeta"></div>
         </section>
 
-        <section class="card">
+        <section class="card" id="c-wheels">
           <h2>Диски — цвет <span class="live">LIVE</span></h2>
           <div class="row" id="wheels"></div>
           <div class="note">Цвет дисков меняется на фото в ракурсах 3/4 и сбоку. Размер/модель дисков — в смете (нужен реальный рендер).</div>
         </section>
 
-        <section class="card">
+        <section class="card" id="c-tint">
           <h2>Тонировка стёкол <span class="live">LIVE</span></h2>
           <div class="row" id="tints"></div>
         </section>
 
-        <section class="card">
+        <section class="card" id="c-finish">
           <h2>Плёнка / финиш <span class="live">LIVE</span></h2>
           <div class="row" id="finishes"></div>
         </section>
 
-        <section class="card">
+        <section class="card" id="c-light">
           <h2>Сцена / свет <span class="live">LIVE</span></h2>
           <div class="row" id="lights"></div>
         </section>
 
-        <section class="card">
+        <section class="card" id="c-extras">
           <h2>Доп. в смету</h2>
           <details class="extra" open>
             <summary>Реальные доработки (влияют на смету и список, не на превью) ▾</summary>
-            <div class="row" id="extras" style="margin-top:9px"></div>
+            <div class="row" id="extras" style="margin-top:10px"></div>
           </details>
         </section>
 
-        <section class="card">
-          <h2>Смета билда</h2>
-          <div class="budget"><span style="font-size:11px;color:var(--muted)">Ориентир бюджета</span><span class="n" id="bnum">—</span></div>
+        <section class="card" id="c-summary">
+          <h2>Ваша конфигурация</h2>
+          <div class="totalbox"><span class="lab">Авто + доработки, ориентир</span><span class="n" id="grandTotal">€—</span></div>
+          <div class="budget"><span class="lb">Из них доработки</span><span class="n" id="bnum">—</span></div>
           <div class="meter"><span id="bmeter" style="width:0%"></span></div>
           <div class="sum" id="sumList"></div>
-          <div style="display:flex;gap:7px;flex-wrap:wrap"><button class="btn" id="exp">Экспорт текстом</button><button class="btn" id="savB">Сохранить билд</button></div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="exp">Экспорт текстом</button><button class="btn" id="savB">Сохранить билд</button></div>
           <div id="saved"></div>
           <div class="warn" id="warn" style="display:none"></div>
           <div class="legend" id="legend"></div>
@@ -216,14 +253,19 @@
     </main>
     <div class="disc" id="disc"></div>
   </div>
+  <div class="bbar" id="bbar">
+    <div class="bp"><b id="bbarPrice">≈ €—</b><span id="bbarSub"></span></div>
+    <button class="btn primary" id="bbarShare">Поделиться билдом</button>
+  </div>
   <div class="toast" id="toast"></div>
 
   <script>
   "use strict";
   const $=id=>document.getElementById(id);
   const toast=m=>{const t=$("toast");t.textContent=m;t.classList.add("show");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("show"),1400);};
+  const BASE_PRICE=132800; // Panamera 4 (972), Germany incl. VAT — ориентир
+  const euro=n=>"€"+Math.round(n).toLocaleString("ru-RU").replace(/ /g," ");
 
-  // ---- visual option sets (all change the photo, except extras) ----
   const WHEEL_FINISHES=[
     {id:"wf-silver",name:"Серебро (сток)",rgb:null,sw:"#c7ccd2",badge:"official",tier:"low"},
     {id:"wf-black-gloss",name:"Чёрный глянец",rgb:[22,22,25],sw:"#16161a",badge:"official",tier:"medium"},
@@ -257,10 +299,11 @@
     {id:"x-lower",name:"Занижение (links, 971 legacy)",badge:"needs",tier:"medium",note:"Линки только под 971 — проверить 972",url:"https://www.fvd.net/"},
     {id:"x-ppf-clear",name:"PPF прозрачная (защита)",badge:"aftermarket",tier:"high",note:"XPEL/SunTek защитная плёнка",url:"https://www.xpel.com/"}
   ];
-  const BADGES={official:{l:"Official",c:"#37b06a"},exclusive:{l:"Exclusive",c:"#3d7bd6"},aftermarket:{l:"Aftermarket",c:"#d98a2b"},needs:{l:"Needs check",c:"#d9544f"},concept:{l:"Concept",c:"#a86fd6"}};
+  const BADGES={official:{l:"Official",c:"#1f7a3d"},exclusive:{l:"Exclusive",c:"#1d4ed8"},aftermarket:{l:"Aftermarket",c:"#9a5b12"},needs:{l:"Needs check",c:"#b32018"},concept:{l:"Concept",c:"#7a1fa2"}};
   const TIERS={low:[150,800],medium:[800,3500],high:[3500,9000],extreme:[9000,16000]};
   const STYLES=[["all","Все"],["luxury","Luxury"],["sport","Sport"],["stealth","Stealth"],["showcar","Showcar"],["practical","Practical"]];
   const WHEEL_VIEWS=new Set(["front-left","side","rear-left"]);
+  const NAV=[["c-color","Цвет"],["c-wheels","Диски"],["c-tint","Стёкла"],["c-finish","Финиш"],["c-light","Свет"],["c-extras","Доп"],["c-summary","Смета"]];
 
   const PRESETS=[
     {n:"Clean OEM+",style:"luxury",c:"0Q",v:"front-left",wf:"wf-silver",ti:"tint-light",fi:"ppf-gloss",x:["x-ppf-clear"]},
@@ -283,53 +326,44 @@
     extras:new Set(),compare:false,styleFilter:"all",cFilter:"all",cQuery:""};
   let COLORS=null,colorById={},views=[],maskCache={},imgCache={};
 
-  function loadImg(src){ if(imgCache[src])return imgCache[src];
+  function loadImg(src){if(imgCache[src])return imgCache[src];
     const p=new Promise((res,rej)=>{const i=new Image();i.crossOrigin="anonymous";i.onload=()=>res(i);i.onerror=rej;i.src=src;});imgCache[src]=p;return p;}
-  async function maskData(url,W,H){ const k=url+W+H; if(maskCache[k])return maskCache[k];
-    const img=await loadImg(url); const c=document.createElement("canvas");c.width=W;c.height=H;
+  async function maskData(url,W,H){const k=url+W+H;if(maskCache[k])return maskCache[k];
+    const img=await loadImg(url);const c=document.createElement("canvas");c.width=W;c.height=H;
     const x=c.getContext("2d",{willReadFrequently:true});x.drawImage(img,0,0,W,H);
-    const d=x.getImageData(0,0,W,H).data; maskCache[k]=d; return d;}
+    const d=x.getImageData(0,0,W,H).data;maskCache[k]=d;return d;}
 
   async function boot(){
-    try{ COLORS=await fetch("tuning-assets/data/colors.json").then(r=>r.json()); }
-    catch(e){ document.body.innerHTML="<p style='padding:20px'>Не удалось загрузить данные.</p>";return; }
-    views=COLORS.views; COLORS.colors.forEach(c=>colorById[c.id]=c);
-    $("sub").textContent=(COLORS.model||"Panamera 4")+" · 972 / G3 · "+COLORS.colors.length+" цветов · LIVE превью";
-    $("disc").textContent="Превью: цвет кузова, цвет дисков, тонировка, плёнка/финиш и свет меняются на реальном Porsche-рендере вживую. Размер/модель дисков, обвес, карбон и т.п. — в смете (нужны реальные рендеры под 972; помечены бейджами/Needs). Поколение 972, не путать с 971. Цены ориентировочные — проверять у дилера/мастера.";
-    buildUI(); parseHash(); renderAll();
+    try{COLORS=await fetch("tuning-assets/data/colors.json").then(r=>r.json());}
+    catch(e){document.body.innerHTML="<p style='padding:20px'>Не удалось загрузить данные.</p>";return;}
+    views=COLORS.views;COLORS.colors.forEach(c=>colorById[c.id]=c);
+    $("sub").textContent=(COLORS.model||"Panamera 4")+" · 972 / G3 · "+COLORS.colors.length+" цветов";
+    $("disc").textContent="Заводского уровня превью: цвет кузова, цвет дисков, тонировка, плёнка/финиш и свет меняются на реальном Porsche-рендере вживую. Цена — ориентир: база Panamera 4 (Германия, с НДС) + доработки по тирам; уточнять у дилера/мастера. Размер/модель дисков, обвес, карбон и т.п. — в смете (нужны реальные рендеры под 972; помечены бейджами/Needs). Поколение 972, не путать с 971.";
+    buildUI();buildNav();parseHash();renderAll();
     window.addEventListener("hashchange",()=>{parseHash();renderAll();});
   }
 
   function buildUI(){
-    // presets
-    $("presets").innerHTML=""; PRESETS.forEach(p=>{const b=document.createElement("button");b.className="preset";b.textContent=p.n;b.dataset.style=p.style;
+    $("presets").innerHTML="";PRESETS.forEach(p=>{const b=document.createElement("button");b.className="preset";b.textContent=p.n;b.dataset.style=p.style;
       b.onclick=()=>applyPreset(p);$("presets").appendChild(b);});
     const ss=$("styleSeg");ss.innerHTML="";STYLES.forEach(([id,l])=>{const b=document.createElement("button");b.textContent=l;b.dataset.v=id;
       b.onclick=()=>{state.styleFilter=id;syncSeg();dimPresets();};ss.appendChild(b);});
-    // color filters
     const fams=[["all","Все"],["factory","Factory"],["pts","PTS"],["blue","Синие"],["green","Зелёные"],["red","Красные"],["grey","Серые"],["dark","Тёмные"],["popular","Popular"]];
     $("cfilters").innerHTML="";fams.forEach(([id,l])=>{const b=document.createElement("button");b.className="fb";b.textContent=l;b.dataset.v=id;
       b.onclick=()=>{state.cFilter=id;renderColors();};$("cfilters").appendChild(b);});
     $("csearch").oninput=e=>{state.cQuery=e.target.value;renderColors();};
-    // wheel finishes
     rowChips("wheels",WHEEL_FINISHES,o=>state.wheel===o.id,o=>{state.wheel=o.id;renderAll();},o=>swSquare(o.sw),o=>o.badge);
-    // tints
     rowChips("tints",TINTS,o=>state.tint===o.id,o=>{state.tint=o.id;renderAll();},o=>tintSw(o.amt),o=>o.badge);
-    // finishes
     rowChips("finishes",FINISHES,o=>state.finish===o.id,o=>{state.finish=o.id;applyFilter();renderSummary();renderBadges();setHash();},o=>finSw(o.id),o=>o.badge);
-    // lights
     rowChips("lights",LIGHTS,o=>state.light===o.id,o=>{state.light=o.id;applyFilter();$("lightBtn").textContent=o.id==="night"?"🌙":(o.id==="studio"?"💡":"☀");setHash();},null,null);
-    // extras (multi)
     const ex=$("extras");ex.innerHTML="";EXTRAS.forEach(o=>{const b=document.createElement("button");b.className="chip";
       b.innerHTML=`<span class="bd" style="background:${BADGES[o.badge].c}"></span><span>${o.name}</span>`;b.title=o.note+" · "+o.url;
       b.onclick=()=>{state.extras.has(o.id)?state.extras.delete(o.id):state.extras.add(o.id);b.setAttribute("aria-pressed",String(state.extras.has(o.id)));renderSummary();renderBadges();setHash();};
       ex.appendChild(b);});
-    // legend
     $("legend").innerHTML="";Object.values(BADGES).forEach(b=>{const s=document.createElement("span");s.innerHTML=`<span class="d" style="background:${b.c}"></span>${b.l}`;$("legend").appendChild(s);});
-    // events
     $("prevC").onclick=()=>shiftColor(-1);$("nextC").onclick=()=>shiftColor(1);
     $("rnd").onclick=randomBuild;$("copy").onclick=()=>copy(buildText(),"Билд скопирован");$("exp").onclick=()=>copy(buildText(),"Текст скопирован");
-    $("savB").onclick=saveBuild;$("share").onclick=share;
+    $("savB").onclick=saveBuild;$("share").onclick=share;$("bbarShare").onclick=share;
     $("lightBtn").onclick=cycleLight;$("cmpBtn").onclick=()=>{state.compare=!state.compare;$("viewer").classList.toggle("compare",state.compare);$("cmpBtn").setAttribute("aria-pressed",String(state.compare));};
     $("fsBtn").onclick=()=>{const v=$("viewer");document.fullscreenElement?document.exitFullscreen?.():v.requestFullscreen?.();};
     initSplit();
@@ -338,12 +372,17 @@
     vw.addEventListener("pointerup",e=>{if(!ds)return;const dx=e.clientX-ds.x,dy=e.clientY-ds.y;ds=null;
       if(Math.abs(dx)<46||Math.abs(dx)<Math.abs(dy)*1.2||state.compare)return;shiftColor(dx<0?1:-1);});
   }
+  function buildNav(){const n=$("catnav");n.innerHTML="";NAV.forEach(([id,l])=>{const a=document.createElement("a");a.href="#"+id;a.textContent=l;a.dataset.t=id;
+    a.onclick=e=>{e.preventDefault();const el=$(id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});};n.appendChild(a);});
+    if("IntersectionObserver" in window){const obs=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){
+      n.querySelectorAll("a").forEach(a=>a.classList.toggle("active",a.dataset.t===en.target.id));}});},{rootMargin:"-120px 0px -60% 0px",threshold:0});
+      NAV.forEach(([id])=>{const el=$(id);if(el)obs.observe(el);});}}
   function rowChips(host,list,sel,onClick,sw,badge){const h=$(host);h.innerHTML="";list.forEach(o=>{const b=document.createElement("button");b.className="chip";
     let inner="";if(sw){const s=sw(o);if(s)inner+=s;}if(badge){inner+=`<span class="bd" style="background:${BADGES[badge(o)].c}"></span>`;}inner+=`<span>${o.name}</span>`;
     b.innerHTML=inner;b.onclick=()=>onClick(o);b.dataset.id=o.id;h.appendChild(b);});}
   function swSquare(hex){return `<span class="sw" style="background:${hex}"></span>`;}
-  function tintSw(a){return `<span class="sw" style="background:linear-gradient(180deg,rgba(10,12,16,${0.2+a}),#8fb4d8)"></span>`;}
-  function finSw(id){const m={"ppf-gloss":"linear-gradient(135deg,#fff,#8f96a0)","ppf-matte":"#3a3d42","ppf-satin":"linear-gradient(135deg,#54585f,#3a3d42)","ppf-stealth":"#26282b"};return `<span class="sw" style="background:${m[id]}"></span>`;}
+  function tintSw(a){return `<span class="sw" style="background:linear-gradient(180deg,rgba(20,18,16,${0.2+a}),#bcd2e6)"></span>`;}
+  function finSw(id){const m={"ppf-gloss":"linear-gradient(135deg,#fff,#9aa0a8)","ppf-matte":"#6b6e73","ppf-satin":"linear-gradient(135deg,#aeb2b8,#6b6e73)","ppf-stealth":"#4a4d51"};return `<span class="sw" style="background:${m[id]}"></span>`;}
 
   const activeColor=()=>colorById[state.color]||COLORS.colors[0];
   const activeView=()=>views.find(v=>v.id===state.view)||views[0];
@@ -351,14 +390,16 @@
   const stockFor=vid=>"tuning-assets/base/car/"+vid+".jpg";
 
   function combinedFilter(){const f=[FINISHES.find(x=>x.id===state.finish)?.filter,LIGHTS.find(x=>x.id===state.light)?.filter].filter(x=>x&&x!=="none");return f.length?f.join(" "):"none";}
-  function applyFilter(){const f=combinedFilter();$("carCanvas").style.filter=f;}
+  function applyFilter(){$("carCanvas").style.filter=combinedFilter();}
 
+  let drawSeq=0;
   async function drawCar(){
-    const view=activeView(),color=activeColor();const viewer=$("viewer");viewer.classList.add("loading");
+    const tok=++drawSeq;const viewer=$("viewer");const cv=$("carCanvas");
+    viewer.classList.add("loading");cv.style.opacity="0.28";
     const src=imgFor(state.color,state.view);
     try{
-      const base=await loadImg(src);
-      const cv=$("carCanvas"),W=base.naturalWidth||1920,H=base.naturalHeight||1080;cv.width=W;cv.height=H;
+      const base=await loadImg(src);if(tok!==drawSeq)return;
+      const W=base.naturalWidth||1920,H=base.naturalHeight||1080;cv.width=W;cv.height=H;
       const ctx=cv.getContext("2d",{willReadFrequently:true});ctx.drawImage(base,0,0,W,H);
       const wf=WHEEL_FINISHES.find(x=>x.id===state.wheel);const tn=TINTS.find(x=>x.id===state.tint);
       const doWheel=wf&&wf.rgb&&WHEEL_VIEWS.has(state.view);const doTint=tn&&tn.amt>0;
@@ -366,24 +407,23 @@
         const img=ctx.getImageData(0,0,W,H);const d=img.data;
         const wm=doWheel?await maskData("tuning-assets/base/wheels/"+state.view+".png",W,H):null;
         const gm=doTint?await maskData("tuning-assets/base/glass/"+state.view+".png",W,H):null;
+        if(tok!==drawSeq)return;
         const wr=doWheel?wf.rgb[0]:0,wg=doWheel?wf.rgb[1]:0,wb=doWheel?wf.rgb[2]:0;const ta=doTint?tn.amt:0;
         for(let i=0;i<d.length;i+=4){
-          if(wm&&wm[i]>120){const lum=(0.299*d[i]+0.587*d[i+1]+0.114*d[i+2])/255;const base=0.5+lum*0.72;const hi=Math.max(0,lum-0.72)*1.7;
-            d[i]=Math.min(255,(wr*base)*(1-hi)+255*hi);d[i+1]=Math.min(255,(wg*base)*(1-hi)+255*hi);d[i+2]=Math.min(255,(wb*base)*(1-hi)+255*hi);continue;}
+          if(wm&&wm[i]>120){const lum=(0.299*d[i]+0.587*d[i+1]+0.114*d[i+2])/255;const bs=0.5+lum*0.72;const hi=Math.max(0,lum-0.72)*1.7;
+            d[i]=Math.min(255,(wr*bs)*(1-hi)+255*hi);d[i+1]=Math.min(255,(wg*bs)*(1-hi)+255*hi);d[i+2]=Math.min(255,(wb*bs)*(1-hi)+255*hi);continue;}
           if(gm&&gm[i]>120){d[i]*=(1-ta);d[i+1]*=(1-ta);d[i+2]*=(1-ta);}
         }
         ctx.putImageData(img,0,0);
       }
-      // stock layer for compare
       $("stockImg").src=stockFor(state.view);
     }catch(e){}
-    applyFilter();viewer.classList.remove("loading");
+    applyFilter();viewer.classList.remove("loading");requestAnimationFrame(()=>cv.style.opacity="1");
   }
 
   function renderAll(){drawCar();renderColors();renderStrip();renderChipsState();renderBadges();renderSummary();syncSeg();dimPresets();
     $("capT").textContent=activeColor().name;
     $("capM").textContent="· "+activeView().label+" · "+(activeColor().kind==="factory"?"Factory":"PTS")+" · "+(activeColor().hex||"");
-    $("cmeta").textContent=(activeColor().category||"")+" · "+(activeColor().code||activeColor().hex||"");
     setHash();}
 
   function renderChipsState(){
@@ -391,10 +431,8 @@
     document.querySelectorAll('#tints .chip').forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.id===state.tint)));
     document.querySelectorAll('#finishes .chip').forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.id===state.finish)));
     document.querySelectorAll('#lights .chip').forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.id===state.light)));
-    document.querySelectorAll('#extras .chip').forEach(b=>b.setAttribute("aria-pressed",String(state.extras.has(b.title)|| false)));
     document.querySelectorAll('#extras .chip').forEach((b,i)=>b.setAttribute("aria-pressed",String(state.extras.has(EXTRAS[i].id))));
-    $("lightBtn").textContent=state.light==="night"?"🌙":(state.light==="studio"?"💡":"☀");
-  }
+    $("lightBtn").textContent=state.light==="night"?"🌙":(state.light==="studio"?"💡":"☀");}
 
   function colorMatches(c){const q=state.cQuery.trim().toLowerCase(),n=c.name.toLowerCase();
     if(q&&!n.includes(q)&&!(c.code||"").toLowerCase().includes(q))return false;const f=state.cFilter;
@@ -406,7 +444,7 @@
     list.forEach(c=>{const b=document.createElement("button");b.className="cchip";b.title=c.name;b.style.backgroundImage=`url('${c.swatch}')`;b.style.backgroundColor=c.hex;
       b.setAttribute("aria-pressed",String(c.id===state.color));b.onclick=()=>{state.color=c.id;renderAll();};s.appendChild(b);
       if(c.id===state.color)requestAnimationFrame(()=>b.scrollIntoView({inline:"center",block:"nearest"}));});
-    $("cmeta").textContent=`${list.length} из ${COLORS.colors.length} · выбран: ${activeColor().name}`;}
+    $("cmeta").textContent=`${list.length} из ${COLORS.colors.length} · выбран: ${activeColor().name} (${activeColor().code||activeColor().hex})`;}
   function renderStrip(){const s=$("strip");s.innerHTML="";views.forEach(v=>{const b=document.createElement("button");b.className="athumb";b.setAttribute("aria-pressed",String(v.id===state.view));
     const im=document.createElement("img");im.loading="lazy";im.src=imgFor(state.color,v.id);const sp=document.createElement("span");sp.textContent=v.label;
     b.appendChild(im);b.appendChild(sp);b.onclick=()=>{state.view=v.id;renderAll();};s.appendChild(b);});}
@@ -426,33 +464,38 @@
   function renderSummary(){const sels=selections();const L=$("sumList");L.innerHTML="";
     sels.forEach(s=>{const b=BADGES[s.b]||{};const r=document.createElement("div");r.className="si";
       r.innerHTML=`<span class="k">${s.k}</span><span class="v">${s.v}</span><span class="b" style="border-color:${b.c};color:${b.c}">${b.l||""}</span>`;L.appendChild(r);});
-    const[mn,mx]=budget();$("bnum").textContent=mx?("€"+Math.round(mn/100)*100+"–€"+Math.round(mx/100)*100):"сток";
+    const[mn,mx]=budget();const mid=Math.round((mn+mx)/2);
+    $("bnum").textContent=mx?(euro(mn)+"–"+euro(mx)):"сток";
     $("bmeter").style.width=Math.min(100,mx/45000*100).toFixed(0)+"%";
+    const grand=BASE_PRICE+mid;$("grandTotal").textContent=euro(grand);
+    $("priceTotal").textContent="≈ "+euro(grand);
+    $("priceBreak").textContent="Авто "+euro(BASE_PRICE)+(mid?" + доработки "+euro(mid):"");
+    $("bbarPrice").textContent="≈ "+euro(grand);$("bbarSub").textContent=mid?("доработки "+euro(mid)):"база, без доработок";
     const warns=[];const tn=TINTS.find(x=>x.id===state.tint);if(tn&&tn.id==="tint-dark")warns.push("тёмная тонировка (легальность)");
     EXTRAS.forEach(x=>{if(state.extras.has(x.id)&&x.badge==="needs")warns.push(x.name);});
     const w=$("warn");if(warns.length){w.style.display="block";w.innerHTML="⚠ Проверить у дилера/мастера: <b>"+warns.join(", ")+"</b>.";}else w.style.display="none";
     renderSaved();}
   function renderBadges(){const h=$("badges");h.innerHTML="";const items=selections();
-    items.forEach(s=>{const b=BADGES[s.b]||{};const c=document.createElement("div");c.className="mchip";c.innerHTML=`${s.v}`;c.style.borderColor=b.c||"#333";h.appendChild(c);});
+    items.forEach(s=>{const b=BADGES[s.b]||{};const c=document.createElement("div");c.className="mchip";c.textContent=s.v;h.appendChild(c);});
     if(items.length<=1){const c=document.createElement("div");c.className="mchip";c.textContent="Сток — выбирай опции, фото меняется сразу";h.appendChild(c);}}
 
   function applyPreset(p){state.color=colorById[p.c]?p.c:state.color;state.view=p.v||state.view;state.wheel=p.wf;state.tint=p.ti;state.finish=p.fi;
     state.extras=new Set(p.x||[]);renderAll();toast("Пресет: "+p.n);}
-  let _s=12345;const rnd=()=>{_s=(_s*1103515245+12345)&0x7fffffff;return _s/0x7fffffff;};
-  function randomBuild(){const cs=COLORS.colors;state.color=cs[Math.floor(rnd()*cs.length)].id;
-    state.wheel=WHEEL_FINISHES[Math.floor(rnd()*WHEEL_FINISHES.length)].id;state.tint=TINTS[Math.floor(rnd()*TINTS.length)].id;
-    state.finish=FINISHES[Math.floor(rnd()*FINISHES.length)].id;state.extras=new Set(EXTRAS.filter(()=>rnd()>0.6).map(x=>x.id));renderAll();toast("Случайный билд 🎲");}
+  let _s=12345;const rndF=()=>{_s=(_s*1103515245+12345)&0x7fffffff;return _s/0x7fffffff;};
+  function randomBuild(){const cs=COLORS.colors;state.color=cs[Math.floor(rndF()*cs.length)].id;
+    state.wheel=WHEEL_FINISHES[Math.floor(rndF()*WHEEL_FINISHES.length)].id;state.tint=TINTS[Math.floor(rndF()*TINTS.length)].id;
+    state.finish=FINISHES[Math.floor(rndF()*FINISHES.length)].id;state.extras=new Set(EXTRAS.filter(()=>rndF()>0.6).map(x=>x.id));renderAll();toast("Случайный билд 🎲");}
   function shiftColor(d){const list=COLORS.colors.filter(colorMatches);if(!list.length)return;let i=list.findIndex(c=>c.id===state.color);
     i=i<0?0:(i+d+list.length)%list.length;state.color=list[i].id;renderAll();}
   function cycleLight(){state.light=state.light==="day"?"night":(state.light==="night"?"studio":"day");applyFilter();renderChipsState();setHash();
     toast("Свет: "+({day:"День",night:"Ночь",studio:"Студия"}[state.light]));}
 
-  function buildText(){const[mn,mx]=budget();const L=["PORSCHE PANAMERA — мой билд","972 / G3",
-    "Цвет: "+activeColor().name+" ("+(activeColor().code||activeColor().hex)+") · ракурс: "+activeView().label,""];
+  function buildText(){const[mn,mx]=budget();const mid=Math.round((mn+mx)/2);const L=["PORSCHE PANAMERA — мой билд","Panamera 4 · 972 / G3",
+    "Цвет: "+activeColor().name+" ("+(activeColor().code||activeColor().hex)+") · ракурс: "+activeView().label];
     selections().slice(1).forEach(s=>L.push("• "+s.k+": "+s.v+"  ["+(BADGES[s.b]?.l||"")+"]"));
-    L.push("Свет: "+({day:"День",night:"Ночь",studio:"Студия"}[state.light]));
-    L.push("","Ориентир бюджета: "+(mx?"€"+Math.round(mn/100)*100+"–€"+Math.round(mx/100)*100:"сток"),"",location.href);return L.join("\n");}
-  function share(){const url=location.href;if(navigator.share){navigator.share({title:"Porsche Panamera — мой билд",text:buildText().split("\n").slice(0,5).join("\n"),url}).catch(()=>{});return;}copy(url,"Ссылка скопирована");}
+    L.push("Свет: "+({day:"День",night:"Ночь",studio:"Студия"}[state.light]),"",
+      "Ориентир: авто "+euro(BASE_PRICE)+(mid?" + доработки "+euro(mn)+"–"+euro(mx):"")+" ≈ "+euro(BASE_PRICE+mid),"",location.href);return L.join("\n");}
+  function share(){const url=location.href;if(navigator.share){navigator.share({title:"Porsche Panamera — мой билд",text:buildText().split("\n").slice(0,6).join("\n"),url}).catch(()=>{});return;}copy(url,"Ссылка скопирована");}
   function copy(t,m){navigator.clipboard?.writeText(t).then(()=>toast(m)).catch(()=>prompt("Скопируй:",t));}
 
   const SK="panamera-studio-builds2";
