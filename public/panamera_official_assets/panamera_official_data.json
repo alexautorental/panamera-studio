@@ -1,0 +1,665 @@
+{
+  "model": "Panamera 4",
+  "modelCode": "YAABA1",
+  "modelYear": "2027",
+  "generatedFrom": "https://configurator.porsche.com/en-US/mode/model/YAABA1",
+  "generatedAt": "2026-06-04 16:44:15 +0300",
+  "views": [
+    {
+      "id": "front-left",
+      "label": "Передний 3/4",
+      "expected_alt": "Exterior view of Panamera 4 showing the front and left side of the car"
+    },
+    {
+      "id": "side",
+      "label": "Бок",
+      "expected_alt": "Exterior view of Panamera 4 showing the left side of the car"
+    },
+    {
+      "id": "rear-left",
+      "label": "Задний 3/4",
+      "expected_alt": "Exterior view of Panamera 4 showing the back and left side of the car"
+    },
+    {
+      "id": "top",
+      "label": "Сверху",
+      "expected_alt": "Exterior view of Panamera 4 seen from above"
+    },
+    {
+      "id": "front",
+      "label": "Спереди",
+      "expected_alt": "Exterior view of Panamera 4 showing the front of the car"
+    },
+    {
+      "id": "rear",
+      "label": "Сзади",
+      "expected_alt": "Exterior view of Panamera 4 showing the rear of the car"
+    }
+  ],
+  "colors": [
+    {
+      "code": "0Q",
+      "name": "White",
+      "category": "Contrasts",
+      "swatch": "panamera_official_assets/swatches/0Q-white.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=0Q.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/0Q-white/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOldAIrpAMwAYgCqYwAKAHJjkwDs6X0AogBsq+NbVH2T1ekArAAcAGrHABqX6RsAkqO3ANIAnLdzI1RLSQAy6UtPR5fS4AJn+KRO6ReMxWVBeAC01ukknd0gBxOpo9J3M5gqh3ADqQJATySeJAPzRABUEgAlP5UIYggBS6SGtLejMmkKok0uuxAZwAwuT4XUAMogSjgCCFZz0ACeHEmkqoWAgBn4KVomhQIK6IKWlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwzZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in White showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/0Q-white/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypHQCKqQDMAGIAqiMACgByI+MA7Kk9AKIAbMujG1Q945WpAKwAHABqhwAa56lrAJLD1wDSAJzXM0NUCwkAMqkLD-cfc4AJl+SSOqSeUyWVCeAC0VqkEjdUgBxGoo1I3E4gqg3ADqAJADwSOJAXxRABU4gAlH5UAZAgBSqQG1Je9PG4Ko43O2xAJwAwqTYTUAMogSjgCD5Jz0ACeHHG4qoWAg+n4SVoGhQQI6QIWFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in White showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/0Q-white/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaZ0AimkAzABiAKqjAAoAcqMTAOxpvQCiAGwrY5tUvRNVaQCsABwAakcAGhdp6wCSIzcA0gCcN7PDVIuJADJpi48PT4XABMf2SxzSz2myyozwAWqs0olbmkAOK1VFpW6nUFUW4AdUBIEeiVxIG+qIAKvEAEq-KiDYEAKTSgxprwZEwhVAmFx2IFOAGEyXDagBlECUcAQApOegATw4EwlVCwEH0-GS4noKGBnWBiwslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in White showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/0Q-white/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypHQCKqQDMAGIAqiMACgByI+MA7Kk9AKIAbMujG1Q945WpAKwAHABqhwAa56lrAJLD1wDSAJzXM0NUCwkAMqkLD-cfc4AJl+SSOqSeUyWVCeAC0VqkEjdUgBxGoo1I3E4gqg3ADqAJADwSOJAXxRABU4gAlH5UAZAgBSqQG1Je9PG4Ko43O2xAJwAwqTYTUAMogSjgCD5Zz0ACeHHG4qoWAgBkkSTE9BQQI6QIWlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JITZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in White seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/0Q-white/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyW0AiskAzABiAKpDAAoAckOjAOzJXQCiAGyLw2tUXaPlyQCsABwAavsAGqfJKwCSg5cA0gCcl1MDVHNxADLJc3e3b6cAJm+CQOyQeEwWVAeAC0lsk4ldkgBxKpI5JXI5AqhXADqfxAdziWJAHyRABUYgAlL5UPoAgBSyT6lKetNGoKoo1OmxARwAwsToVUAMogSjgCC5ez0ACeHFGoqoWAgOn4CVoqhQALaALmpjMIEItFwYQQDRAMAg9BwmhAACsZLQkFRcIxfDJVBZNDA0PwjaYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in White showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/0Q-white/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJrQCKSQDMAGIAqoMACgBygyMA7EmdAKIAbAtDq1SdI2VJAKwAHABqewAaJ0nLAJIDFwDSAJwXk-1Us7EAMkmztzevJwBMX3i+yS93G8yo9wAWoskrFLkkAOKVRFJS6HQFUS4AdV+IFusUxIHeiIAKtEAEqfKi9f4AKSSvQpjxpIxBVBGJw2IEOAGEiVDKgBlECUcAQHK2egATw4IxFVCwEC0-Hi4kkyH+rX+s2MJhAhFouFCCHqIBgEHoODsIAAVjJaEgqLhGD4ZBIzHYYGh+IbjEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in White showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "A1",
+      "name": "Black",
+      "category": "Contrasts",
+      "swatch": "panamera_official_assets/swatches/A1-black.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=A1.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/A1-black/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCcl1MAiulzSQAy73e3VHOnABM7xSB3SDwmCyoDwAWkt0vUEVd0gBxOoo9JXI7AqhXADqfxAdySOJAnxRABUEgAlb5UF6AgBS6Re1Ke9NGYKoo1OmxARwAwqSYXUAMogSjgCCFZz0ACeHFG4qoWAgBn4KVomhQgK6gLmlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwTZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Black showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/A1-black/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUrU4RdUgBxGpI1IXA6AqgXADqPxANwSWJA7yRABU4gAlT5UJ7-ABSqSelIetOGIKow2O6xABwAwsSoTUAMogSjgCD5Jz0ACeHGGoqoWAg+n4SVoGhQ-w6-xmFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwjRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Black showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/A1-black/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwXkwCKabOJADJvtzdUsycAJjeyX2aXu43mVHuAC1Fmk6vDLmkAOK1ZFpS6HIFUS4AdV+IFuiWxIA+yIAKvEAEpfKjPAEAKTSzypjzpI1BVBGJw2IEOAGESdDagBlECUcAQApOegATw4IzFVCwEH0-GS4noKABnQBswslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+MaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Black showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/A1-black/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUrU4RdUgBxGpI1IXA6AqgXADqPxANwSWJA7yRABU4gAlT5UJ7-ABSqSelIetOGIKow2O6xABwAwsSoTUAMogSjgCD5Zz0ACeHGGoqoWAgBkkSTE9BQ-w6-xmlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JIjZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Black seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/A1-black/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynYwCKyVNxADLPV5dUU4cATM8JHbJG4jGZUG4ALTmyWqMLOyQA4lUEckznt-lQzgB1L4gK5xDEgV4IgAqMQASu8qA9fgApZIPcl3amDIFUQaHVYgPYAYUJEKqAGUQJRwBBcvZ6ABPDiDYVULAQHT8BK0VQoX5tX5TUxmECEWi4MIIBogGAQeg4TQgABWMloSCouEYvhkqgsmhgaH4BtMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Black showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/A1-black/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCejAIpJk7EAMk+XF1STBwBMT-HbJLXYbTKjXABasySVWhpySAHFKvCkqddn8qKcAOqfECXWLokAveEAFWiACU3lR7j8AFJJe5k25UgaAqgDA4rEC7ADCBPBlQAyiBKOAIDlbPQAJ4cAZCqhYCBafjxcSSZA-Vo-SbGEwgQi0XChBD1EAwCD0HB2EAAKxktCQVFwjB8MgkZjsMDQ-H1xiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Black showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "2T",
+      "name": "Jet Black Metallic",
+      "category": "Shades",
+      "swatch": "panamera_official_assets/swatches/2T-jet-black-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2T.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/2T-jet-black-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkATAAq6QDMAGIAquMACgBy41MA7Ol9AKIAbGsT21R9U9XpAKwAHABqJwAaV+mbAJJjdwDSAJx38wCK6ctJADI-Z5PKjLK6DH4pU7pV6zVZUV4ALXW6SS93SAHE6uj0vdzuCqPcAOrAkDPJL4kB-dHDBIAJQBVE+gwAUulPrT3oyplCqFMrnsQOcAMIUhF1ADKIEo4AghWc9AAnhwppKqFgIAZ+ClaJoUIMuoNlpYrCBCLRcFEEC0QDAIPQcLoQAArBS0JBUXCMQIKTQ2XQwND8M2WIA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/2T-jet-black-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAEwAKqkAzABiAKqjAAoAcqMTAOypPQCiAGwrY5tUPROVqQCsABwAakcAGhep6wCSIzcA0gCcN7MAiqmLCQAyX48PKiLC79L5JY6pZ7TZZUZ4ALVWqQSt1SAHEaqjUrdTqCqLcAOqAkCPBK4kA-VGDOIAJT+VHe-QAUql3tTXvSJhCqBMLjsQKcAMJkuE1ADKIEo4Ag+Sc9AAnhwJuKqFgIPp+ElaBoUP0Ov1FhZLCBCLRcBEEE0QDAIPQcDoQAAreS0JBUXCMfzyDTWHQwND8E0WIA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/2T-jet-black-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQBMACppAMwAYgCqYwAKAHJjkwDsab0AogBsq+NbVL2TVWkArAAcAGrHABqXaRsAkqO3ANIAnLdzAIppS4kAMt9PR5UJaXAbfZInNIvGYrKgvABaazSiTuaQA4rU0Wk7mcwVQ7gB1IEgJ6JPEgX5oobxABK-yoHwGACk0h8aW8GZNIVRJpddiAzgBhcnw2oAZRAlHAEAKTnoAE8OJMJVQsBB9PxkuJ6CgBp0BksLJYQIRaLhIghmiAYBB6DgdCAAFYKWhIKi4RgBBQSaw6GBofimixAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/2T-jet-black-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAEwAKqkAzABiAKqjAAoAcqMTAOypPQCiAGwrY5tUPROVqQCsABwAakcAGhep6wCSIzcA0gCcN7MAiqmLCQAyX48PKiLC79L5JY6pZ7TZZUZ4ALVWqQSt1SAHEaqjUrdTqCqLcAOqAkCPBK4kA-VGDOIAJT+VHe-QAUql3tTXvSJhCqBMLjsQKcAMJkuE1ADKIEo4Ag+Wc9AAnhwJuKqFgIAZJEkxPQUP0Ov1FpYrCBCLRcBEEE0QDAIPQcLoQAArRS0JBUXCMQKKcQ2XQwNCSE2WIA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Jet Black Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/2T-jet-black-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQBMACrJAMwAYgCqwwAKAHLDYwDsyV0AogBsSyPrVF1j5ckArAAcAGoHABpnyasAkkNXANIAnFfTAIrJ83EAMh-3d1TzM69D4JQ7JR6TRZUR4ALWWyTi12SAHEqsjktdjsCqNcAOr-ED3OLYkBfZH9GIAJR+VFevQAUslXpTnrSxmCqGMzlsQMcAMIkmFVADKIEo4AguXs9AAnhwxqKqFgIDp+AlaKoUL02r15qYzCBCLRcGEEA0QDAIPQcJoQAArGS0JBUXCMXwyVQWTQwND8I2mIA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/2T-jet-black-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAEwAKkkAzABiAKpDAAoAckOjAOxJnQCiAGyLw2tUnaNlSQCsABwAavsAGqdJKwCSg5cA0gCcl1MAiklzsQAy73e3VHOnHrveIHJIPCYLKgPABaSySsSuSQA4pUkUkrkcgVQrgB1P4gO6xLEgT5IvrRABK3yoLx6ACkki8KU8aaNQVRRqdNiAjgBhYnQyoAZRAlHAEBytnoAE8OKMRVQsBAtPx4uJJMgeq0enNjCYQIRaLhQgh6iAYBB6Dg7CAAFYyWhIKi4Rg+GQSMx2GBofiG4xAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "G7",
+      "name": "Ice Grey Metallic",
+      "category": "Shades",
+      "swatch": "panamera_official_assets/swatches/G7-ice-grey-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=G7.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/G7-ice-grey-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCcl1MAiulzSQAy73e3VHOnABM7xSB3SDwmCyoDwAWkt0kkrukAOJ1ZEoqEgK5HYFUK4AdT+IDuSVxIE+yIAKgkAErfKgvQEAKXSLxpTwZozBVFGp02ICOAGEyTC6gBlECUcAQQrOegATw4owlVCwEAM-BStE0KEBXUBc0sVhAhFouCiCBaIBgEHoOF0IAAVgpaEgqLhGIEFJobLoYGh+KbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/G7-ice-grey-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RFIiEgC4HQFUC4AdR+IBuCWxIHeiIAKnEAEqfKhPf4AKVSTypDzpwxBVGGx3WIAOAGESVCagBlECUcAQfJOegATw4wzFVCwEH0-CStA0KH+HX+MwslhAhFouAiCCaIBgEHoOB0IAAVvJaEgqLhGP55BprDoYGh+MaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/G7-ice-grey-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwXkwCKabOJADJvtzdUsycAJjeyX2aXu43mVHuAC1FmlEpc0gBxWpI5GQkCXQ5AqiXADqvxAt0SOJAHyRABV4gAlL5UZ4AgBSaWe1Me9JGoKoIxOGxAhwAwqTobUAMogSjgCAFJz0ACeHBG4qoWAg+n4yXE9BQAM6ANmFksIEItFwkQQzRAMAg9BwOhAACsFLQkFRcIwAgoJNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/G7-ice-grey-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RFIiEgC4HQFUC4AdR+IBuCWxIHeiIAKnEAEqfKhPf4AKVSTypDzpwxBVGGx3WIAOAGESVCagBlECUcAQfLOegATw4wzFVCwEAMkiSYnoKH+HX+M0sVhAhFouAiCCaIBgEHoOF0IAAVopaEgqLhGIFFOIbLoYGhJMbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Ice Grey Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/G7-ice-grey-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynYwCKyVNxADLPV5dUU4cATM8JHbJG4jGZUG4ALTmyTiZ2SAHEqvCEWCQGc9v8qGcAOpfEBXOKYkCveEAFRiACV3lQHr8AFLJB4Uu40wZAqiDQ6rEB7ADCRIhVQAyiBKOAILl7PQAJ4cQYiqhYCA6fgJWiqFC-Nq-KamMwgQi0XBhBANEAwCD0HCaEAAKxktCQVFwjF8MlUFk0MDQ-ENpiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/G7-ice-grey-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCejAIpJk7EAMk+XF1STBwBMT-HbJLXYbTKjXABasySsVOSQA4pU4fDQSBTrs-lRTgB1T4gS6xDEgF5wgAq0QASm8qPcfgApJL3cm3akDQFUAYHFYgXYAYUJ4MqAGUQJRwBAcrZ6ABPDgDYVULAQLT8eLiSTIH6tH6TYwmECEWi4UIIeogGAQeg4OwgABWMloSCouEYPhkEjMdhgaH4BuMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "2Y",
+      "name": "Carrara White Metallic",
+      "category": "Shades",
+      "swatch": "panamera_official_assets/swatches/2Y-carrara-white-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2Y.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/2Y-carrara-white-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkATGlUAMwAYgCq6aMACgByM5MA7Ol9AKIAbGvj21R9k9XpAKwAHABqJwAaV+mbAJKjdwDSAJx38wCK6ctJADI-Z5PKjLK6DH4pU7pV6zVZUV4ALXW6SS93SAHE6uj0vdzuCqPcAOrAkDPJL4kB-dEAFQSACUAVRPoMAFLpT5095MyZQqiTK57EDnADCFIRdQAyiBKOAIIVnPQAJ4cSZSqhYCAGfgpWiaFCDLqDZaWKwgQi0XBRBAtEAwCD0HC6EAAKwUtCQVFwjECCk0Nl0MDQ-HNliAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/2Y-carrara-white-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAEwpVADMAGIAqqnDAAoAclPjAOypPQCiAGwro5tUPeOVqQCsABwAakcAGhep6wCSwzcA0gCcN7MAiqmLCQAyX48PKiLC79L5JY6pZ7TZZUZ4ALVWqQSt1SAHEaqjUrdTqCqLcAOqAkCPBK4kA-VEAFTiACU-lR3v0AFKpd4014M8YQqjjC47ECnADCZLhNQAyiBKOAIPknPQAJ4ccYSqhYCD6fhJWgaFD9Dr9RYWSwgQi0XARBBNEAwCD0HA6EAAK3ktCQVFwjH88g01h0MDQ-FNFiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/2Y-carrara-white-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQBMqVQAzABiAKppIwAKAHLTEwDsab0AogBsq2NbVL0TVWkArAAcAGrHABqXaRsAkiO3ANIAnLdzAIppS4kAMt9PR5UJaXAbfZInNIvGYrKgvABaazSiTuaQA4rU0Wk7mcwVQ7gB1IEgJ6JPEgX5ogAq8QASv8qB8BgApNIfWlvRkTSFUCaXXYgM4AYXJ8NqAGUQJRwBACk56ABPDgTSVULAQfT8ZLiegoAadAZLCyWECEWi4SIIZogGAQeg4HQgABWCloSCouEYAQUEmsOhgaH4ZosQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/2Y-carrara-white-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAEwpVADMAGIAqqnDAAoAclPjAOypPQCiAGwro5tUPeOVqQCsABwAakcAGhep6wCSwzcA0gCcN7MAiqmLCQAyX48PKiLC79L5JY6pZ7TZZUZ4ALVWqQSt1SAHEaqjUrdTqCqLcAOqAkCPBK4kA-VEAFTiACU-lR3v0AFKpd4014M8YQqjjC47ECnADCZLhNQAyiBKOAIPlnPQAJ4ccYSqhYCAGSRJMT0FD9Dr9RaWKwgQi0XARBBNEAwCD0HC6EAAK0UtCQVFwjECinENl0MDQklNliAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carrara White Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/2Y-carrara-white-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQBMSVQAzABiAKrJgwAKAHITowDsyV0AogBsS8PrVF2j5ckArAAcAGoHABpnyasAkoNXANIAnFfTAIrJ83EAMh-3d1TzM69D4JQ7JR6TRZUR4ALWWyTi12SAHEqsjktdjsCqNcAOr-ED3OLYkBfZEAFRiACUflRXr0AFLJV5U5500ZgqijM5bEDHADCJJhVQAyiBKOAILl7PQAJ4cUZiqhYCA6fgJWiqFC9Nq9eamMwgQi0XBhBANEAwCD0HCaEAAKxktCQVFwjF8MlUFk0MDQ-GNpiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/2Y-carrara-white-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAEyJVADMAGIAqkkDAAoAcuMjAOxJnQCiAGyLQ2tUnSNlSQCsABwAavsAGqdJKwCSA5cA0gCcl1MAiklzsQAy73e3VHOnHrveIHJIPCYLKgPABaSySsSuSQA4pUkUkrkcgVQrgB1P4gO6xLEgT5IgAq0QASt8qC8egApJIvSlPWkjUFUEanTYgI4AYWJ0MqAGUQJRwBAcrZ6ABPDgjUVULAQLT8eLiSTIHqtHpzYwmECEWi4UIIeogGAQeg4OwgABWMloSCouEYPhkEjMdhgaH4RuMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "2H",
+      "name": "Volcano Grey Metallic",
+      "category": "Shades",
+      "swatch": "panamera_official_assets/swatches/2H-volcano-grey-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2H.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/2H-volcano-grey-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkATAAS6QDMAGIAquMACgBy41MA7Ol9AKIAbGsT21R9U9XpAKwAHABqJwAaV+mbAJJjdwDSAJx38wCK6ctJADI-Z5PKjLK6DH4pU7pV6zVZUV4ALXW6SS93SAHE6uj0vdzuCqPcAOrAkDPJL4kB-dEAFQSACUAVRPoMAFLpT5095MqZQqhTK57EDnADCFIRdQAyiBKOAIIVnPQAJ4cKZSqhYCAGfgpWiaFCDLqDZaWKwgQi0XBRBAtEAwCD0HC6EAAKwUtCQVFwjECCk0Nl0MDQ-HNliAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/2H-volcano-grey-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAEwAEqkAzABiAKqjAAoAcqMTAOypPQCiAGwrY5tUPROVqQCsABwAakcAGhep6wCSIzcA0gCcN7MAiqmLCQAyX48PKiLC79L5JY6pZ7TZZUZ4ALVWqQSt1SAHEaqjUrdTqCqLcAOqAkCPBK4kA-VEAFTiACU-lR3v0AFKpd4014MiYQqgTC47ECnADCZLhNQAyiBKOAIPknPQAJ4cCYSqhYCD6fhJWgaFD9Dr9RYWSwgQi0XARBBNEAwCD0HA6EAAK3ktCQVFwjH88g01h0MDQ-FNFiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/2H-volcano-grey-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQBMABJpAMwAYgCqYwAKAHJjkwDsab0AogBsq+NbVL2TVWkArAAcAGrHABqXaRsAkqO3ANIAnLdzAIppS4kAMt9PR5UJaXAbfZInNIvGYrKgvABaazSiTuaQA4rU0Wk7mcwVQ7gB1IEgJ6JPEgX5ogAq8QASv8qB8BgApNIfWlvRmTSFUSaXXYgM4AYXJ8NqAGUQJRwBACk56ABPDiTSVULAQfT8ZLiegoAadAZLCyWECEWi4SIIZogGAQeg4HQgABWCloSCouEYAQUEmsOhgaH4ZosQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/2H-volcano-grey-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAEwAEqkAzABiAKqjAAoAcqMTAOypPQCiAGwrY5tUPROVqQCsABwAakcAGhep6wCSIzcA0gCcN7MAiqmLCQAyX48PKiLC79L5JY6pZ7TZZUZ4ALVWqQSt1SAHEaqjUrdTqCqLcAOqAkCPBK4kA-VEAFTiACU-lR3v0AFKpd4014MiYQqgTC47ECnADCZLhNQAyiBKOAIPlnPQAJ4cCYSqhYCAGSRJMT0FD9Dr9RaWKwgQi0XARBBNEAwCD0HC6EAAK0UtCQVFwjECinENl0MDQklNliAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/2H-volcano-grey-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQBMABLJAMwAYgCqwwAKAHLDYwDsyV0AogBsSyPrVF1j5ckArAAcAGoHABpnyasAkkNXANIAnFfTAIrJ83EAMh-3d1TzM69D4JQ7JR6TRZUR4ALWWyTi12SAHEqsjktdjsCqNcAOr-ED3OLYkBfZEAFRiACUflRXr0AFLJV5U550sZgqhjM5bEDHADCJJhVQAyiBKOAILl7PQAJ4cMZiqhYCA6fgJWiqFC9Nq9eamMwgQi0XBhBANEAwCD0HCaEAAKxktCQVFwjF8MlUFk0MDQ-GNpiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/2H-volcano-grey-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAEwAEkkAzABiAKpDAAoAckOjAOxJnQCiAGyLw2tUnaNlSQCsABwAavsAGqdJKwCSg5cA0gCcl1MAiklzsQAy73e3VHOnHrveIHJIPCYLKgPABaSySsSuSQA4pUkUkrkcgVQrgB1P4gO6xLEgT5IgAq0QASt8qC8egApJIvSlPWmjUFUUanTYgI4AYWJ0MqAGUQJRwBAcrZ6ABPDijUVULAQLT8eLiSTIHqtHpzYwmECEWi4UIIeogGAQeg4OwgABWMloSCouEYPhkEjMdhgaH4RuMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "F0",
+      "name": "Dolomite Silver Metallic",
+      "category": "Shades",
+      "swatch": "panamera_official_assets/swatches/F0-dolomite-silver-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=F0.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCcl1MAiulzSQAy73e3VHOnABM7xSB3SDwmCyoDwAWkt0kkrulhl10gBxOpo9JXI7AqhXADqfxAdySeJAnzRABUEgAlb5UF6AgBS6RetKejNGYKoo1OmxARwAwuSYXUAMogSjgCCFZz0ACeHFGkqoWAgBn4KVomhQgK6gLmlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwzZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqlBh1UgBxGoo1IXA6AqgXADqPxANwSOJA7xRABU4gAlT5UJ7-ABSqSe1Ie9OGIKow2O6xABwAwqSoTUAMogSjgCD5Jz0ACeHGG4qoWAg+n4SVoGhQ-w6-xmFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwXkwCKabOJADJvtzdUsycAJjeyX2aXu43mVHuAC1FmlEpc0kNOmkAOK1VFpS6HIFUS4AdV+IFuiVxIA+qIAKvEAEpfKjPAEAKTSzxpjwZI1BVBGJw2IEOAGEydDagBlECUcAQApOegATw4IwlVCwEH0-GS4noKABnQBswslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqlBh1UgBxGoo1IXA6AqgXADqPxANwSOJA7xRABU4gAlT5UJ7-ABSqSe1Ie9OGIKow2O6xABwAwqSoTUAMogSjgCD5Zz0ACeHGG4qoWAgBkkSTE9BQ-w6-xmlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JITZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynYwCKyVNxADLPV5dUU4cATM8JHbJG4jGZUG4ALTmyTiZ2S-TayQA4lUkckznt-lQzgB1L4gK5xLEgV5IgAqMQASu8qA9fgApZIPSl3WmDIFUQaHVYgPYAYWJEKqAGUQJRwBBcvZ6ABPDiDUVULAQHT8BK0VQoX5tX5TUxmECEWi4MIIBogGAQeg4TQgABWMloSCouEYvhkqgsmhgaH4RtMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCejAIpJk7EAMk+XF1STBwBMT-HbJLXYbTKjXABasySsVOST6rSSAHFKoikqddn8qKcAOqfECXWKYkAvREAFWiACU3lR7j8AFJJe4U240gaAqgDA4rEC7ADCRPBlQAyiBKOAIDlbPQAJ4cAYiqhYCBafjxcSSZA-Vo-SbGEwgQi0XChBD1EAwCD0HB2EAAKxktCQVFwjB8MgkZjsMDQ-ENxiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "1A",
+      "name": "Gentian Blue Metallic",
+      "category": "Dreams",
+      "swatch": "panamera_official_assets/swatches/1A-gentian-blue-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=1A.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/1A-gentian-blue-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOl1SekAzABiAKqjAAoAcqMTAOzpfQCiAGwrY5tUfRPV6QCsABwAakcAGhfp6wCSIzcA0gCcN7MAiumLSQAyX48PKiLC4AJi+KWO6We02WVGeAC1Vukkrd0gBxOpo9K3U5gqi3ADqgJAjySeJAPzRABUEgAlP5Ud4ggBS6XetNejImkKoEwuOxApwAwuT4XUAMogSjgCCFZz0ACeHAmkqoWAgBn4KVomhQIK6IMWlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwzZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/1A-gentian-blue-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypNQmpAMwAYgCqwwAKAHLDYwDsqT0AogBsSyPrVD1jlakArAAcAGoHABpnqasAkkNXANIAnFfTAIqp8wkAMh-3d1TzM4AJg+SUOqUek0WVEeAC1lqkEtdUgBxGoo1LXY4gqjXADq-xA9wSOJAXxRABU4gAlH5UV5AgBSqVe1Oe9LG4KoYzOWxAxwAwqTYTUAMogSjgCD5Jz0ACeHDG4qoWAg+n4SVoGhQQI6QPmFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/1A-gentian-blue-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsabWJaQDMAGIAqiMACgByI+MA7Gm9AKIAbMujG1S941VpAKwAHABqhwAa52lrAJLD1wDSAJzXMwCKaQuJADKfD-dUBbnABMn2SRzSTymSyoTwAWis0okbmkAOK1VFpG4nUFUG4AdQBIAeiVxIG+qIAKvEAEq-KhvYEAKTSbxpLwZ4whVHG522IBOAGEyXDagBlECUcAQApOegATw44wlVCwEH0-GS4noKGBnWBCwslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/1A-gentian-blue-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypNQmpAMwAYgCqwwAKAHLDYwDsqT0AogBsSyPrVD1jlakArAAcAGoHABpnqasAkkNXANIAnFfTAIqp8wkAMh-3d1TzM4AJg+SUOqUek0WVEeAC1lqkEtdUgBxGoo1LXY4gqjXADq-xA9wSOJAXxRABU4gAlH5UV5AgBSqVe1Oe9LG4KoYzOWxAxwAwqTYTUAMogSjgCD5Zz0ACeHDG4qoWAgBkkSTE9BQQI6QPmlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JITZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/1A-gentian-blue-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyVVxyQDMAGIAqoMACgBygyMA7MldAKIAbAtDq1RdI+XJAKwAHABqewAaJ8nLAJIDFwDSAJwXkwCKybNxADJvtzdUsycAJjeCX2yXu43mVHuAC1Fsk4pdkgBxKpI5KXQ5AqiXADqvxAtziWJAHyRABUYgAlL5UZ4AgBSyWelMetJGoKoIxOGxAhwAwsToVUAMogSjgCC5ez0ACeHBGoqoWAgOn4CVoqhQALaANmpjMIEItFwYQQDRAMAg9BwmhAACsZLQkFRcIxfDJVBZNDA0PwjaYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/1A-gentian-blue-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJlbFJAMwAYgCqAwAKAHIDwwDsSZ0AogBs84MrVJ3DZUkArAAcAGq7ABrHSUsAkv3nANIAnOcTAIpJM7EAMq8311QzxwBMr3ieySdzGcyodwAWgskrELkkAOKVRFJC4HQFUC4AdR+IBusUxIHeiIAKtEAEqfKhPf4AKSSTwpDxpwxBVGGx3WIAOAGEiVDKgBlECUcAQHK2egATw4wxFVCwEC0-Hi4kkyH+rX+M2MJhAhFouFCCHqIBgEHoODsIAAVjJaEgqLhGD4ZBIzHYYGh+IbjEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "0L",
+      "name": "Carmine Red",
+      "category": "Dreams",
+      "swatch": "panamera_official_assets/swatches/0L-carmine-red.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=0L.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/0L-carmine-red/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMADLpXQCyACzpAMwAYgCqYwAKAHJjkwDs6UMAogBsq+NbVEOT1ekArAAcAGrHABqX6RsAkqO3ANIAnLdzAIrpS0l9VEtPR7-S4AJm+KRO6ReMxWVBeAC01ukknd0gBxOpo9J3M5gqh3ADqQJATySeJAPTRABUEgAlP4gD4ggBS6Q+tLeVA+k0hVEml12IDOAGFyfC6gBlECUcAQQrOegATw4kylVCwEAM-BStE0KBBXRBS0sVhAhFouCiCBaIBgEHoOF0IAAVgpaEgqLhGIEFJobLoYGh+ObLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carmine Red showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/0L-carmine-red/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADAAyqR0AsgAsqQDMAGIAqiMACgByI+MA7KkDAKIAbMujG1QD45WpAKwAHABqhwAa56lrAJLD1wDSAJzXMwCKqQsJPVQLD-e-c4AJk+SSOqSeUyWVCeAC0VqkEjdUgBxGoo1I3E4gqg3ADqAJADwSOJAXRRABU4gAlH4gN5AgBSqTe1JeVDe43BVHG522IBOAGFSbCagBlECUcAQfJOegATw44wlVCwEH0-CStA0KCBHSBCwslhAhFouAiCCaIBgEHoOB0IAAVvJaEgqLhGP55BprDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carmine Red showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/0L-carmine-red/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAMmmdALIALGkAzABiAKqjAAoAcqMTAOxpgwCiAGwrY5tUgxNVaQCsABwAakcAGhdp6wCSIzcA0gCcN7MAimmLib1Ui48PP4XABMX2SxzSz2myyozwAWqs0olbmkAOK1VFpW6nUFUW4AdUBIEeiVxIG6qIAKvEAEq-EDvYEAKTS7xpryo7wmEKoEwuOxApwAwmS4bUAMogSjgCAFJz0ACeHAmkqoWAg+n4yXE9BQwM6wMWFksIEItFwkQQzRAMAg9BwOhAACsFLQkFRcIwAgoJNYdDA0PwzRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carmine Red showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/0L-carmine-red/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADAAyqR0AsgAsqQDMAGIAqiMACgByI+MA7KkDAKIAbMujG1QD45WpAKwAHABqhwAa56lrAJLD1wDSAJzXMwCKqQsJPVQLD-e-c4AJk+SSOqSeUyWVCeAC0VqkEjdUgBxGoo1I3E4gqg3ADqAJADwSOJAXRRABU4gAlH4gN5AgBSqTe1JeVDe43BVHG522IBOAGFSbCagBlECUcAQfLOegATw44wlVCwEAMkiSYnoKCBHSBC0sVhAhFouAiCCaIBgEHoOF0IAAVopaEgqLhGIFFOIbLoYGhJKbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carmine Red seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/0L-carmine-red/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAMsltALIALMkAzABiAKpDAAoAckOjAOzJfQCiAGyLw2tUfaPlyQCsABwAavsAGqfJKwCSg5cA0gCcl1MAislzcV1Uc3e336cAJneCQOyQeEwWVAeAC0lsk4ldkgBxKpI5JXI5AqhXADqfxAdziWJAHSRABUYgAlL4gF4AgBSyRelKeVBeo1BVFGp02ICOAGFidCqgBlECUcAQXL2egATw4ozFVCwEB0-AStFUKABbQBc1MZhAhFouDCCAaIBgEHoOE0IAAVjJaEgqLhGL4ZKoLJoYGh+MbTEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carmine Red showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/0L-carmine-red/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADAAySa0AsgAsSQDMAGIAqoMACgBygyMA7Em9AKIAbAtDq1S9I2VJAKwAHABqewAaJ0nLAJIDFwDSAJwXkwCKSbOxnVSztzdfJwBMb3i+yS93G8yo9wAWoskrFLkkAOKVRFJS6HQFUS4AdV+IFusUxIHaiIAKtEAEqfEDPf4AKSSzwpjyozxGIKoIxOGxAhwAwkSoZUAMogSjgCA5Wz0ACeHBGoqoWAgWn48XEkmQ-1a-1mxhMIEItFwoQQ9RAMAg9BwdhAACsZLQkFRcIwfDIJGY7DA0PwjcYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Carmine Red showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "6M",
+      "name": "Provence",
+      "category": "Dreams",
+      "swatch": "panamera_official_assets/swatches/6M-provence.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=6M.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/6M-provence/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCclz2XUwCK6XNJADKfd7dUOanABMnxSB3SDwmCyoDwAWkt0kkrukAOJ1VHpK5HUFUK4AdQBIDuSVxIG+qIAKgkAEq-KhvYEAKXSbxpTwZowhVFGp02ICOAGEyXC6gBlECUcAQQrOegATw4owlVCwEAM-BStE0KGBXWBc0sVhAhFouCiCBaIBgEHoOF0IAAVgpaEgqLhGIEFJobLoYGh+KbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Provence showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/6M-provence/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOdd5xMAiqkzCQAy7zfXVDPHABM7ySe1SdzGcyodwAWgtUgkLqkAOI1ZGpC4HYFUC4AdT+IBuCWxIE+yIAKnEAErfKgvQEAKVSLypDzpwzBVGGx3WIAOAGESTCagBlECUcAQfJOegATw4wzFVCwEH0-CStA0KEBHUBMwslhAhFouAiCCaIBgEHoOB0IAAVvJaEgqLhGP55BprDoYGh+MaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Provence showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/6M-provence/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwX3ReTAIpps4kAMh+3N1SzE4AJg+yX2aXu43mVHuAC1FmlEpc0gBxWootKXQ4gqiXADq-xAt0SOJAXxRABV4gAlH5UV5AgBSaVe1Me9JG4KoIxOGxAhwAwqTYbUAMogSjgCAFJz0ACeHBG4qoWAg+n4yXE9BQQM6QNmFksIEItFwkQQzRAMAg9BwOhAACsFLQkFRcIwAgoJNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Provence showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/6M-provence/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOdd5xMAiqkzCQAy7zfXVDPHABM7ySe1SdzGcyodwAWgtUgkLqkAOI1ZGpC4HYFUC4AdT+IBuCWxIE+yIAKnEAErfKgvQEAKVSLypDzpwzBVGGx3WIAOAGESTCagBlECUcAQfLOegATw4wzFVCwEAMkiSYnoKEBHUBM0sVhAhFouAiCCaIBgEHoOF0IAAVopaEgqLhGIFFOIbLoYGhJMbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Provence seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/6M-provence/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynHadjAIrJU3EAMq9Xl1RThwBMrwSO2SNxGMyoNwAWnNknEzskAOJVRHJM57QFUM4AdR+ICucUxIHeiIAKjEAEqfKhPf4AKWSTwpdxpgxBVEGh1WID2AGEiVCqgBlECUcAQXL2egATw4gxFVCwEB0-AStFUKH+bX+U1MZhAhFouDCCAaIBgEHoOE0IAAVjJaEgqLhGL4ZKoLJoYGh+IbTEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Provence showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/6M-provence/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCftJ6MAikmTsQAyL5cXVJMHAEwveLbJLXYbTKjXABasySsVOSQA4pUEUlTrsAVRTgB1b4gS6xDEgN4IgAq0QASh8qI8-gApJKPcm3akDYFUAYHFYgXYAYUJkMqAGUQJRwBAcrZ6ABPDgDYVULAQLT8eLiSTIP6tP6TYwmECEWi4UIIeogGAQeg4OwgABWMloSCouEYPhkEjMdhgaH4BuMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Provence showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "0W",
+      "name": "Madeira Gold Metallic",
+      "category": "Dreams",
+      "swatch": "panamera_official_assets/swatches/0W-madeira-gold-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=0W.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/0W-madeira-gold-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOldAOrpAMwAYgCqYwAKAHJjkwDs6X0AogBsq+NbVH2T1ekArAAcAGrHABqX6RsAkqO3ANIAnLdzAIrpS0kAMt9PR5UJaXABM3xSJ3SLxmKyoLwAWmt0kk7ukAOJ1dHpO5ncFUO5DIEgJ5JfEgX7ogAqCQASv8qB9QQApdIfWlvRmTKFUSaXXYgM4AYXJCLqAGUQJRwBBCs56ABPDiTSVULAQAz8FK0TQoUFdUFLSxWECEWi4KIIFogGAQeg4XQgABWCloSCouEYgQUmhsuhgaH4ZssQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/0W-madeira-gold-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypHQDqqQDMAGIAqiMACgByI+MA7Kk9AKIAbMujG1Q945WpAKwAHABqhwAa56lrAJLD1wDSAJzXMwCKqQsJADKfD-dUBbnABMnySR1STymSyoTwAWitUgkbqkAOI1VGpG4nUFUG4DAEgB4JXEgb6ogAqcQASr8qG9gQApVJvakvenjCFUcbnbYgE4AYVJcJqAGUQJRwBB8k56ABPDjjcVULAQfT8JK0DQoYEdYELCyWECEWi4CIIJogGAQeg4HQgABW8loSCouEY-nkGmsOhgaH4JosQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/0W-madeira-gold-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaZ0A6mkAzABiAKqjAAoAcqMTAOxpvQCiAGwrY5tUvRNVaQCsABwAakcAGhdp6wCSIzcA0gCcN7MAimmLiQAyX48PKiLC4AJi+yWOaWe02WVGeAC1VmlErc0gBxWpotK3U5gqi3QaAkCPRJ4kA-NEAFXiACU-lR3iCAFJpd4014MiaQqgTC47ECnADCZPhtQAyiBKOAIAUnPQAJ4cCYSqhYCD6fjJcT0FAgzogxYWSwgQi0XCRBDNEAwCD0HA6EAAKwUtCQVFwjACCgk1h0MDQ-FNFiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/0W-madeira-gold-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypHQDqqQDMAGIAqiMACgByI+MA7Kk9AKIAbMujG1Q945WpAKwAHABqhwAa56lrAJLD1wDSAJzXMwCKqQsJADKfD-dUBbnABMnySR1STymSyoTwAWitUgkbqkAOI1VGpG4nUFUG4DAEgB4JXEgb6ogAqcQASr8qG9gQApVJvakvenjCFUcbnbYgE4AYVJcJqAGUQJRwBB8s56ABPDjjcVULAQAySJJiegoYEdYELSxWECEWi4CIIJogGAQeg4XQgABWiloSCouEYgUU4hsuhgaEkJssQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/0W-madeira-gold-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyW0A6skAzABiAKpDAAoAckOjAOzJXQCiAGyLw2tUXaPlyQCsABwAavsAGqfJKwCSg5cA0gCcl1MAislzcQAy73e3VHOnABM7wSB2SDwmCyoDwAWktknErskAOJVZHJK5HYFUK59P4gO5xbEgT7IgAqMQASt8qC9AQApZIvSlPWmjMFUUanTYgI4AYWJMKqAGUQJRwBBcvZ6ABPDijUVULAQHT8BK0VQoQFtQFzUxmECEWi4MIIBogGAQeg4TQgABWMloSCouEYvhkqgsmhgaH4RtMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/0W-madeira-gold-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJrQDqSQDMAGIAqoMACgBygyMA7EmdAKIAbAtDq1SdI2VJAKwAHABqewAaJ0nLAJIDFwDSAJwXkwCKSbOxADJvtzdUsycAJje8X2SXu43mVHuAC1FklYpckgBxSpIpKXQ5AqiXXq-EC3WJYkAfJEAFWiACUvlRngCAFJJZ4Ux40kagqgjE4bECHADCROhlQAyiBKOAIDlbPQAJ4cEYiqhYCBafjxcSSZAA1oA2bGEwgQi0XChBD1EAwCD0HB2EAAKxktCQVFwjB8MgkZjsMDQ-ENxiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "O1",
+      "name": "Lugano Blue",
+      "category": "Dreams",
+      "swatch": "panamera_official_assets/swatches/O1-lugano-blue.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=O1.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/O1-lugano-blue/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCcl1MAiulzSQAy73e3VHOnABM7xSB3SDwmCyoDwAWkt0kkrukAOJ1ZHpK5HYFUK4AdT+IDuSWxIE+yIAKgkAErfKjuBpUF6AgBS6ReVKejNGYKoo1OmxARwAwiSYXUAMogSjgCCFZz0ACeHFGkqoWAgBn4KVomhQgK6gLmlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwzZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Lugano Blue showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/O1-lugano-blue/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RGpC4HQFUC4AdR+IBuCUxIHeiIAKnEAEqfKhuOpUJ7-ABSqSeFIe9OGIKow2O6xABwAwkSoTUAMogSjgCD5Jz0ACeHGG4qoWAg+n4SVoGhQ-w6-xmFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Lugano Blue showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/O1-lugano-blue/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwXkwCKabOJADJvtzdUsycAJjeyX2aXu43mVHuAC1FmlEpc0gBxWpItKXQ5AqiXADqvxAt0SWJAHyRABV4gAlL5UNz1KjPAEAKTSz0pjwZI1BVBGJw2IEOAGFidDagBlECUcAQApOegATw4IwlVCwEH0-GS4noKABnQBswslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Lugano Blue showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/O1-lugano-blue/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RGpC4HQFUC4AdR+IBuCUxIHeiIAKnEAEqfKjuOpUJ7-ABSqSeFIe9OGIKow2O6xABwAwkSoTUAMogSjgCD5Zz0ACeHGG4qoWAgBkkSTE9BQ-w6-xmlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JITZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Lugano Blue seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/O1-lugano-blue/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynYwCKyVNxADLPV5dUU4cATM8JHbJG4jGZUG4ALTmyTiZ2SAHEqvDkmc9v8qGcAOpfEBXOLokCveEAFRiACV3lRnDUqA9fgApZIPMl3WmDIFUQaHVYgPYAYQJEKqAGUQJRwBBcvZ6ABPDiDUVULAQHT8BK0VQoX5tX5TUxmECEWi4MIIBogGAQeg4TQgABWMloSCouEYvhkqgsmhgaH4RtMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Lugano Blue showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/O1-lugano-blue/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCejAIpJk7EAMk+XF1STBwBMT-HbJLXYbTKjXABasySsVOSQA4pU4UlTrs-lRTgB1T4gS6xNEgF5wgAq0QASm8qE5qlR7j8AFJJe6k240gaAqgDA4rEC7ADC+PBlQAyiBKOAIDlbPQAJ4cAYiqhYCBafjxcSSZA-Vo-SbGEwgQi0XChBD1EAwCD0HB2EAAKxktCQVFwjB8MgkZjsMDQ-ENxiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Lugano Blue showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "N4",
+      "name": "Oak Green Metallic Neo",
+      "category": "Legends",
+      "swatch": "panamera_official_assets/swatches/N4-oak-green-metallic-neo.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=N4.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCcl1MAiulzSQAy73e3VHOnABM7xSB3SDwmCyoDwAWkt0kkrukAOJ1ZHpK5HYFUK4AdT+IDuSWxIE+yIAKgkAErfKhTAZUF6AgBS6ReVKejNGYKoo1OmxARwAwiSYXUAMogSjgCCFZz0ACeHFGkqoWAgBn4KVomhQgK6gLmlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwzZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RGpC4HQFUC4AdR+IBuCUxIHeiIAKnEAEqfKgTPpUJ7-ABSqSeFIe9OGIKow2O6xABwAwkSoTUAMogSjgCD5Jz0ACeHGG4qoWAg+n4SVoGhQ-w6-xmFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwXkwCKabOJADJvtzdUsycAJjeyX2aXu43mVHuAC1FmlEpc0gBxWpItKXQ5AqiXADqvxAt0SWJAHyRABV4gAlL5USb9KjPAEAKTSz0pjwZI1BVBGJw2IEOAGFidDagBlECUcAQApOegATw4IwlVCwEH0-GS4noKABnQBswslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RGpC4HQFUC4AdR+IBuCUxIHeiIAKnEAEqfKgTPpUJ7-ABSqSeFIe9OGIKow2O6xABwAwkSoTUAMogSjgCD5Zz0ACeHGG4qoWAgBkkSTE9BQ-w6-xmlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JITZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynYwCKyVNxADLPV5dUU4cATM8JHbJG4jGZUG4ALTmyTiZ2SAHEqvDkmc9v8qGcAOpfEBXOLokCveEAFRiACV3lQxj0qA9fgApZIPMl3WmDIFUQaHVYgPYAYQJEKqAGUQJRwBBcvZ6ABPDiDUVULAQHT8BK0VQoX5tX5TUxmECEWi4MIIBogGAQeg4TQgABWMloSCouEYvhkqgsmhgaH4RtMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCejAIpJk7EAMk+XF1STBwBMT-HbJLXYbTKjXABasySsVOSQA4pU4UlTrs-lRTgB1T4gS6xNEgF5wgAq0QASm8qKNulR7j8AFJJe6k240gaAqgDA4rEC7ADC+PBlQAyiBKOAIDlbPQAJ4cAYiqhYCBafjxcSSZA-Vo-SbGEwgQi0XChBD1EAwCD0HB2EAAKxktCQVFwjB8MgkZjsMDQ-ENxiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "U4",
+      "name": "Aventurine Green Metallic",
+      "category": "Legends",
+      "swatch": "panamera_official_assets/swatches/U4-aventurine-green-metallic.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=U4.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/U4-aventurine-green-metallic/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDAAoAckOjAOzpfQCiAGyLw2tUfaPV6QCsABwAavsAGqfpKwCSg5cA0gCcl1MAiulzSQAy73e3VHOnABM7xSB3SDwmCyoDwAWkt0kkrukAOJ1ZHpK5HYFUK4AdT+IDuSWxIE+yIAKgkAErfKgvQEAKXSLypTzpozBVFGAy5p02ICOAGESTC6gBlECUcAQQrOegATw4owlVCwEAM-BStE0KEBXUBc0sVhAhFouCiCBaIBgEHoOF0IAAVgpaEgqLhGIEFJobLoYGh+KbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/U4-aventurine-green-metallic/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RGpC4HQFUC4AdR+IBuCUxIHeiIAKnEAEqfKhPf4AKVSTwpDxpwxBVGGfQ5x3WIAOAGEiVCagBlECUcAQfJOegATw4wzFVCwEH0-CStA0KH+HX+MwslhAhFouAiCCaIBgEHoOB0IAAVvJaEgqLhGP55BprDoYGh+MaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/U4-aventurine-green-metallic/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMACgBygyMA7Gm9AKIAbAtDq1S9I1VpAKwAHABqewAaJ2nLAJIDFwDSAJwXkwCKabOJADJvtzdUsycAJjeyX2aXu43mVHuAC1FmlEpc0gBxWpItKXQ5AqiXADqvxAt0SWJAHyRABV4gAlL5UZ4AgBSaWelMetJGoKoI36nJOGxAhwAwsTobUAMogSjgCAFJz0ACeHBG4qoWAg+n4yXE9BQAM6ANmFksIEItFwkQQzRAMAg9BwOhAACsFLQkFRcIwAgoJNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/U4-aventurine-green-metallic/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwAKAHIDwwDsqT0AogBs84MrVD3DlakArAAcAGq7ABrHqUsAkv3nANIAnOcTAIqpMwkAMq8311QzxwBMrySe1SdzGcyodwAWgtUgkLqkAOI1RGpC4HQFUC4AdR+IBuCUxIHeiIAKnEAEqfKhPf4AKVSTwpDxpwxBVGGfQ5x3WIAOAGEiVCagBlECUcAQfLOegATw4wzFVCwEAMkiSYnoKH+HX+M0sVhAhFouAiCCaIBgEHoOF0IAAVopaEgqLhGIFFOIbLoYGhJMbLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/U4-aventurine-green-metallic/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0ACgByfYMA7MldAKIAbLP9S1Rdg+XJAKwAHABq2wAah8kLAJK9pwDSAJynYwCKyVNxADLPV5dUU4cATM8JHbJG4jGZUG4ALTmyTiZ2SAHEqvDkmc9v8qGcAOpfEBXOLokCveEAFRiACV3lQHr8AFLJB5ku5UwZAqiDHpsw6rEB7ADCBIhVQAyiBKOAILl7PQAJ4cQYiqhYCA6fgJWiqFC-Nq-KamMwgQi0XBhBANEAwCD0HCaEAAKxktCQVFwjF8MlUFk0MDQ-ENpiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/U4-aventurine-green-metallic/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQAKAHK9AwDsSZ0AogBsM32LVJ0DZUkArAAcAGpbABoHSfMAkj0nANIAnCejAIpJk7EAMk+XF1STBwBMT-HbJLXYbTKjXABasySsVOSQA4pU4UlTrs-lRTgB1T4gS6xNEgF5wgAq0QASm8qPcfgApJL3Um3SkDQFUAbdVkHFYgXYAYXx4MqAGUQJRwBAcrZ6ABPDgDYVULAQLT8eLiSTIH6tH6TYwmECEWi4UIIeogGAQeg4OwgABWMloSCouEYPhkEjMdhgaH4BuMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "2M",
+      "name": "Slate Grey Neo",
+      "category": "Legends",
+      "swatch": "panamera_official_assets/swatches/2M-slate-grey-neo.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2M.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/2M-slate-grey-neo/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkATD3pAMwAYgCqYwAKAHJjkwDs6X0AogBsq+NbVH2T1ekArAAcAGrHABqX6RsAkqO3ANIAnLdzAIrpS0kAMt9PR5UJaXQbfFIndIvGYrKgvABaa3SSTu6QA4nU0ek7mcwVQ7gB1IEgJ5JPEgX5ogAqCQASv8qB9BgApdIfWlvRmTSFUSaXXYgM4AYXJ8LqAGUQJRwBBCs56ABPDiTSVULAQAz8FK0TQoQZdQZLSxWECEWi4KIIFogGAQeg4XQgABWCloSCouEYgQUmhsuhgaH4ZssQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/2M-slate-grey-neo/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAExdqQDMAGIAqiMACgByI+MA7Kk9AKIAbMujG1Q945WpAKwAHABqhwAa56lrAJLD1wDSAJzXMwCKqQsJADKfD-dUBbnfqfJJHVJPKZLKhPABaK1SCRuqQA4jUUakbicQVQbgB1AEgB4JHEgb4ogAqcQASr8qG9+gApVJvakvenjcFUcbnbYgE4AYVJsJqAGUQJRwBB8k56ABPDjjcVULAQfT8JK0DQofodfoLCyWECEWi4CIIJogGAQeg4HQgABW8loSCouEY-nkGmsOhgaH4JosQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/2M-slate-grey-neo/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQBM3WkAzABiAKqjAAoAcqMTAOxpvQCiAGwrY5tUvRNVaQCsABwAakcAGhdp6wCSIzcA0gCcN7MAimmLiQAyX48PKiLC4DL7JY5pZ7TZZUZ4ALVWaUStzSAHFaqi0rdTqCqLcAOqAkCPRK4kA-VEAFXiACU-lR3gMAFJpd4014MiYQqgTC47ECnADCZLhtQAyiBKOAIAUnPQAJ4cCYSqhYCD6fjJcT0FADToDRYWSwgQi0XCRBDNEAwCD0HA6EAAKwUtCQVFwjACCgk1h0MDQ-FNFiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/2M-slate-grey-neo/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAExdqQDMAGIAqiMACgByI+MA7Kk9AKIAbMujG1Q945WpAKwAHABqhwAa56lrAJLD1wDSAJzXMwCKqQsJADKfD-dUBbnfqfJJHVJPKZLKhPABaK1SCRuqQA4jUUakbicQVQbgB1AEgB4JHEgb4ogAqcQASr8qG9+gApVJvakvenjcFUcbnbYgE4AYVJsJqAGUQJRwBB8s56ABPDjjcVULAQAySJJiegofodfoLSxWECEWi4CIIJogGAQeg4XQgABWiloSCouEYgUU4hsuhgaEkJssQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Slate Grey Neo seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/2M-slate-grey-neo/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQBMHckAzABiAKpDAAoAckOjAOzJXQCiAGyLw2tUXaPlyQCsABwAavsAGqfJKwCSg5cA0gCcl1MAislzcQAy73e3VHOnXrvBIHZIPCYLKgPABaS2ScSuyQA4lUkckrkcgVQrgB1P4gO5xLEgT5IgAqMQASt8qC9egApZIvSlPWmjUFUUanTYgI4AYWJ0KqAGUQJRwBBcvZ6ABPDijUVULAQHT8BK0VQoXptXpzUxmECEWi4MIIBogGAQeg4TQgABWMloSCouEYvhkqgsmhgaH4RtMQA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/2M-slate-grey-neo/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAEztSQDMAGIAqoMACgBygyMA7EmdAKIAbAtDq1SdI2VJAKwAHABqewAaJ0nLAJIDFwDSAJwXkwCKSbOxADJvtzdUsyc9N7xfZJe7jeZUe4ALUWSVilySAHFKoikpdDoCqJcAOq-EC3WKYkAfREAFWiACUvlRnj0AFJJZ4Ux40kYgqgjE4bECHADCRKhlQAyiBKOAIDlbPQAJ4cEYiqhYCBafjxcSSZA9Vo9WbGEwgQi0XChBD1EAwCD0HB2EAAKxktCQVFwjB8MgkZjsMDQ-ENxiAA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the rear of the car"
+        }
+      }
+    },
+    {
+      "code": "3H",
+      "name": "Chalk",
+      "category": "Legends",
+      "swatch": "panamera_official_assets/swatches/3H-chalk.jpg",
+      "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=3H.AI.Z1S",
+      "images": {
+        "front-left": {
+          "src": "panamera_official_assets/images/3H-chalk/front-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrQ+-WjFwgqEAA74izEADc09OBlnIQrWoQDWuRSAC+5qrShq44qHSi6W7PQHk0hOMXlKCUMSollT8iAAW+FBIqCBsHAAiAIIAmnIgisqBzCEgCuKsAK5gLnFuIClJSQBCSQCM6ZkBQaCQsIikIAAMALIALOkAzABiAKpDABJDAAoAckOjAOzpfQCiAGwrw5tUfaPV6QCsABwAakcAGhfp6wCSgzcA0gCcN7MAiumLSQAyX48PKiLC4AJi+KWO6We02WVGeAC1Vukkrd0gBxOpo9K3U5gqi3ADqgJAjySeJAPzRABUEgAlP5Ud4ggBS6XetNejNGkKoowuOxApwAwuT4XUAMogSjgCCFZz0ACeHFGkqoWAgBn4KVomhQIK6IMWlisIEItFwUQQLRAMAg9BwuhAACsFLQkFRcIxAgpNDZdDA0PwzZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Chalk showing the front and left side of the car"
+        },
+        "side": {
+          "src": "panamera_official_assets/images/3H-chalk/side.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XoTa0BtGLhBUIAB3xFmIAG5p6cDDOQhWtQgGtcCkAF8zVWlFVx60OlB0t2ugPJoxxOYoJRiqBZU-IgAFvhQSKggbBwAIgCCAJqyIApK-sxBIPL2rACuYM4xriBJCQkAQgkAjKnpfgGgkLCIpCAADACyACypAMwAYgCqAwASAwAKAHIDwwDsqT0AogBsS4PrVD3DlakArAAcAGoHABpnqasAkv1XANIAnFfTAIqp8wkAMh-3d1TzM4AJg+SUOqUek0WVEeAC1lqkEtdUgBxGoo1LXY4gqjXADq-xA9wSOJAXxRABU4gAlH5UV5AgBSqVe1Oe9OG4KowzOWxAxwAwqTYTUAMogSjgCD5Jz0ACeHGG4qoWAg+n4SVoGhQQI6QPmFksIEItFwEQQTRAMAg9BwOhAACt5LQkFRcIx-PINNYdDA0PwTRYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Chalk showing the left side of the car"
+        },
+        "rear-left": {
+          "src": "panamera_official_assets/images/3H-chalk/rear-left.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6A2jFwgqEAA74izEADcJcDLOQhWtQgGtcikAF8zVWlDVx60OlB0t2ugPJpCcYvKUEoxKgWVPyIABb4UEioIGwcACIAggCaciCKygHMwSAK9qwArmDOsa4gyYmJAEKJAIxpGf6BoJCwiKQgAAwAsgAsaQDMAGIAqoMAEoMACgBygyMA7Gm9AKIAbMtDG1S9I1VpAKwAHABqhwAa52lrAJID1wDSAJzXMwCKaQuJADKfD-dUBbnABMn2SRzSTymSyoTwAWis0okbmkAOK1VFpG4nUFUG4AdQBIAeiVxIG+qIAKvEAEq-KhvYEAKTSbxpLwZIwhVBG522IBOAGEyXDagBlECUcAQApOegATw4IwlVCwEH0-GS4noKGBnWBCwslhAhFouEiCGaIBgEHoOB0IAAVgpaEgqLhGAEFBJrDoYGh+KaLEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Chalk showing the back and left side of the car"
+        },
+        "top": {
+          "src": "panamera_official_assets/images/3H-chalk/top.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAC0T9e9Wmnq8ANrRi4QVCAAd8RZiABu4uBjnIQrWoQDWuJSAC+5qrSjq49aHSi6W7PQHk0hOMQXKCUMSollSSQvhQSKggbBwAIgCCAJryIEoqgcwhIIoOrACuYC4xbiBJCQkAQgkAjKnpAUGgkLCIpCAADACyACypAMwAYgCqAwASAwAKAHIDwwDsqT0AogBsS4PrVD3DlakArAAcAGoHABpnqasAkv1XANIAnFfTAIqp8wkAMh-3d1TzM4AJg+SUOqUek0WVEeAC1lqkEtdUgBxGoo1LXY4gqjXADq-xA9wSOJAXxRABU4gAlH5UV5AgBSqVe1Oe9OG4KowzOWxAxwAwqTYTUAMogSjgCD5Zz0ACeHGG4qoWAgBkkSTE9BQQI6QPmlisIEItFwEQQTRAMAg9BwuhAACtFLQkFRcIxAopxDZdDA0JITZYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Chalk seen from above"
+        },
+        "front": {
+          "src": "panamera_official_assets/images/3H-chalk/front.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XjHrRcIKhAAO+IsxAA3NPTgZJyEK1qEA1rlkgAvsaq0oSuOKh0omluy0B5NITjFpcglGKpTVPyIABb4UEioIGwcACIAggCaUiCy8r7MASAy4qwArmAOUU4gCXFxAEJxAIzJqT5+oJCwiKQgAAwAsgAsyQDMAGIAqn0AEn0ACgByfYMA7MldAKIAbAv9q1Rdg+XJAKwAHABqewAaJ8nLAJK9FwDSAJwXkwCKybNxADJvtzdUsycAJjeCX2yXu43mVHuAC1Fsk4pdkgBxKpI5KXQ5AqiXADqvxAtziWJAHyRABUYgAlL5UZ4AgBSyWelMetMGoKogxOGxAhwAwsToVUAMogSjgCC5ez0ACeHEGoqoWAgOn4CVoqhQALaANmpjMIEItFwYQQDRAMAg9BwmhAACsZLQkFRcIxfDJVBZNDA0PwjaYgA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Chalk showing the front of the car"
+        },
+        "rear": {
+          "src": "panamera_official_assets/images/3H-chalk/rear.jpg",
+          "source": "https://prs.porsche.com/iod/image/US/YAABA1/1/N4Igxg9gdgZglgcxALlAQynAtmgLnaAZxQG0BdAGnDSwFMAnNFUOAExRFoA9cBaAGwgB3XvVpp6IKhAAO+IsxAA3CXAy4OrWoQDWuWSAC+hqrShK49aHSgbUINhwDyaQnGLS5BKMVTGq-IgAFvhQSPaOyCAAIgCCAJpSILLyPsz+IDJWrACuYHYs7FHxsbEAQrEAjEkp3r6gkLCIpCAADACyACxJAMwAYgCqvQASvQAKAHK9AwDsSZ0AogBs830rVJ0DZUkArAAcAGq7ABrHSUsAkj3nANIAnOcTAIpJM7EAMq8311QzxwBMr3ieySdzGcyodwAWgskrELkkAOKVRFJC4HQFUC4AdR+IBusUxIHeiIAKtEAEqfKhPf4AKSSTwpDxpAxBVAGx3WIAOAGEiVDKgBlECUcAQHK2egATw4AxFVCwEC0-Hi4kkyH+rX+M2MJhAhFouFCCHqIBgEHoODsIAAVjJaEgqLhGD4ZBIzHYYGh+IbjEA?clientId=icc",
+          "alt": "Exterior view of Panamera 4 in Chalk showing the rear of the car"
+        }
+      }
+    }
+  ]
+}

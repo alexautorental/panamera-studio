@@ -1,0 +1,3036 @@
+{
+ "model": "Panamera 4",
+ "modelCode": "YAABA1",
+ "modelYear": "2027",
+ "views": [
+  {
+   "id": "front-left",
+   "label": "Передний 3/4",
+   "expected_alt": "Exterior view of Panamera 4 showing the front and left side of the car"
+  },
+  {
+   "id": "side",
+   "label": "Бок",
+   "expected_alt": "Exterior view of Panamera 4 showing the left side of the car"
+  },
+  {
+   "id": "rear-left",
+   "label": "Задний 3/4",
+   "expected_alt": "Exterior view of Panamera 4 showing the back and left side of the car"
+  },
+  {
+   "id": "top",
+   "label": "Сверху",
+   "expected_alt": "Exterior view of Panamera 4 seen from above"
+  },
+  {
+   "id": "front",
+   "label": "Спереди",
+   "expected_alt": "Exterior view of Panamera 4 showing the front of the car"
+  },
+  {
+   "id": "rear",
+   "label": "Сзади",
+   "expected_alt": "Exterior view of Panamera 4 showing the rear of the car"
+  }
+ ],
+ "colors": [
+  {
+   "id": "0Q",
+   "code": "0Q",
+   "name": "White",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#f1f1ed",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/0Q-white.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=0Q.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/0Q-white/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in White showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/0Q-white/side.jpg",
+     "alt": "Exterior view of Panamera 4 in White showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/0Q-white/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in White showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/0Q-white/top.jpg",
+     "alt": "Exterior view of Panamera 4 in White seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/0Q-white/front.jpg",
+     "alt": "Exterior view of Panamera 4 in White showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/0Q-white/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in White showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "A1",
+   "code": "A1",
+   "name": "Black",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#111112",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/A1-black.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=A1.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/A1-black/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Black showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/A1-black/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Black showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/A1-black/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Black showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/A1-black/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Black seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/A1-black/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Black showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/A1-black/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Black showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "2T",
+   "code": "2T",
+   "name": "Jet Black Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#15171b",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/2T-jet-black-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2T.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/2T-jet-black-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/2T-jet-black-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/2T-jet-black-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/2T-jet-black-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Jet Black Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/2T-jet-black-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/2T-jet-black-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Jet Black Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "G7",
+   "code": "G7",
+   "name": "Ice Grey Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#d3d9dc",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/G7-ice-grey-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=G7.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/G7-ice-grey-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/G7-ice-grey-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/G7-ice-grey-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/G7-ice-grey-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Ice Grey Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/G7-ice-grey-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/G7-ice-grey-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Ice Grey Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "2Y",
+   "code": "2Y",
+   "name": "Carrara White Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#d8dde0",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/2Y-carrara-white-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2Y.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/2Y-carrara-white-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/2Y-carrara-white-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/2Y-carrara-white-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/2Y-carrara-white-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Carrara White Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/2Y-carrara-white-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/2Y-carrara-white-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Carrara White Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "2H",
+   "code": "2H",
+   "name": "Volcano Grey Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#3f4244",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/2H-volcano-grey-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2H.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/2H-volcano-grey-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/2H-volcano-grey-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/2H-volcano-grey-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/2H-volcano-grey-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/2H-volcano-grey-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/2H-volcano-grey-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Volcano Grey Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "F0",
+   "code": "F0",
+   "name": "Dolomite Silver Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#c3c8ca",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/F0-dolomite-silver-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=F0.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/F0-dolomite-silver-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Dolomite Silver Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "1A",
+   "code": "1A",
+   "name": "Gentian Blue Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#182a4f",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/1A-gentian-blue-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=1A.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/1A-gentian-blue-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/1A-gentian-blue-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/1A-gentian-blue-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/1A-gentian-blue-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/1A-gentian-blue-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/1A-gentian-blue-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Gentian Blue Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "0L",
+   "code": "0L",
+   "name": "Carmine Red",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#aa0f16",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/0L-carmine-red.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=0L.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/0L-carmine-red/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Carmine Red showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/0L-carmine-red/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Carmine Red showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/0L-carmine-red/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Carmine Red showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/0L-carmine-red/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Carmine Red seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/0L-carmine-red/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Carmine Red showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/0L-carmine-red/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Carmine Red showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "6M",
+   "code": "6M",
+   "name": "Provence",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#9b8fb1",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/6M-provence.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=6M.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/6M-provence/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Provence showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/6M-provence/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Provence showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/6M-provence/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Provence showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/6M-provence/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Provence seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/6M-provence/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Provence showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/6M-provence/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Provence showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "0W",
+   "code": "0W",
+   "name": "Madeira Gold Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#9a7b55",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/0W-madeira-gold-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=0W.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/0W-madeira-gold-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/0W-madeira-gold-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/0W-madeira-gold-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/0W-madeira-gold-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/0W-madeira-gold-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/0W-madeira-gold-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Madeira Gold Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "O1",
+   "code": "O1",
+   "name": "Lugano Blue",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#005f90",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/O1-lugano-blue.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=O1.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/O1-lugano-blue/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Lugano Blue showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/O1-lugano-blue/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Lugano Blue showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/O1-lugano-blue/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Lugano Blue showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/O1-lugano-blue/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Lugano Blue seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/O1-lugano-blue/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Lugano Blue showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/O1-lugano-blue/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Lugano Blue showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "N4",
+   "code": "N4",
+   "name": "Oak Green Metallic Neo",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#344236",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/N4-oak-green-metallic-neo.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=N4.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/N4-oak-green-metallic-neo/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Oak Green Metallic Neo showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "U4",
+   "code": "U4",
+   "name": "Aventurine Green Metallic",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#596a5d",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/U4-aventurine-green-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=U4.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/U4-aventurine-green-metallic/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/U4-aventurine-green-metallic/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/U4-aventurine-green-metallic/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/U4-aventurine-green-metallic/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/U4-aventurine-green-metallic/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/U4-aventurine-green-metallic/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Aventurine Green Metallic showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "2M",
+   "code": "2M",
+   "name": "Slate Grey Neo",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#62676b",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/2M-slate-grey-neo.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=2M.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/2M-slate-grey-neo/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/2M-slate-grey-neo/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/2M-slate-grey-neo/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/2M-slate-grey-neo/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Slate Grey Neo seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/2M-slate-grey-neo/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/2M-slate-grey-neo/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Slate Grey Neo showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "3H",
+   "code": "3H",
+   "name": "Chalk",
+   "category": "Factory exact",
+   "kind": "factory",
+   "hex": "#777777",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/3H-chalk.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1?options=3H.AI.Z1S",
+   "images": {
+    "front-left": {
+     "src": "panamera_official_assets/images/3H-chalk/front-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Chalk showing the front and left side of the car"
+    },
+    "side": {
+     "src": "panamera_official_assets/images/3H-chalk/side.jpg",
+     "alt": "Exterior view of Panamera 4 in Chalk showing the left side of the car"
+    },
+    "rear-left": {
+     "src": "panamera_official_assets/images/3H-chalk/rear-left.jpg",
+     "alt": "Exterior view of Panamera 4 in Chalk showing the back and left side of the car"
+    },
+    "top": {
+     "src": "panamera_official_assets/images/3H-chalk/top.jpg",
+     "alt": "Exterior view of Panamera 4 in Chalk seen from above"
+    },
+    "front": {
+     "src": "panamera_official_assets/images/3H-chalk/front.jpg",
+     "alt": "Exterior view of Panamera 4 in Chalk showing the front of the car"
+    },
+    "rear": {
+     "src": "panamera_official_assets/images/3H-chalk/rear.jpg",
+     "alt": "Exterior view of Panamera 4 in Chalk showing the rear of the car"
+    }
+   }
+  },
+  {
+   "id": "pts-yachting-blue-metallic",
+   "code": "LSE_M5S_LACK_YACHTINGBLAUMETALLIC",
+   "name": "Yachting Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#464f62",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-yachting-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-yachting-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Yachting Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-yachting-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Yachting Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-yachting-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Yachting Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-yachting-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Yachting Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-yachting-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Yachting Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-yachting-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Yachting Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-fountain-blue-metallic",
+   "code": "LSE_5FK_LACK_FOUNTAINBLUEMETALLIC",
+   "name": "Fountain Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#a5b3c3",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-fountain-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fountain-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Fountain Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fountain-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Fountain Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fountain-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Fountain Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fountain-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Fountain Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fountain-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Fountain Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fountain-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Fountain Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-gulf-blue",
+   "code": "LSE_328_LACK_HELLBLAU-MODERNE-AUSFUEHRUNG",
+   "name": "Gulf Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#84aec8",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-gulf-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-miami-blue",
+   "code": "LSE_M5C_LACK_MIAMIBLAU",
+   "name": "Miami Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#0d7a97",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-miami-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-miami-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Miami Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-miami-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Miami Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-miami-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Miami Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-miami-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Miami Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-miami-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Miami Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-miami-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Miami Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-riviera-blue",
+   "code": "LSE_39E_LACK_RIVIERABLAU",
+   "name": "Riviera Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#0d81c0",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-riviera-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-riviera-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Riviera Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-riviera-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Riviera Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-riviera-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Riviera Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-riviera-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Riviera Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-riviera-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Riviera Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-riviera-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Riviera Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-mexico-blue",
+   "code": "LSE_336_LACK_MEXICOBLAU",
+   "name": "Mexico Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#0d73ac",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-mexico-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mexico-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Mexico Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mexico-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Mexico Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mexico-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Mexico Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mexico-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Mexico Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mexico-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Mexico Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mexico-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Mexico Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-voodoo-blue",
+   "code": "LSE_Z12_LACK_VOODOOBLUE_5VL",
+   "name": "Voodoo Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#0c519d",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-voodoo-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-voodoo-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Voodoo Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-voodoo-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Voodoo Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-voodoo-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Voodoo Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-voodoo-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Voodoo Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-voodoo-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Voodoo Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-voodoo-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Voodoo Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-maritime-blue",
+   "code": "LSE_38B_LACK_MARITIMBLAU_5MB",
+   "name": "Maritime Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#304289",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-maritime-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-maritime-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Maritime Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-maritime-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Maritime Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-maritime-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Maritime Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-maritime-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Maritime Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-maritime-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Maritime Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-maritime-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Maritime Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-aetna-blue",
+   "code": "LSE_Y31_LACK_AETNABLUE",
+   "name": "Aetna Blue",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#475d6e",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-aetna-blue.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-aetna-blue/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Aetna Blue — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-aetna-blue/side.jpg",
+     "alt": "Preview render of Panamera 4 in Aetna Blue — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-aetna-blue/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Aetna Blue — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-aetna-blue/top.jpg",
+     "alt": "Preview render of Panamera 4 in Aetna Blue — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-aetna-blue/front.jpg",
+     "alt": "Preview render of Panamera 4 in Aetna Blue — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-aetna-blue/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Aetna Blue — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-944-cobalt-blue-metallic",
+   "code": "LSE_3C8_LACK_COBALTBLAUMETALLIC",
+   "name": "944 Cobalt Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#364e84",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-944-cobalt-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-944-cobalt-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in 944 Cobalt Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-944-cobalt-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in 944 Cobalt Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-944-cobalt-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in 944 Cobalt Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-944-cobalt-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in 944 Cobalt Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-944-cobalt-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in 944 Cobalt Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-944-cobalt-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in 944 Cobalt Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-gulf-orange",
+   "code": "LSE_2G0_LACK_GULFORANGE",
+   "name": "Gulf Orange",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#de531e",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-gulf-orange.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-orange/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Orange — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-orange/side.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Orange — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-orange/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Orange — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-orange/top.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Orange — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-orange/front.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Orange — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gulf-orange/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Gulf Orange — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-viper-green",
+   "code": "LSE_225_LACK_VIPERGRUEN",
+   "name": "Viper Green",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#0c8336",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-viper-green.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viper-green/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Viper Green — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viper-green/side.jpg",
+     "alt": "Preview render of Panamera 4 in Viper Green — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viper-green/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Viper Green — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viper-green/top.jpg",
+     "alt": "Preview render of Panamera 4 in Viper Green — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viper-green/front.jpg",
+     "alt": "Preview render of Panamera 4 in Viper Green — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viper-green/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Viper Green — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-brewster-green",
+   "code": "LSE_22B_LACK_BREWSTERGREEN",
+   "name": "Brewster Green",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1b241f",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-brewster-green.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-brewster-green/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Brewster Green — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-brewster-green/side.jpg",
+     "alt": "Preview render of Panamera 4 in Brewster Green — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-brewster-green/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Brewster Green — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-brewster-green/top.jpg",
+     "alt": "Preview render of Panamera 4 in Brewster Green — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-brewster-green/front.jpg",
+     "alt": "Preview render of Panamera 4 in Brewster Green — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-brewster-green/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Brewster Green — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-british-racing-green",
+   "code": "LSE_21D_LACK_BRITISH_RACINGGREEN_GB0",
+   "name": "British Racing Green",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1c3426",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-british-racing-green.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-british-racing-green/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in British Racing Green — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-british-racing-green/side.jpg",
+     "alt": "Preview render of Panamera 4 in British Racing Green — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-british-racing-green/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in British Racing Green — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-british-racing-green/top.jpg",
+     "alt": "Preview render of Panamera 4 in British Racing Green — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-british-racing-green/front.jpg",
+     "alt": "Preview render of Panamera 4 in British Racing Green — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-british-racing-green/rear.jpg",
+     "alt": "Preview render of Panamera 4 in British Racing Green — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-speed-yellow",
+   "code": "LSE_12H_LACK_SPEEDGELB",
+   "name": "Speed Yellow",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#e4a80e",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-speed-yellow.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-speed-yellow/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Speed Yellow — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-speed-yellow/side.jpg",
+     "alt": "Preview render of Panamera 4 in Speed Yellow — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-speed-yellow/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Speed Yellow — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-speed-yellow/top.jpg",
+     "alt": "Preview render of Panamera 4 in Speed Yellow — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-speed-yellow/front.jpg",
+     "alt": "Preview render of Panamera 4 in Speed Yellow — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-speed-yellow/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Speed Yellow — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-lava-orange",
+   "code": "LSE_M2A_LACK_LAVAORANGE",
+   "name": "Lava Orange",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#c52c15",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-lava-orange.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lava-orange/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Lava Orange — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lava-orange/side.jpg",
+     "alt": "Preview render of Panamera 4 in Lava Orange — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lava-orange/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Lava Orange — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lava-orange/top.jpg",
+     "alt": "Preview render of Panamera 4 in Lava Orange — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lava-orange/front.jpg",
+     "alt": "Preview render of Panamera 4 in Lava Orange — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lava-orange/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Lava Orange — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-guards-red-indischrot",
+   "code": "LSE_84A_LACK_INDISCHROT",
+   "name": "Guards Red / Indischrot",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#ae0d1b",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-guards-red-indischrot.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-guards-red-indischrot/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Guards Red / Indischrot — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-guards-red-indischrot/side.jpg",
+     "alt": "Preview render of Panamera 4 in Guards Red / Indischrot — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-guards-red-indischrot/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Guards Red / Indischrot — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-guards-red-indischrot/top.jpg",
+     "alt": "Preview render of Panamera 4 in Guards Red / Indischrot — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-guards-red-indischrot/front.jpg",
+     "alt": "Preview render of Panamera 4 in Guards Red / Indischrot — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-guards-red-indischrot/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Guards Red / Indischrot — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-viola-metallic",
+   "code": "LSE_3AE_LACK_VIOLAMETALLIC_4VN",
+   "name": "Viola Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#261e34",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-viola-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viola-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Viola Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viola-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Viola Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viola-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Viola Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viola-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Viola Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viola-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Viola Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-viola-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Viola Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-ultraviolet",
+   "code": "LSE_M4A_LACK_ULTRAVIOLETT_UNI",
+   "name": "Ultraviolet",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#322749",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-ultraviolet.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-ultraviolet/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Ultraviolet — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-ultraviolet/side.jpg",
+     "alt": "Preview render of Panamera 4 in Ultraviolet — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-ultraviolet/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Ultraviolet — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-ultraviolet/top.jpg",
+     "alt": "Preview render of Panamera 4 in Ultraviolet — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-ultraviolet/front.jpg",
+     "alt": "Preview render of Panamera 4 in Ultraviolet — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-ultraviolet/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Ultraviolet — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-gt-silver-metallic",
+   "code": "LSE_M7Z_LACK_GT-SILBERMETALLIC",
+   "name": "GT Silver Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#bfbfc1",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/pts-gt-silver-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gt-silver-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in GT Silver Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gt-silver-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in GT Silver Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gt-silver-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in GT Silver Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gt-silver-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in GT Silver Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gt-silver-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in GT Silver Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-gt-silver-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in GT Silver Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-absolutred",
+   "code": "LSE_Y3F_LACK_ABSOLUTROT",
+   "name": "Absolutred",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#c30d10",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-absolutred.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-absolutred/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Absolutred — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-absolutred/side.jpg",
+     "alt": "Preview render of Panamera 4 in Absolutred — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-absolutred/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Absolutred — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-absolutred/top.jpg",
+     "alt": "Preview render of Panamera 4 in Absolutred — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-absolutred/front.jpg",
+     "alt": "Preview render of Panamera 4 in Absolutred — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-absolutred/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Absolutred — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-agate-grey-metallic",
+   "code": "LSE_M7S_LACK_ACHATGRAUMETALLIC",
+   "name": "Agate Grey Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#585856",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-agate-grey-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-agate-grey-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Agate Grey Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-agate-grey-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Agate Grey Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-agate-grey-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Agate Grey Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-agate-grey-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Agate Grey Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-agate-grey-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Agate Grey Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-agate-grey-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Agate Grey Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-amethyst-metallic",
+   "code": "LSE_M4Z_LACK_AMETHYSTMETALLIC",
+   "name": "Amethyst Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#362133",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-amethyst-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-amethyst-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Amethyst Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-amethyst-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Amethyst Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-amethyst-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Amethyst Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-amethyst-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Amethyst Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-amethyst-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Amethyst Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-amethyst-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Amethyst Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-anthrazitbrown-metallic",
+   "code": "LSE_M8S_LACK_ANTHRAZITBRAUNMETALLIC",
+   "name": "Anthrazitbrown Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#504a48",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-anthrazitbrown-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-anthrazitbrown-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Anthrazitbrown Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-anthrazitbrown-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Anthrazitbrown Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-anthrazitbrown-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Anthrazitbrown Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-anthrazitbrown-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Anthrazitbrown Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-anthrazitbrown-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Anthrazitbrown Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-anthrazitbrown-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Anthrazitbrown Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-arenared-metallic",
+   "code": "LSE_84S_LACK_ARENAROT",
+   "name": "Arenared Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#61172c",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-arenared-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-arenared-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Arenared Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-arenared-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Arenared Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-arenared-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Arenared Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-arenared-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Arenared Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-arenared-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Arenared Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-arenared-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Arenared Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-auratiumgreen",
+   "code": "LSE_210_LACK_AURATIUMGRUEN_6AU",
+   "name": "Auratiumgreen",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#45644a",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-auratiumgreen.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-auratiumgreen/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Auratiumgreen — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-auratiumgreen/side.jpg",
+     "alt": "Preview render of Panamera 4 in Auratiumgreen — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-auratiumgreen/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Auratiumgreen — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-auratiumgreen/top.jpg",
+     "alt": "Preview render of Panamera 4 in Auratiumgreen — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-auratiumgreen/front.jpg",
+     "alt": "Preview render of Panamera 4 in Auratiumgreen — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-auratiumgreen/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Auratiumgreen — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-barnato-green",
+   "code": "LSE_K6A_LACK_BARNATOGREEN",
+   "name": "Barnato Green",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#192624",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-barnato-green.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-barnato-green/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Barnato Green — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-barnato-green/side.jpg",
+     "alt": "Preview render of Panamera 4 in Barnato Green — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-barnato-green/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Barnato Green — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-barnato-green/top.jpg",
+     "alt": "Preview render of Panamera 4 in Barnato Green — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-barnato-green/front.jpg",
+     "alt": "Preview render of Panamera 4 in Barnato Green — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-barnato-green/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Barnato Green — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-basaltblack-metallic",
+   "code": "LSE_C9Z_LACK_BASALTSCHWARZMETALLIC",
+   "name": "Basaltblack Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1f1e26",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-basaltblack-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-basaltblack-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Basaltblack Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-basaltblack-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Basaltblack Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-basaltblack-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Basaltblack Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-basaltblack-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Basaltblack Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-basaltblack-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Basaltblack Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-basaltblack-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Basaltblack Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-carbon-grey-metallic",
+   "code": "LSE_M9Z_LACK_CARBONGRAUMETALLIC",
+   "name": "Carbon Grey Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#3a3838",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-carbon-grey-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-carbon-grey-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Carbon Grey Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-carbon-grey-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Carbon Grey Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-carbon-grey-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Carbon Grey Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-carbon-grey-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Carbon Grey Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-carbon-grey-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Carbon Grey Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-carbon-grey-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Carbon Grey Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-dunkel-blue-metallic",
+   "code": "LSE_M5X_LACK_DUNKELBLAUMETALLIC",
+   "name": "Dunkel Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#202b3e",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-dunkel-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-dunkel-olive-metallic",
+   "code": "LSE_M6X_LACK_DUNKELOLIVEMETALLIC",
+   "name": "Dunkel Olive Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1c1c16",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-dunkel-olive-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-olive-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Olive Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-olive-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Olive Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-olive-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Olive Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-olive-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Olive Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-olive-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Olive Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-dunkel-olive-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Dunkel Olive Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-emerald-green-metallic",
+   "code": "LSE_2G6_LACK_SMARAGDGRÜNMETALLIC",
+   "name": "Emerald Green Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1a5749",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-emerald-green-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-emerald-green-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Emerald Green Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-emerald-green-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Emerald Green Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-emerald-green-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Emerald Green Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-emerald-green-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Emerald Green Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-emerald-green-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Emerald Green Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-emerald-green-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Emerald Green Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-fjordgreen",
+   "code": "LSE_R705_LACK_FJORDGREEN",
+   "name": "Fjordgreen",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#0d2e35",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-fjordgreen.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fjordgreen/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Fjordgreen — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fjordgreen/side.jpg",
+     "alt": "Preview render of Panamera 4 in Fjordgreen — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fjordgreen/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Fjordgreen — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fjordgreen/top.jpg",
+     "alt": "Preview render of Panamera 4 in Fjordgreen — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fjordgreen/front.jpg",
+     "alt": "Preview render of Panamera 4 in Fjordgreen — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-fjordgreen/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Fjordgreen — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-goldbronze-metallic",
+   "code": "LSE_Z52_LACK_GOLDBRONCEMETALLIC",
+   "name": "Goldbronze Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#b2a188",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-goldbronze-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-goldbronze-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Goldbronze Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-goldbronze-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Goldbronze Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-goldbronze-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Goldbronze Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-goldbronze-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Goldbronze Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-goldbronze-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Goldbronze Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-goldbronze-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Goldbronze Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-graphite-blue-metallic",
+   "code": "LSE_M5G_LACK_GRAPHITBLAUMETALLIC",
+   "name": "Graphite Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#434b53",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-graphite-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-graphite-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Graphite Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-graphite-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Graphite Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-graphite-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Graphite Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-graphite-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Graphite Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-graphite-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Graphite Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-graphite-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Graphite Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-grey-black",
+   "code": "LSE_7GS_LACK_GRAUSCHWARZ",
+   "name": "Grey Black",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#353537",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-grey-black.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grey-black/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Grey Black — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grey-black/side.jpg",
+     "alt": "Preview render of Panamera 4 in Grey Black — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grey-black/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Grey Black — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grey-black/top.jpg",
+     "alt": "Preview render of Panamera 4 in Grey Black — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grey-black/front.jpg",
+     "alt": "Preview render of Panamera 4 in Grey Black — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grey-black/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Grey Black — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-grigio-campovolo",
+   "code": "LSE_Y99_LACK_GRIGIOCAMPOVOLO",
+   "name": "Grigio Campovolo",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#9ba0a0",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-grigio-campovolo.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-campovolo/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Campovolo — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-campovolo/side.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Campovolo — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-campovolo/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Campovolo — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-campovolo/top.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Campovolo — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-campovolo/front.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Campovolo — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-campovolo/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Campovolo — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-grigio-telesto-metallic",
+   "code": "LSE_Z69_LACK_GRIGIOTELESTOMETALLIC_7GG",
+   "name": "Grigio Telesto Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#45484c",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-grigio-telesto-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-telesto-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Telesto Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-telesto-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Telesto Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-telesto-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Telesto Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-telesto-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Telesto Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-telesto-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Telesto Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-grigio-telesto-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Grigio Telesto Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-hell-oxford-grey",
+   "code": "LSE_Y62_LACK_HELLOXFORDGRAU",
+   "name": "Hell Oxford Grey",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#acafaf",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-hell-oxford-grey.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-hell-oxford-grey/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Hell Oxford Grey — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-hell-oxford-grey/side.jpg",
+     "alt": "Preview render of Panamera 4 in Hell Oxford Grey — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-hell-oxford-grey/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Hell Oxford Grey — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-hell-oxford-grey/top.jpg",
+     "alt": "Preview render of Panamera 4 in Hell Oxford Grey — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-hell-oxford-grey/front.jpg",
+     "alt": "Preview render of Panamera 4 in Hell Oxford Grey — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-hell-oxford-grey/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Hell Oxford Grey — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-irish-green",
+   "code": "LSE_Y79_LACK_IRISHGREEN",
+   "name": "Irish Green",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1b3a27",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-irish-green.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-irish-green/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Irish Green — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-irish-green/side.jpg",
+     "alt": "Preview render of Panamera 4 in Irish Green — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-irish-green/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Irish Green — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-irish-green/top.jpg",
+     "alt": "Preview render of Panamera 4 in Irish Green — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-irish-green/front.jpg",
+     "alt": "Preview render of Panamera 4 in Irish Green — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-irish-green/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Irish Green — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-jet-green-metallic",
+   "code": "LSE_Z6H_LACK_JETGRUENMETALLIC",
+   "name": "Jet Green Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#183a34",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-jet-green-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-jet-green-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Jet Green Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-jet-green-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Jet Green Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-jet-green-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Jet Green Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-jet-green-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Jet Green Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-jet-green-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Jet Green Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-jet-green-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Jet Green Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-lago-green-metallic",
+   "code": "LSE_M6W_LACK_LAGOGRUENMETALLIC",
+   "name": "Lago Green Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#293d44",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-lago-green-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lago-green-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Lago Green Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lago-green-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Lago Green Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lago-green-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Lago Green Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lago-green-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Lago Green Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lago-green-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Lago Green Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-lago-green-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Lago Green Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-macadamia-metallic",
+   "code": "LSE_M8W_LACK_MACADAMIAMETALLIC",
+   "name": "Macadamia Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#443731",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-macadamia-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-macadamia-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Macadamia Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-macadamia-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Macadamia Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-macadamia-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Macadamia Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-macadamia-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Macadamia Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-macadamia-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Macadamia Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-macadamia-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Macadamia Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-mahagoni-metallic",
+   "code": "LSE_M8Y_LACK_MAHAGONIMETALLIC",
+   "name": "Mahagoni Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#2f2022",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-mahagoni-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mahagoni-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Mahagoni Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mahagoni-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Mahagoni Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mahagoni-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Mahagoni Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mahagoni-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Mahagoni Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mahagoni-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Mahagoni Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mahagoni-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Mahagoni Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-malachite-green-metallic",
+   "code": "LSE_2B5_LACK_MALACHITGRÜNMETALLIC",
+   "name": "Malachite Green Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#596863",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-malachite-green-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-malachite-green-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Malachite Green Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-malachite-green-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Malachite Green Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-malachite-green-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Malachite Green Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-malachite-green-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Malachite Green Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-malachite-green-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Malachite Green Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-malachite-green-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Malachite Green Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-meteor-grey-metallic",
+   "code": "LSE_M7W_LACK_METEORGRAUMETALLIC",
+   "name": "Meteor Grey Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#757576",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-meteor-grey-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-meteor-grey-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Meteor Grey Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-meteor-grey-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Meteor Grey Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-meteor-grey-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Meteor Grey Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-meteor-grey-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Meteor Grey Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-meteor-grey-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Meteor Grey Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-meteor-grey-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Meteor Grey Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-mode-grey",
+   "code": "LSE_61H_LACK_MODEGRAU_7MG",
+   "name": "Mode Grey",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#8a8b88",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-mode-grey.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mode-grey/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Mode Grey — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mode-grey/side.jpg",
+     "alt": "Preview render of Panamera 4 in Mode Grey — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mode-grey/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Mode Grey — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mode-grey/top.jpg",
+     "alt": "Preview render of Panamera 4 in Mode Grey — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mode-grey/front.jpg",
+     "alt": "Preview render of Panamera 4 in Mode Grey — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-mode-grey/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Mode Grey — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-monsun-grey-metallic",
+   "code": "LSE_X7R_LACK_MONSUNGRAUMETALLIC",
+   "name": "Monsun Grey Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#666b6e",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-monsun-grey-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-monsun-grey-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Monsun Grey Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-monsun-grey-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Monsun Grey Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-monsun-grey-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Monsun Grey Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-monsun-grey-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Monsun Grey Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-monsun-grey-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Monsun Grey Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-monsun-grey-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Monsun Grey Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-moonlight-blue-metallic",
+   "code": "LSE_C5M_LACK_MOONLIGHTBLUEMETALLIC",
+   "name": "Moonlight Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#131c2a",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-moonlight-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-moonlight-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Moonlight Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-moonlight-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Moonlight Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-moonlight-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Moonlight Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-moonlight-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Moonlight Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-moonlight-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Moonlight Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-moonlight-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Moonlight Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-nardo-grey",
+   "code": "LSE_Y7C_LACK_NARDOGRAU",
+   "name": "Nardo Grey",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#606263",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-nardo-grey.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-nardo-grey/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Nardo Grey — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-nardo-grey/side.jpg",
+     "alt": "Preview render of Panamera 4 in Nardo Grey — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-nardo-grey/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Nardo Grey — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-nardo-grey/top.jpg",
+     "alt": "Preview render of Panamera 4 in Nardo Grey — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-nardo-grey/front.jpg",
+     "alt": "Preview render of Panamera 4 in Nardo Grey — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-nardo-grey/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Nardo Grey — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-oak-green-metallic",
+   "code": "LSE_22L_LACK_OAKGRUEN_60K",
+   "name": "Oak Green Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#3e473c",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-oak-green-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-oak-green-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Oak Green Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-oak-green-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Oak Green Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-oak-green-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Oak Green Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-oak-green-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Oak Green Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-oak-green-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Oak Green Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-oak-green-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Oak Green Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-olive-green",
+   "code": "LSE_274_LACK_OLIVEGRUEN_60G",
+   "name": "Olive Green",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#53653a",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-olive-green.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-olive-green/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Olive Green — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-olive-green/side.jpg",
+     "alt": "Preview render of Panamera 4 in Olive Green — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-olive-green/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Olive Green — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-olive-green/top.jpg",
+     "alt": "Preview render of Panamera 4 in Olive Green — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-olive-green/front.jpg",
+     "alt": "Preview render of Panamera 4 in Olive Green — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-olive-green/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Olive Green — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-parliament-grey-metallic",
+   "code": "LSE_W65_LACK_WESTMINSTERGREY",
+   "name": "Parliament Grey Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#67676e",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-parliament-grey-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-parliament-grey-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Parliament Grey Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-parliament-grey-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Parliament Grey Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-parliament-grey-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Parliament Grey Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-parliament-grey-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Parliament Grey Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-parliament-grey-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Parliament Grey Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-parliament-grey-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Parliament Grey Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-porsche-racing-green-metallic",
+   "code": "LSE_22G_LACK_RACINGGREENMETALLIC",
+   "name": "Porsche Racing Green Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#223c38",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-porsche-racing-green-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-porsche-racing-green-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Porsche Racing Green Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-porsche-racing-green-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Porsche Racing Green Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-porsche-racing-green-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Porsche Racing Green Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-porsche-racing-green-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Porsche Racing Green Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-porsche-racing-green-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Porsche Racing Green Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-porsche-racing-green-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Porsche Racing Green Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-pure-white",
+   "code": "LSE_C9A_LACK_PUREWHITE",
+   "name": "Pure White",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#dee3df",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-pure-white.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-pure-white/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Pure White — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-pure-white/side.jpg",
+     "alt": "Preview render of Panamera 4 in Pure White — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-pure-white/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Pure White — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-pure-white/top.jpg",
+     "alt": "Preview render of Panamera 4 in Pure White — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-pure-white/front.jpg",
+     "alt": "Preview render of Panamera 4 in Pure White — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-pure-white/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Pure White — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-purpurit-metallic",
+   "code": "LSE_M4W_LACK_PUPURITMETALLIC",
+   "name": "Purpurit Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#322e44",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-purpurit-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-purpurit-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Purpurit Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-purpurit-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Purpurit Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-purpurit-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Purpurit Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-purpurit-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Purpurit Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-purpurit-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Purpurit Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-purpurit-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Purpurit Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-racingred",
+   "code": "LSE_Y81_LACK_ROSSOCORSA",
+   "name": "Racingred",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#ac0d0d",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-racingred.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-racingred/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Racingred — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-racingred/side.jpg",
+     "alt": "Preview render of Panamera 4 in Racingred — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-racingred/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Racingred — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-racingred/top.jpg",
+     "alt": "Preview render of Panamera 4 in Racingred — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-racingred/front.jpg",
+     "alt": "Preview render of Panamera 4 in Racingred — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-racingred/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Racingred — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-sapphire-blue-metallic",
+   "code": "LSE_M5J_LACK_SAPHIRBLAUMETALLIC",
+   "name": "Sapphire Blue Metallic",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#1d5595",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-sapphire-blue-metallic.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-sapphire-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Sapphire Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-sapphire-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Sapphire Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-sapphire-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Sapphire Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-sapphire-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Sapphire Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-sapphire-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Sapphire Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-sapphire-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Sapphire Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-schiefer-grey-6601",
+   "code": "LSE_615_LACK_SCHIEFERGRAU",
+   "name": "Schiefer Grey 6601",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#333433",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-schiefer-grey-6601.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-6601/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 6601 — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-6601/side.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 6601 — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-6601/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 6601 — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-6601/top.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 6601 — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-6601/front.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 6601 — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-6601/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 6601 — Сзади"
+    }
+   }
+  },
+  {
+   "id": "pts-schiefer-grey-7015",
+   "code": "LSE_Y97_LACK_SCHIEFERGRAU_RAL7015",
+   "name": "Schiefer Grey 7015",
+   "category": "PTS render",
+   "kind": "pts",
+   "hex": "#4f5156",
+   "featured": false,
+   "swatch": "tuning-assets/swatches/pts-schiefer-grey-7015.jpg",
+   "porsche_url": "https://media.porsche.com/paint-to-sample/en/panamera",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-7015/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 7015 — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-7015/side.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 7015 — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-7015/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 7015 — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-7015/top.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 7015 — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-7015/front.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 7015 — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/pts-schiefer-grey-7015/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Schiefer Grey 7015 — Сзади"
+    }
+   }
+  },
+  {
+   "id": "popular-arctic-grey",
+   "code": "",
+   "name": "Arctic Grey",
+   "category": "Popular render",
+   "kind": "popular",
+   "hex": "#6c7377",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/popular-arctic-grey.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-arctic-grey/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Arctic Grey — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-arctic-grey/side.jpg",
+     "alt": "Preview render of Panamera 4 in Arctic Grey — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-arctic-grey/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Arctic Grey — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-arctic-grey/top.jpg",
+     "alt": "Preview render of Panamera 4 in Arctic Grey — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-arctic-grey/front.jpg",
+     "alt": "Preview render of Panamera 4 in Arctic Grey — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-arctic-grey/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Arctic Grey — Сзади"
+    }
+   }
+  },
+  {
+   "id": "popular-copper-ruby-metallic",
+   "code": "",
+   "name": "Copper Ruby Metallic",
+   "category": "Popular render",
+   "kind": "popular",
+   "hex": "#71352e",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/popular-copper-ruby-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-copper-ruby-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Copper Ruby Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-copper-ruby-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Copper Ruby Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-copper-ruby-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Copper Ruby Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-copper-ruby-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Copper Ruby Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-copper-ruby-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Copper Ruby Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-copper-ruby-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Copper Ruby Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "popular-crayon",
+   "code": "",
+   "name": "Crayon",
+   "category": "Popular render",
+   "kind": "popular",
+   "hex": "#b7b3aa",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/popular-crayon.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-crayon/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Crayon — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-crayon/side.jpg",
+     "alt": "Preview render of Panamera 4 in Crayon — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-crayon/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Crayon — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-crayon/top.jpg",
+     "alt": "Preview render of Panamera 4 in Crayon — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-crayon/front.jpg",
+     "alt": "Preview render of Panamera 4 in Crayon — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-crayon/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Crayon — Сзади"
+    }
+   }
+  },
+  {
+   "id": "popular-montego-blue-metallic",
+   "code": "",
+   "name": "Montego Blue Metallic",
+   "category": "Popular render",
+   "kind": "popular",
+   "hex": "#1b4775",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/popular-montego-blue-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-montego-blue-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Montego Blue Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-montego-blue-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Montego Blue Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-montego-blue-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Montego Blue Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-montego-blue-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Montego Blue Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-montego-blue-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Montego Blue Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-montego-blue-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Montego Blue Metallic — Сзади"
+    }
+   }
+  },
+  {
+   "id": "popular-vanadium-grey-metallic",
+   "code": "",
+   "name": "Vanadium Grey Metallic",
+   "category": "Popular render",
+   "kind": "popular",
+   "hex": "#4d5254",
+   "featured": true,
+   "swatch": "tuning-assets/swatches/popular-vanadium-grey-metallic.jpg",
+   "porsche_url": "https://configurator.porsche.com/en-US/mode/model/YAABA1",
+   "images": {
+    "front-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-vanadium-grey-metallic/front-left.jpg",
+     "alt": "Preview render of Panamera 4 in Vanadium Grey Metallic — Передний 3/4"
+    },
+    "side": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-vanadium-grey-metallic/side.jpg",
+     "alt": "Preview render of Panamera 4 in Vanadium Grey Metallic — Бок"
+    },
+    "rear-left": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-vanadium-grey-metallic/rear-left.jpg",
+     "alt": "Preview render of Panamera 4 in Vanadium Grey Metallic — Задний 3/4"
+    },
+    "top": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-vanadium-grey-metallic/top.jpg",
+     "alt": "Preview render of Panamera 4 in Vanadium Grey Metallic — Сверху"
+    },
+    "front": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-vanadium-grey-metallic/front.jpg",
+     "alt": "Preview render of Panamera 4 in Vanadium Grey Metallic — Спереди"
+    },
+    "rear": {
+     "src": "panamera_google_assistant_assets/generated-renders/popular-vanadium-grey-metallic/rear.jpg",
+     "alt": "Preview render of Panamera 4 in Vanadium Grey Metallic — Сзади"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Porsche Panamera — конфигуратор цвет + тюнинг</title>
+  <meta name="description" content="Интерактивный конфигуратор Porsche Panamera: цвет кузова, ракурс, диски, обвес, карбон, посадка, суппорты, салон, плёнка, тонировка, пресеты и смета. Открой на телефоне и собери свой билд.">
+  <meta name="theme-color" content="#101216">
+  <meta name="color-scheme" content="dark">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Panamera Studio">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Panamera Studio">
+  <meta property="og:title" content="Porsche Panamera — конфигуратор цвет + тюнинг">
+  <meta property="og:description" content="Цвет, диски, обвес, карбон, посадка, суппорты, салон, плёнка, тонировка, пресеты, смета. Собери и поделись ссылкой.">
+  <meta property="og:url" content="https://alexautorental.github.io/panamera-studio/">
+  <meta property="og:image" content="https://alexautorental.github.io/panamera-studio/panamera_official_assets/images/2H-volcano-grey-metallic/front-left.jpg">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%23111317'/%3E%3Ctext%20x='16'%20y='23'%20font-family='Arial,sans-serif'%20font-size='18'%20font-weight='700'%20fill='%23d7b65a'%20text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+  <style>
+    :root{
+      --bg:#0e1014; --bg2:#14171d; --panel:#171b22; --panel2:#1d222b; --line:#2a313c;
+      --ink:#eef1f5; --muted:#9aa3b0; --muted2:#6f7785; --accent:#d7b65a; --accent2:#3d7bd6;
+      --ok:#37b06a; --warn:#d98a2b; --bad:#d9544f; --concept:#a86fd6;
+      --radius:13px; --shadow:0 16px 40px rgba(0,0,0,.45);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;overflow-x:hidden;-webkit-text-size-adjust:100%}
+    button,input,select{font:inherit;color:inherit}
+    a{color:var(--accent2);text-decoration:none}
+    .app{min-height:100vh;display:flex;flex-direction:column}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;
+      border-bottom:1px solid var(--line);background:rgba(14,16,20,.86);backdrop-filter:blur(12px);position:sticky;top:0;z-index:20}
+    .brand{display:flex;flex-direction:column;gap:2px;min-width:0}
+    .brand h1{margin:0;font-size:clamp(15px,2.4vw,21px);font-weight:680;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .brand .sub{font-size:11px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+    .head-actions{display:flex;gap:8px;flex:0 0 auto}
+    .btn{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:9px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
+    .btn:active{transform:translateY(1px)}
+    .btn.primary{background:var(--accent);color:#1a1407;border-color:var(--accent);font-weight:650}
+    .btn.ghost{background:transparent}
+    main{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:18px;padding:18px;align-items:start;max-width:1500px;width:100%;margin:0 auto}
+    /* ---------- STAGE ---------- */
+    .stage{min-width:0;position:sticky;top:74px}
+    .viewer{position:relative;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#0a0c10;box-shadow:var(--shadow);touch-action:pan-y}
+    .viewer::before{content:"";display:block;aspect-ratio:16/9}
+    .layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+    #buildImg{transition:filter .35s ease, opacity .3s ease}
+    .scene-day{} .scene-night{} .scene-studio{}
+    .mood{position:absolute;inset:0;pointer-events:none;transition:opacity .35s;opacity:0}
+    .mood.night{background:radial-gradient(120% 90% at 50% 18%, rgba(40,70,130,.05), rgba(4,8,20,.62) 96%);opacity:0}
+    .mood.studio{background:radial-gradient(120% 120% at 50% 0%, rgba(255,255,255,.10), rgba(255,255,255,0) 55%);opacity:0}
+    .viewer.is-night .mood.night{opacity:1}
+    .viewer.is-studio .mood.studio{opacity:1}
+    .viewer.is-loading::after{content:"";position:absolute;top:50%;left:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border:3px solid rgba(255,255,255,.22);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    /* before/after */
+    .compare-wrap{position:absolute;inset:0;overflow:hidden;display:none}
+    .viewer.is-compare .compare-wrap{display:block}
+    .viewer.is-compare #buildImg{display:none}
+    .ba-after{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .ba-before{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;clip-path:inset(0 50% 0 0)}
+    .ba-divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--accent);box-shadow:0 0 0 1px rgba(0,0,0,.4);z-index:3}
+    .ba-handle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;background:var(--accent);color:#1a1407;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;z-index:4;cursor:ew-resize}
+    .ba-tag{position:absolute;top:10px;font-size:11px;background:rgba(0,0,0,.55);border:1px solid var(--line);padding:3px 8px;border-radius:20px;z-index:3}
+    .ba-tag.l{left:10px}.ba-tag.r{right:10px}
+    .viewer-tools{position:absolute;top:10px;right:10px;z-index:6;display:flex;gap:7px}
+    .vtool{width:38px;height:38px;border-radius:9px;border:1px solid rgba(255,255,255,.18);background:rgba(10,12,16,.6);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer;backdrop-filter:blur(8px)}
+    .vtool[aria-pressed="true"]{background:var(--accent);color:#1a1407;border-color:var(--accent)}
+    .badge-overlay{position:absolute;left:10px;bottom:10px;right:60px;z-index:5;display:flex;gap:6px;flex-wrap:wrap;max-height:42%;overflow:hidden}
+    .mod-chip{font-size:10.5px;line-height:1;padding:5px 8px;border-radius:20px;background:rgba(10,12,16,.66);border:1px solid var(--line);backdrop-filter:blur(8px);display:flex;align-items:center;gap:5px}
+    .mod-chip .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+    .caption{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:11px;flex-wrap:wrap}
+    .caption .title{font-weight:650}
+    .caption .meta{color:var(--muted);font-size:12px}
+    .nav-mini{display:flex;gap:7px;align-items:center}
+    .nav-mini button{border:1px solid var(--line);background:var(--panel2);border-radius:9px;padding:7px 11px;font-size:13px;cursor:pointer}
+    .filmstrip{display:flex;gap:8px;margin-top:11px;overflow-x:auto;padding-bottom:3px;scrollbar-width:thin}
+    .angle-thumb{flex:0 0 auto;width:92px;border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;background:#0a0c10;position:relative}
+    .angle-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+    .angle-thumb span{display:block;font-size:10px;text-align:center;padding:3px 2px;color:var(--muted)}
+    .angle-thumb[aria-pressed="true"]{border-color:var(--accent);outline:2px solid color-mix(in srgb,var(--accent),transparent 70%)}
+    /* ---------- CONTROLS ---------- */
+    .controls{display:flex;flex-direction:column;gap:14px;min-width:0}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:13px}
+    .card h2{margin:0 0 10px;font-size:13px;font-weight:680;letter-spacing:.3px;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;justify-content:space-between;gap:8px}
+    .card h2 .sec{font-size:10px;color:var(--muted2);font-weight:600}
+    .row{display:flex;gap:7px;flex-wrap:wrap}
+    .row.scroll{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+    .chip{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:8px 10px;font-size:12.5px;cursor:pointer;display:flex;align-items:center;gap:7px;white-space:nowrap;position:relative}
+    .chip:active{transform:translateY(1px)}
+    .chip[aria-pressed="true"]{border-color:var(--accent);background:#241f10;outline:1px solid color-mix(in srgb,var(--accent),transparent 60%)}
+    .chip.dim{opacity:.34}
+    .chip .sw{width:18px;height:18px;border-radius:5px;border:1px solid rgba(255,255,255,.2);flex:0 0 auto;background-size:cover;background-position:center}
+    .chip .bdg{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+    .chip .nm{min-width:0;overflow:hidden;text-overflow:ellipsis}
+    .chip .vmark{font-size:11px;color:var(--warn)}
+    .preset-chip{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel2),#161b22);border-radius:10px;padding:9px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap}
+    .preset-chip:active{transform:translateY(1px)}
+    .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+    .seg button{border:0;background:transparent;padding:7px 10px;font-size:12px;cursor:pointer;color:var(--muted)}
+    .seg button[aria-pressed="true"]{background:var(--accent);color:#1a1407;font-weight:650}
+    .search{width:100%;border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:9px 11px;margin-bottom:9px}
+    .color-strip{display:flex;gap:7px;overflow-x:auto;padding-bottom:5px;scrollbar-width:thin}
+    .cchip{flex:0 0 auto;width:34px;height:34px;border-radius:9px;border:1px solid rgba(255,255,255,.16);background-size:cover;background-position:center;cursor:pointer}
+    .cchip[aria-pressed="true"]{border-color:var(--accent);outline:2px solid color-mix(in srgb,var(--accent),transparent 64%)}
+    .filters-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}
+    .fbtn{border:1px solid var(--line);background:var(--panel2);border-radius:8px;padding:6px 9px;font-size:11.5px;cursor:pointer;color:var(--muted)}
+    .fbtn[aria-pressed="true"]{border-color:var(--accent);color:var(--ink);background:#241f10}
+    /* summary */
+    .sum-list{display:flex;flex-direction:column;gap:6px;margin:4px 0 10px}
+    .sum-item{display:flex;align-items:center;gap:8px;font-size:12.5px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel2)}
+    .sum-item .k{color:var(--muted);flex:0 0 92px}
+    .sum-item .v{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .sum-item .b{font-size:9.5px;padding:2px 6px;border-radius:20px;border:1px solid var(--line);flex:0 0 auto}
+    .budget{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:6px 0}
+    .budget .num{font-size:18px;font-weight:720;color:var(--accent)}
+    .meter{height:8px;border-radius:6px;background:var(--panel2);overflow:hidden;border:1px solid var(--line);margin:6px 0 2px}
+    .meter > span{display:block;height:100%;background:linear-gradient(90deg,var(--ok),var(--accent),var(--bad))}
+    .warn-box{font-size:11.5px;color:var(--warn);background:rgba(217,138,43,.08);border:1px solid rgba(217,138,43,.3);border-radius:9px;padding:8px 10px;margin-top:8px}
+    .saved-build{display:flex;align-items:center;gap:8px;font-size:12px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);margin-top:6px}
+    .saved-build .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
+    .legend{display:flex;gap:10px;flex-wrap:wrap;font-size:10.5px;color:var(--muted);margin-top:8px}
+    .legend span{display:flex;align-items:center;gap:5px}
+    .legend .dot{width:8px;height:8px;border-radius:50%}
+    .disclaimer{font-size:11px;color:var(--muted2);padding:14px 18px;border-top:1px solid var(--line);line-height:1.5}
+    .toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--accent);color:#1a1407;padding:10px 16px;border-radius:10px;font-size:13px;font-weight:600;z-index:50;opacity:0;transition:opacity .25s, transform .25s;pointer-events:none}
+    .toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+    @media (max-width:980px){
+      main{grid-template-columns:1fr;padding:12px;gap:12px}
+      .stage{position:static;top:auto}
+      .brand h1{white-space:normal}
+    }
+    @media (max-width:430px){
+      header{padding:10px 12px}
+      .btn{padding:8px 10px;font-size:12px}
+      .badge-overlay{right:54px;max-height:46%}
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <h1>Porsche Panamera — конфигуратор</h1>
+        <div class="sub"><span id="modelLine">Panamera 4 · 972</span><span id="countLine"></span></div>
+      </div>
+      <div class="head-actions">
+        <button class="btn ghost" id="randomBtn" title="Случайный билд">🎲</button>
+        <button class="btn" id="copyBtn">Copy build</button>
+        <button class="btn primary" id="shareBtn">Поделиться</button>
+      </div>
+    </header>
+    <main>
+      <section class="stage">
+        <div class="viewer is-day" id="viewer">
+          <img class="layer" id="buildImg" alt="Porsche Panamera">
+          <div class="mood night"></div>
+          <div class="mood studio"></div>
+          <div class="compare-wrap" id="compareWrap">
+            <img class="ba-after" id="baAfter" alt="После">
+            <img class="ba-before" id="baBefore" alt="До (сток)">
+            <div class="ba-tag l">Сток</div>
+            <div class="ba-tag r">Твой билд</div>
+            <div class="ba-divider" id="baDivider"></div>
+            <div class="ba-handle" id="baHandle">⇆</div>
+          </div>
+          <div class="viewer-tools">
+            <button class="vtool" id="lightBtn" title="День / Ночь / Студия">☀</button>
+            <button class="vtool" id="compareBtn" title="Before / After" aria-pressed="false">◧</button>
+            <button class="vtool" id="fsBtn" title="На весь экран">⛶</button>
+          </div>
+          <div class="badge-overlay" id="badgeOverlay"></div>
+        </div>
+        <div class="caption">
+          <div><span class="title" id="capTitle"></span> <span class="meta" id="capMeta"></span></div>
+          <div class="nav-mini">
+            <button id="prevColor" title="Предыдущий цвет">‹ Цвет</button>
+            <button id="nextColor" title="Следующий цвет">Цвет ›</button>
+          </div>
+        </div>
+        <div class="filmstrip" id="filmstrip"></div>
+      </section>
+
+      <aside class="controls" id="controls">
+        <!-- Presets -->
+        <section class="card">
+          <h2>Пресеты <span class="sec">§15</span></h2>
+          <div class="row scroll" id="presetRow"></div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:9px;align-items:center">
+            <span style="font-size:11px;color:var(--muted)">Стиль:</span>
+            <div class="seg" id="styleSeg"></div>
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;align-items:center">
+            <span style="font-size:11px;color:var(--muted)">Бюджет ≤:</span>
+            <div class="seg" id="budgetSeg"></div>
+          </div>
+        </section>
+
+        <!-- Build summary -->
+        <section class="card" id="summaryCard">
+          <h2>Смета билда <span class="sec">§16</span></h2>
+          <div class="budget"><span style="font-size:12px;color:var(--muted)">Ориентир бюджета доработок</span><span class="num" id="budgetNum">—</span></div>
+          <div class="meter"><span id="budgetMeter" style="width:0%"></span></div>
+          <div class="sum-list" id="sumList"></div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="btn" id="exportBtn">Экспорт текстом</button>
+            <button class="btn" id="saveBuildBtn">Сохранить билд</button>
+          </div>
+          <div id="savedBuilds"></div>
+          <div class="warn-box" id="warnBox" style="display:none"></div>
+          <div class="legend" id="legend"></div>
+        </section>
+
+        <!-- Color -->
+        <section class="card">
+          <h2>Цвет кузова <span class="sec">§1</span></h2>
+          <div class="filters-row" id="colorFilters"></div>
+          <input class="search" id="colorSearch" type="search" placeholder="Поиск: yachting, gulf, green…">
+          <div class="color-strip" id="colorStrip"></div>
+          <div style="font-size:11px;color:var(--muted);margin-top:7px" id="colorMeta"></div>
+        </section>
+
+        <!-- dynamic tuning groups injected here -->
+        <div id="groupsHost" style="display:flex;flex-direction:column;gap:14px"></div>
+      </aside>
+    </main>
+    <div class="disclaimer" id="disclaimer"></div>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <script>
+  "use strict";
+  const LIVE = "https://alexautorental.github.io/panamera";
+  const state = {
+    color:"0Q", view:"front-left", lighting:"day", compare:false,
+    single:{}, multi:{}, styleFilter:"all", budgetFilter:"extreme", colorFilter:"all", colorQuery:""
+  };
+  let COLORS=null, TUN=null, viewsList=[], colorById={}, optById={}, groupById={};
+  const SAVED_KEY="panamera-studio-builds";
+  const TIER_ORDER=["low","medium","high","extreme"];
+
+  const $=id=>document.getElementById(id);
+  const toast=(msg)=>{const t=$("toast");t.textContent=msg;t.classList.add("show");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("show"),1500);};
+
+  async function boot(){
+    try{
+      [COLORS,TUN]=await Promise.all([
+        fetch("tuning-assets/data/colors.json").then(r=>r.json()),
+        fetch("tuning-assets/data/tuning-options.json").then(r=>r.json())
+      ]);
+    }catch(e){ document.body.innerHTML="<p style='padding:24px'>Не удалось загрузить данные конфигуратора.</p>"; return; }
+    viewsList=COLORS.views;
+    COLORS.colors.forEach(c=>colorById[c.id]=c);
+    TUN.groups.forEach(g=>{ groupById[g.id]=g; g.options.forEach(o=>{ optById[o.id]=o; o._group=g.id; }); });
+    // defaults: first option of each single group
+    TUN.groups.forEach(g=>{ if(g.mode==="single"){ state.single[g.id]=g.options[0].id; } else { state.multi[g.id]=[]; } });
+    $("modelLine").textContent = TUN.meta.model+" · "+TUN.meta.generation;
+    $("countLine").textContent = COLORS.colors.length+" цветов · "+viewsList.length+" ракурсов · "+TUN.groups.reduce((n,g)=>n+g.options.length,0)+" опций";
+    $("disclaimer").textContent = TUN.meta.disclaimer+" "+TUN.meta.compatNote;
+    buildStaticUI();
+    parseHash();
+    renderAll();
+    window.addEventListener("hashchange",()=>{ parseHash(); renderAll(); });
+  }
+
+  /* ---------------- static UI ---------------- */
+  function buildStaticUI(){
+    // presets
+    const pr=$("presetRow"); pr.innerHTML="";
+    TUN.presets.forEach(p=>{ const b=document.createElement("button"); b.className="preset-chip"; b.textContent=p.name;
+      b.title=p.style; b.dataset.style=p.style; b.onclick=()=>applyPreset(p); pr.appendChild(b); });
+    // style segment
+    const ss=$("styleSeg"); ss.innerHTML="";
+    [["all","Все"]].concat(TUN.styleTags.map(s=>[s,styleRu(s)])).forEach(([id,lbl])=>{
+      const b=document.createElement("button"); b.textContent=lbl; b.dataset.v=id;
+      b.onclick=()=>{ state.styleFilter=id; renderAll(); }; ss.appendChild(b); });
+    // budget segment
+    const bs=$("budgetSeg"); bs.innerHTML="";
+    [["low","€"],["medium","€€"],["high","€€€"],["extreme","€€€€"]].forEach(([id,lbl])=>{
+      const b=document.createElement("button"); b.textContent=lbl; b.dataset.v=id;
+      b.onclick=()=>{ state.budgetFilter=id; renderAll(); }; bs.appendChild(b); });
+    // color family filters
+    const families=[["all","Все"],["factory","Factory"],["pts","PTS"],["blue","Синие"],["green","Зелёные"],["red","Красные"],["grey","Серые"],["dark","Тёмные"],["popular","Popular"]];
+    const cf=$("colorFilters"); cf.innerHTML="";
+    families.forEach(([id,lbl])=>{ const b=document.createElement("button"); b.className="fbtn"; b.textContent=lbl; b.dataset.v=id;
+      b.onclick=()=>{ state.colorFilter=id; renderColorStrip(); }; cf.appendChild(b); });
+    $("colorSearch").addEventListener("input",e=>{ state.colorQuery=e.target.value; renderColorStrip(); });
+    // groups
+    const host=$("groupsHost"); host.innerHTML="";
+    TUN.groups.forEach(g=>{
+      const card=document.createElement("section"); card.className="card"; card.dataset.group=g.id;
+      const h=document.createElement("h2"); h.innerHTML=`<span>${g.title}</span><span class="sec">§${g.section||"–"}</span>`;
+      const row=document.createElement("div"); row.className="row"; row.id="grp-"+g.id;
+      card.appendChild(h); card.appendChild(row); host.appendChild(card);
+    });
+    // legend
+    const lg=$("legend"); lg.innerHTML="";
+    Object.entries(TUN.badges).forEach(([k,b])=>{ const s=document.createElement("span");
+      s.innerHTML=`<span class="dot" style="background:${b.color}"></span>${b.label}`; lg.appendChild(s); });
+    // viewer events
+    $("prevColor").onclick=()=>shiftColor(-1);
+    $("nextColor").onclick=()=>shiftColor(1);
+    $("randomBtn").onclick=randomBuild;
+    $("copyBtn").onclick=()=>copyText(buildText(),"Билд скопирован");
+    $("exportBtn").onclick=()=>copyText(buildText(),"Текст скопирован");
+    $("saveBuildBtn").onclick=saveCurrentBuild;
+    $("shareBtn").onclick=shareBuild;
+    $("lightBtn").onclick=cycleLight;
+    $("compareBtn").onclick=()=>{ state.compare=!state.compare; renderStage(); $("compareBtn").setAttribute("aria-pressed",String(state.compare)); };
+    $("fsBtn").onclick=()=>{ const v=$("viewer"); if(!document.fullscreenElement) v.requestFullscreen?.(); else document.exitFullscreen?.(); };
+    initCompareDrag();
+    // swipe colors
+    let ds=null; const vw=$("viewer");
+    vw.addEventListener("pointerdown",e=>{ if(e.target.closest(".ba-handle")) return; ds={x:e.clientX,y:e.clientY}; });
+    vw.addEventListener("pointerup",e=>{ if(!ds) return; const dx=e.clientX-ds.x,dy=e.clientY-ds.y; ds=null;
+      if(Math.abs(dx)<46||Math.abs(dx)<Math.abs(dy)*1.2) return; shiftColor(dx<0?1:-1); });
+  }
+
+  function styleRu(s){return {luxury:"Luxury",sport:"Sport",stealth:"Stealth",showcar:"Showcar",practical:"Practical"}[s]||s;}
+
+  /* ---------------- render ---------------- */
+  function renderAll(){ renderStage(); renderColorStrip(); renderFilmstrip(); renderGroups(); renderSummary(); syncSegs(); setHash(); }
+
+  function activeColor(){ return colorById[state.color]||COLORS.colors[0]; }
+  function activeView(){ return viewsList.find(v=>v.id===state.view)||viewsList[0]; }
+  function imgFor(colorId,viewId){ const c=colorById[colorId]; if(!c) return ""; const e=(c.images||{})[viewId]||Object.values(c.images||{})[0]; return e?e.src:""; }
+  function stockImg(viewId){ return "tuning-assets/base/car/"+viewId+".jpg"; }
+
+  function finishFilter(){
+    const f=(optById[state.single.ppf]||{}).finish||"gloss";
+    if(f==="matte") return "contrast(.9) saturate(.88) brightness(1.03)";
+    if(f==="satin") return "contrast(.95) saturate(.94) brightness(1.01)";
+    if(f==="stealth") return "contrast(.88) saturate(.5) brightness(.98)";
+    return "none";
+  }
+  function lightFilter(){
+    if(state.lighting==="night") return "brightness(.72) contrast(1.08) saturate(1.02)";
+    if(state.lighting==="studio") return "brightness(1.07) contrast(1.04) saturate(1.04)";
+    return "none";
+  }
+  function combinedFilter(){
+    const parts=[finishFilter(),lightFilter()].filter(x=>x&&x!=="none");
+    return parts.length?parts.join(" "):"none";
+  }
+
+  function renderStage(){
+    const v=$("viewer"); const view=activeView(); const color=activeColor();
+    v.classList.toggle("is-night",state.lighting==="night");
+    v.classList.toggle("is-studio",state.lighting==="studio");
+    v.classList.toggle("is-day",state.lighting==="day");
+    v.classList.toggle("is-compare",state.compare);
+    const src=imgFor(state.color,state.view);
+    const img=$("buildImg");
+    v.classList.add("is-loading");
+    img.onload=()=>v.classList.remove("is-loading");
+    img.onerror=()=>v.classList.remove("is-loading");
+    if(img.getAttribute("src")!==src){ img.src=src; } else if(img.complete){ v.classList.remove("is-loading"); }
+    img.style.filter=combinedFilter();
+    img.alt=color.name+" — "+view.label;
+    // compare layers
+    $("baAfter").src=src; $("baAfter").style.filter=combinedFilter();
+    $("baBefore").src=stockImg(state.view); $("baBefore").style.filter="none";
+    $("lightBtn").textContent = state.lighting==="night"?"🌙":(state.lighting==="studio"?"💡":"☀");
+    $("capTitle").textContent=color.name;
+    $("capMeta").textContent="· "+view.label+" · "+(color.kind==="factory"?"Factory":"PTS render")+" · "+(color.hex||"");
+    $("colorMeta").textContent=(color.category||"")+" · "+(color.code||color.hex||"")+" · "+(color.hex||"");
+    renderBadgeOverlay();
+  }
+
+  function renderBadgeOverlay(){
+    const host=$("badgeOverlay"); host.innerHTML="";
+    const chips=summarySelections().filter(s=>!s.isStock).slice(0,8);
+    chips.forEach(s=>{ const c=document.createElement("div"); c.className="mod-chip";
+      const b=TUN.badges[s.badgeKey]||{}; c.innerHTML=`<span class="dot" style="background:${b.color||'#888'}"></span>${s.value}`;
+      host.appendChild(c); });
+    if(!chips.length){ const c=document.createElement("div"); c.className="mod-chip"; c.textContent="Сток — добавь опции"; host.appendChild(c); }
+  }
+
+  function renderFilmstrip(){
+    const fs=$("filmstrip"); fs.innerHTML="";
+    viewsList.forEach(v=>{ const b=document.createElement("button"); b.className="angle-thumb"; b.setAttribute("aria-pressed",String(v.id===state.view));
+      const im=document.createElement("img"); im.loading="lazy"; im.src=imgFor(state.color,v.id); im.alt=v.label;
+      const sp=document.createElement("span"); sp.textContent=v.label;
+      b.appendChild(im); b.appendChild(sp); b.onclick=()=>{ state.view=v.id; renderAll(); }; fs.appendChild(b); });
+  }
+
+  function colorMatches(c){
+    const q=state.colorQuery.trim().toLowerCase(); const n=c.name.toLowerCase();
+    if(q && !n.includes(q) && !(c.code||"").toLowerCase().includes(q)) return false;
+    const f=state.colorFilter;
+    if(f==="all") return true;
+    if(f==="factory") return c.kind==="factory";
+    if(f==="pts") return c.kind==="pts";
+    if(f==="popular") return !!c.featured;
+    if(f==="blue") return n.includes("blue")||n.includes("blau")||n.includes("aetna")||n.includes("sapphire");
+    if(f==="green") return n.includes("green");
+    if(f==="red") return n.includes("red")||n.includes("rot")||n.includes("arena")||n.includes("carmine");
+    if(f==="grey") return /grey|gray|silver|chalk|crayon|grigio/.test(n);
+    if(f==="dark"){ const h=(c.hex||"#777").replace("#",""); const L=(0.299*parseInt(h.slice(0,2),16)+0.587*parseInt(h.slice(2,4),16)+0.114*parseInt(h.slice(4,6),16))/255; return L<0.30; }
+    return true;
+  }
+  function renderColorStrip(){
+    const strip=$("colorStrip"); strip.innerHTML="";
+    const list=COLORS.colors.filter(colorMatches);
+    list.forEach(c=>{ const b=document.createElement("button"); b.className="cchip"; b.title=c.name;
+      b.style.backgroundImage=`url('${c.swatch}')`; b.style.backgroundColor=c.hex;
+      b.setAttribute("aria-pressed",String(c.id===state.color));
+      b.onclick=()=>{ state.color=c.id; renderAll(); if(c.id===state.color) b.scrollIntoView({inline:"center",block:"nearest"}); };
+      strip.appendChild(b);
+      if(c.id===state.color) requestAnimationFrame(()=>b.scrollIntoView({inline:"center",block:"nearest"}));
+    });
+    $("colorMeta").textContent=`${list.length} из ${COLORS.colors.length} · выбран: ${activeColor().name}`;
+  }
+
+  function optAllowed(o){
+    // budget filter
+    if(TIER_ORDER.indexOf(o.priceTier)>TIER_ORDER.indexOf(state.budgetFilter)) return false;
+    return true;
+  }
+  function optInStyle(o){ if(state.styleFilter==="all") return true; return (o.styles||[]).includes(state.styleFilter); }
+
+  function swHtml(o){
+    const sw=o.swatch;
+    if(!sw){ if(o.finish) return `<span class="sw" style="${finishSw(o.finish)}"></span>`; if(typeof o.tint==="number") return `<span class="sw" style="${tintSw(o.tint)}"></span>`; return ""; }
+    if(sw==="carbon") return `<span class="sw" style="background:repeating-linear-gradient(45deg,#15171b 0 3px,#2a2e36 3px 6px)"></span>`;
+    if(sw==="wheel") return `<span class="sw" style="background:radial-gradient(circle at 50% 50%,#3a3f48 0 26%,#0c0e12 27% 33%,#80868f 34% 70%,#2a2e36 72%)"></span>`;
+    if(sw==="forged") return `<span class="sw" style="background:conic-gradient(#9aa0a8 0 20%,#5c6066 0 40%,#9aa0a8 0 60%,#5c6066 0 80%,#9aa0a8 0)"></span>`;
+    if(sw==="diamond") return `<span class="sw" style="background:linear-gradient(135deg,#e7e9ec 0 45%,#7d828b 55% 100%)"></span>`;
+    if(sw==="body") return `<span class="sw" style="background:${activeColor().hex||'#888'}"></span>`;
+    if(sw.startsWith("#")) return `<span class="sw" style="background:${sw}"></span>`;
+    return "";
+  }
+  function finishSw(f){ if(f==="matte")return "background:#3a3d42;filter:contrast(.8)"; if(f==="satin")return "background:linear-gradient(135deg,#54585f,#3a3d42)"; if(f==="stealth")return "background:#2b2d31"; return "background:linear-gradient(135deg,#fff,#8f96a0)"; }
+  function tintSw(t){ const a=Math.round(t*100); return `background:linear-gradient(180deg,rgba(10,12,16,${0.15+t}) ${a}%,#cfe0f0)`; }
+
+  function renderGroups(){
+    TUN.groups.forEach(g=>{
+      const row=$("grp-"+g.id); if(!row) return; row.innerHTML="";
+      g.options.forEach(o=>{
+        const b=document.createElement("button"); b.className="chip";
+        const selected = g.mode==="single" ? state.single[g.id]===o.id : (state.multi[g.id]||[]).includes(o.id);
+        b.setAttribute("aria-pressed",String(selected));
+        if(!optAllowed(o)||!optInStyle(o)) b.classList.add("dim");
+        const bd=TUN.badges[badgeKeyFor(o)]||{};
+        const vmark=(o.compatibility==="needs-verification"||o.compatibility==="concept"||/ИНФО/.test(o.name))?'<span class="vmark" title="Требует проверки">⚠</span>':"";
+        b.innerHTML=`${swHtml(o)}<span class="bdg" style="background:${bd.color||'#777'}" title="${bd.label||''}"></span><span class="nm">${o.name}</span>${vmark}`;
+        b.title=(o.note||"")+(o.sourceUrl?"  ·  "+o.sourceUrl:"");
+        b.onclick=()=>toggleOption(g,o);
+        row.appendChild(b);
+      });
+    });
+  }
+  function badgeKeyFor(o){
+    if(o.compatibility==="concept") return "concept";
+    if(o.compatibility==="needs-verification") return "needs-verification";
+    if(o.sourceType==="tequipment") return "tequipment";
+    if(o.sourceType==="exclusive") return "exclusive";
+    if(o.sourceType==="official") return "official";
+    return "aftermarket";
+  }
+
+  function toggleOption(g,o){
+    if(g.mode==="single"){ state.single[g.id]=o.id; }
+    else { const arr=state.multi[g.id]||(state.multi[g.id]=[]); const i=arr.indexOf(o.id); if(i>=0)arr.splice(i,1); else arr.push(o.id); }
+    renderAll();
+  }
+
+  /* ---------------- summary ---------------- */
+  function summarySelections(){
+    const out=[];
+    out.push({key:"Цвет",value:activeColor().name,badgeKey:"official",isStock:false});
+    TUN.groups.forEach(g=>{
+      if(g.mode==="single"){ const o=optById[state.single[g.id]]; if(!o) return;
+        const isStock=/stock|none|stoсk|сток|без|Сток/i.test(o.name)||o.id.endsWith("-stock")||o.id.endsWith("-none");
+        out.push({key:g.title,value:o.name,badgeKey:badgeKeyFor(o),opt:o,isStock}); }
+      else { (state.multi[g.id]||[]).forEach(id=>{ const o=optById[id]; if(o) out.push({key:g.title,value:o.name,badgeKey:badgeKeyFor(o),opt:o,isStock:false}); }); }
+    });
+    return out;
+  }
+  function budgetRange(){
+    let min=0,max=0;
+    selectedOptions().forEach(o=>{ const t=TUN.priceTiers[o.priceTier]; if(t && !isStockOpt(o)){ min+=t.min; max+=t.max; } });
+    return {min,max};
+  }
+  function selectedOptions(){
+    const arr=[];
+    TUN.groups.forEach(g=>{ if(g.mode==="single"){ const o=optById[state.single[g.id]]; if(o)arr.push(o);} else (state.multi[g.id]||[]).forEach(id=>{const o=optById[id];if(o)arr.push(o);}); });
+    return arr;
+  }
+  function isStockOpt(o){ return o.id.endsWith("-stock")||o.id.endsWith("-none"); }
+
+  function renderSummary(){
+    const sels=summarySelections();
+    const list=$("sumList"); list.innerHTML="";
+    sels.forEach(s=>{ const b=TUN.badges[s.badgeKey]||{};
+      const row=document.createElement("div"); row.className="sum-item";
+      row.innerHTML=`<span class="k">${s.key}</span><span class="v">${s.value}</span><span class="b" style="border-color:${b.color||'#444'};color:${b.color||'#aaa'}">${(b.label||'').split(' ')[0]}</span>`;
+      list.appendChild(row); });
+    const r=budgetRange();
+    $("budgetNum").textContent = r.max? fmt(r.min)+"–"+fmt(r.max) : "сток";
+    const frac=Math.min(1, r.max/55000);
+    $("budgetMeter").style.width=(frac*100).toFixed(0)+"%";
+    // warnings
+    const warns=selectedOptions().filter(o=>o.compatibility==="needs-verification"||o.compatibility==="concept"||/ИНФО/.test(o.name));
+    const wb=$("warnBox");
+    if(warns.length){ wb.style.display="block"; wb.innerHTML="⚠ Требует проверки совместимости/легальности у дилера или мастера: <b>"+warns.map(o=>o.name.replace(" — ИНФО","")).join(", ")+"</b>."; }
+    else wb.style.display="none";
+    renderSaved();
+  }
+  function fmt(n){ return "€"+Math.round(n/100)*100; }
+
+  /* ---------------- presets / random ---------------- */
+  function applyPreset(p){
+    if(p.color&&colorById[p.color]) state.color=p.color;
+    if(p.view) state.view=p.view;
+    Object.entries(p.set||{}).forEach(([gid,val])=>{ const g=groupById[gid]; if(!g) return;
+      if(g.mode==="single"){ if(optById[val]) state.single[gid]=val; }
+      else { state.multi[gid]=(Array.isArray(val)?val:[]).filter(id=>optById[id]); } });
+    renderAll(); toast("Пресет: "+p.name);
+  }
+  function randomBuild(){
+    const cs=COLORS.colors; state.color=cs[Math.floor(seededRand()*cs.length)].id;
+    TUN.groups.forEach(g=>{ if(g.infoOnly){ state.single[g.id]=g.options[0].id; return; }
+      if(g.mode==="single"){ const allow=g.options.filter(optAllowed); state.single[g.id]=(allow.length?allow:g.options)[Math.floor(seededRand()*(allow.length||g.options.length))].id; }
+      else { state.multi[g.id]=g.options.filter(()=>seededRand()>0.55).map(o=>o.id); } });
+    renderAll(); toast("Случайный билд 🎲");
+  }
+  let _seed=Date.now()%100000;
+  function seededRand(){ _seed=(_seed*1103515245+12345)&0x7fffffff; return _seed/0x7fffffff; }
+
+  function shiftColor(d){
+    const list=COLORS.colors.filter(colorMatches); if(!list.length) return;
+    let i=list.findIndex(c=>c.id===state.color); i=i<0?0:(i+d+list.length)%list.length; state.color=list[i].id; renderAll();
+  }
+  function cycleLight(){ state.lighting = state.lighting==="day"?"night":(state.lighting==="night"?"studio":"day"); renderStage(); setHash(); toast("Свет: "+({day:"День",night:"Ночь",studio:"Студия"}[state.lighting])); }
+
+  /* ---------------- text / share ---------------- */
+  function buildText(){
+    const r=budgetRange(); const lines=[];
+    lines.push("PORSCHE PANAMERA — мой билд");
+    lines.push(TUN.meta.model+" · "+TUN.meta.generation);
+    lines.push("Цвет: "+activeColor().name+" ("+(activeColor().code||activeColor().hex)+") · ракурс: "+activeView().label);
+    lines.push("Свет: "+({day:"День",night:"Ночь",studio:"Студия"}[state.lighting]));
+    lines.push("");
+    summarySelections().slice(1).forEach(s=>{ const b=TUN.badges[s.badgeKey]||{}; lines.push("• "+s.key+": "+s.value+"  ["+(b.label||"")+"]"); });
+    lines.push("");
+    lines.push("Ориентир бюджета доработок: "+(r.max?fmt(r.min)+"–"+fmt(r.max):"сток"));
+    const warns=selectedOptions().filter(o=>o.compatibility==="needs-verification"||o.compatibility==="concept");
+    if(warns.length) lines.push("Проверить совместимость: "+warns.map(o=>o.name).join(", "));
+    lines.push("");
+    lines.push(location.href);
+    return lines.join("\n");
+  }
+  function shareBuild(){
+    const url=location.href; const text=buildText();
+    if(navigator.share){ navigator.share({title:"Porsche Panamera — мой билд",text:text.split("\n").slice(0,6).join("\n"),url}).catch(()=>{}); return; }
+    copyText(url,"Ссылка скопирована");
+  }
+  function copyText(t,msg){ navigator.clipboard?.writeText(t).then(()=>toast(msg||"Скопировано")).catch(()=>{ prompt("Скопируй:",t); }); }
+
+  /* ---------------- saved builds ---------------- */
+  function loadSaved(){ try{ return JSON.parse(localStorage.getItem(SAVED_KEY)||"[]"); }catch(e){ return []; } }
+  function saveCurrentBuild(){
+    const arr=loadSaved(); const name=activeColor().name.split(" ")[0]+" "+(currentPresetName()||"build")+" "+(arr.length+1);
+    arr.unshift({name, hash:encodeState()}); localStorage.setItem(SAVED_KEY,JSON.stringify(arr.slice(0,12))); renderSaved(); toast("Билд сохранён");
+  }
+  function currentPresetName(){ return ""; }
+  function renderSaved(){
+    const arr=loadSaved(); const host=$("savedBuilds"); host.innerHTML="";
+    if(!arr.length) return;
+    arr.forEach((b,idx)=>{ const d=document.createElement("div"); d.className="saved-build";
+      d.innerHTML=`<span class="nm">💾 ${b.name}</span>`;
+      const del=document.createElement("button"); del.className="btn ghost"; del.textContent="✕"; del.style.padding="4px 8px";
+      d.querySelector(".nm").onclick=()=>{ location.hash=b.hash; };
+      del.onclick=()=>{ const a=loadSaved(); a.splice(idx,1); localStorage.setItem(SAVED_KEY,JSON.stringify(a)); renderSaved(); };
+      d.appendChild(del); host.appendChild(d); });
+  }
+
+  /* ---------------- hash state ---------------- */
+  function encodeState(){
+    const p=new URLSearchParams();
+    p.set("c",state.color); p.set("v",state.view); p.set("l",state.lighting);
+    TUN.groups.forEach(g=>{ if(g.mode==="single"){ if(state.single[g.id]) p.set(g.id,state.single[g.id]); }
+      else { const a=state.multi[g.id]||[]; if(a.length) p.set(g.id,a.join(",")); } });
+    return p.toString();
+  }
+  function setHash(){ const h=encodeState(); if(location.hash.replace(/^#/,"")!==h) history.replaceState(null,"","#"+h); }
+  function parseHash(){
+    const p=new URLSearchParams(location.hash.replace(/^#/,""));
+    if(p.get("c")&&colorById[p.get("c")]) state.color=p.get("c");
+    if(p.get("v")&&viewsList.some(v=>v.id===p.get("v"))) state.view=p.get("v");
+    if(["day","night","studio"].includes(p.get("l"))) state.lighting=p.get("l");
+    TUN.groups.forEach(g=>{ const raw=p.get(g.id); if(raw===null) return;
+      if(g.mode==="single"){ if(optById[raw]&&optById[raw]._group===g.id) state.single[g.id]=raw; }
+      else { state.multi[g.id]=raw.split(",").filter(id=>optById[id]&&optById[id]._group===g.id); } });
+  }
+  function syncSegs(){
+    document.querySelectorAll("#styleSeg button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===state.styleFilter)));
+    document.querySelectorAll("#budgetSeg button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===state.budgetFilter)));
+    document.querySelectorAll("#colorFilters .fbtn").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===state.colorFilter)));
+    document.querySelectorAll("#presetRow .preset-chip").forEach(b=>b.style.opacity=(state.styleFilter==="all"||b.dataset.style===state.styleFilter)?"1":"0.4");
+  }
+
+  /* ---------------- before/after drag ---------------- */
+  function initCompareDrag(){
+    const wrap=$("compareWrap"), div=$("baDivider"), handle=$("baHandle"), after=$("baBefore");
+    let dragging=false;
+    function setPct(px){ const r=wrap.getBoundingClientRect(); let pct=((px-r.left)/r.width)*100; pct=Math.max(2,Math.min(98,pct));
+      div.style.left=pct+"%"; handle.style.left=pct+"%"; after.style.clipPath=`inset(0 ${100-pct}% 0 0)`; }
+    const down=e=>{ dragging=true; e.preventDefault(); };
+    handle.addEventListener("pointerdown",down); div.addEventListener("pointerdown",down);
+    window.addEventListener("pointermove",e=>{ if(dragging) setPct(e.clientX); });
+    window.addEventListener("pointerup",()=>dragging=false);
+    wrap.addEventListener("pointerdown",e=>{ if(e.target===wrap||e.target.classList.contains("ba-after")||e.target.classList.contains("ba-before")) setPct(e.clientX); });
+  }
+
+  boot();
+  </script>
+</body>
+</html>

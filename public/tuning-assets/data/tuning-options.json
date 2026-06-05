@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "model": "Porsche Panamera 4",
+    "generation": "972 / G3 (MY2024+)",
+    "modelYearLabel": "2027",
+    "disclaimer": "Визуализация цвета — реальные рендеры Porsche. Тюнинг-опции показаны как конфигуратор со схемами и бейджами источника/совместимости. Совместимость и цены требуют подтверждения у дилера/производителя. Концепты помечены Concept. Не путать с поколением 971.",
+    "compatNote": "972 = текущее поколение. Детали от 971/971.2 не считать совместимыми без подтверждения.",
+    "updated": "2026-06-05"
+  },
+  "priceTiers": {
+    "low": { "label": "€", "range": "≈ €150–800", "min": 150, "max": 800 },
+    "medium": { "label": "€€", "range": "≈ €800–3 500", "min": 800, "max": 3500 },
+    "high": { "label": "€€€", "range": "≈ €3 500–9 000", "min": 3500, "max": 9000 },
+    "extreme": { "label": "€€€€", "range": "≈ €9 000–16 000", "min": 9000, "max": 16000 }
+  },
+  "badges": {
+    "official": { "label": "Official Porsche", "color": "#1f6f3e" },
+    "tequipment": { "label": "Porsche Tequipment", "color": "#1f6f3e" },
+    "exclusive": { "label": "Exclusive Manufaktur", "color": "#1f6f3e" },
+    "aftermarket": { "label": "Aftermarket", "color": "#8a5a00" },
+    "concept": { "label": "Concept", "color": "#7a1fa2" },
+    "needs-verification": { "label": "Needs verification", "color": "#9a3030" }
+  },
+  "styleTags": ["luxury", "sport", "stealth", "showcar", "practical"],
+  "groups": [
+    {
+      "id": "wheelSize", "title": "Диски — размер", "section": 4, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "wheel-19", "name": "19″", "priceTier": "low", "sourceType": "official", "compatibility": "likely", "styles": ["luxury","practical"], "note": "Базовый размер для комфорта.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "wheel" },
+        { "id": "wheel-20", "name": "20″", "priceTier": "medium", "sourceType": "official", "compatibility": "likely", "styles": ["luxury","sport"], "note": "Сбалансированный вид/комфорт.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "wheel" },
+        { "id": "wheel-21", "name": "21″", "priceTier": "high", "sourceType": "official", "compatibility": "likely", "styles": ["sport","showcar"], "note": "Спортивный заполненный вид арки.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "wheel" }
+      ]
+    },
+    {
+      "id": "wheelFinish", "title": "Диски — отделка", "section": 4, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "wf-silver", "name": "Серебро", "priceTier": "low", "sourceType": "official", "compatibility": "likely", "styles": ["luxury"], "note": "Заводская окраска.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "#c7ccd2" },
+        { "id": "wf-gloss-black", "name": "Чёрный глянец", "priceTier": "medium", "sourceType": "official", "compatibility": "likely", "styles": ["sport","stealth"], "note": "Часто в SportDesign/Exclusive.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#1b1b1d" },
+        { "id": "wf-satin-black", "name": "Чёрный сатин", "priceTier": "medium", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["stealth"], "note": "Сатиновое покрытие/окрас.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#2a2a2c" },
+        { "id": "wf-diamond", "name": "Diamond Cut (2 тона)", "priceTier": "high", "sourceType": "official", "compatibility": "likely", "styles": ["showcar","luxury"], "note": "Полированный обод + цветная база.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "diamond" },
+        { "id": "wf-bronze", "name": "Бронза", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["showcar","sport"], "note": "Популярный кастом-оттенок, не заводской.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#9a6b3f" },
+        { "id": "wf-forged", "name": "Кованые (forged style)", "priceTier": "extreme", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["showcar","sport"], "note": "HRE/Vossen/BBS и др. — фитмент 972 уточнять.", "sourceUrl": "https://www.hrewheels.com/", "swatch": "forged" }
+      ]
+    },
+    {
+      "id": "bodykit", "title": "Обвес / аэродинамика", "section": 5, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "kit-stock", "name": "Сток", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Заводской кузов.", "sourceUrl": "https://www.porsche.com/international/models/panamera/" },
+        { "id": "kit-sportdesign", "name": "SportDesign Package", "priceTier": "high", "sourceType": "exclusive", "compatibility": "confirmed", "styles": ["sport","showcar"], "note": "Заводской SportDesign (есть вариант с карбон-аэрокитом для Turbo).", "sourceUrl": "https://newsroom.porsche.com/en/press-kits/panamera/personalisation.html" },
+        { "id": "kit-splitter", "name": "Карбон фронт-сплиттер (976)", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["sport","showcar"], "note": "Реальный сухой карбон под 972/«976» (Carbonado/Forza).", "sourceUrl": "https://forzaaa.com/products/dry-carbon-body-kit-for-porsche-panamera-976-2024" },
+        { "id": "kit-techart", "name": "TechArt GrandGT (971 legacy)", "priceTier": "extreme", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["showcar","sport"], "note": "TechArt GrandGT — только 971/971.2; программы под 972 пока нет.", "sourceUrl": "https://www.techart.de/en/models/panamera/techart-for-971-and-971-ii.html" },
+        { "id": "kit-widebody", "name": "Widebody (concept)", "priceTier": "extreme", "sourceType": "concept", "compatibility": "concept", "styles": ["showcar"], "note": "Серийного widebody под 972 нет — только концепт/кастом (Mansory/др. — 971).", "sourceUrl": "https://www.mansory.com/car/porsche-971-panamera" }
+      ]
+    },
+    {
+      "id": "carbon", "title": "Карбон", "section": 6, "mode": "multi", "visual": "schematic",
+      "options": [
+        { "id": "carbon-mirrors", "name": "Карбон зеркала", "priceTier": "medium", "sourceType": "exclusive", "compatibility": "likely", "styles": ["sport","showcar"], "note": "Exclusive Manufaktur карбон + aftermarket под 976 (Carbon Showroom).", "sourceUrl": "https://carbonshowroom.com/collections/panamera-976", "swatch": "carbon" },
+        { "id": "carbon-lip", "name": "Карбон сплиттер/губа", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["sport","showcar"], "note": "Сухой карбон под 972/«976» (Carbonado / Carbon Showroom).", "sourceUrl": "https://carbonadoaero.com/products/2024-2025-porsche-panamera-976-odv2-style-dry-carbon-fiber-front-lip", "swatch": "carbon" },
+        { "id": "carbon-skirts", "name": "Карбон пороги", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["showcar"], "note": "Карбон-накладки порогов под 976 (CMST / Forza).", "sourceUrl": "https://cmsttuning.com/products/cmst-tuning-side-skirts-for-porsche-panamera-976-4s-e-hybird-gts-turbo-frp-carbon-fiber-copy", "swatch": "carbon" },
+        { "id": "carbon-diffuser", "name": "Карбон диффузор", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["sport","showcar"], "note": "Задний диффузор карбон под 976 (Forza / Carbon Showroom).", "sourceUrl": "https://forzaaa.com/products/dry-carbon-body-kit-for-porsche-panamera-976-2024", "swatch": "carbon" },
+        { "id": "carbon-spoiler", "name": "Карбон спойлер", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["showcar","sport"], "note": "Спойлер карбон под 976 (CMST / Carbon Showroom).", "sourceUrl": "https://carbonshowroom.com/collections/panamera-976", "swatch": "carbon" }
+      ]
+    },
+    {
+      "id": "blackout", "title": "Blackout / dechrome", "section": 7, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "chrome-stock", "name": "Сток хром", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury"], "note": "Заводские хром-элементы.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "#cfd3d6" },
+        { "id": "chrome-black", "name": "Чёрный пакет (gloss)", "priceTier": "medium", "sourceType": "official", "compatibility": "likely", "styles": ["sport","stealth"], "note": "Exterior black/SportDesign глянец-чёрный.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#161618" },
+        { "id": "chrome-satin", "name": "Сатин dechrome (плёнка)", "priceTier": "medium", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["stealth"], "note": "Затемнение хрома плёнкой.", "sourceUrl": "https://www.xpel.com/", "swatch": "#33353a" }
+      ]
+    },
+    {
+      "id": "stance", "title": "Посадка / подвеска", "section": 8, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "stance-stock", "name": "Сток высота", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Стандартный клиренс.", "sourceUrl": "https://www.porsche.com/international/models/panamera/" },
+        { "id": "stance-air-low", "name": "Air suspension (low mode)", "priceTier": "low", "sourceType": "official", "compatibility": "likely", "styles": ["sport"], "note": "Штатная пневмо в низком режиме (визуал).", "sourceUrl": "https://www.porsche.com/international/models/panamera/" },
+        { "id": "stance-drop", "name": "Mild drop (lowering links)", "priceTier": "medium", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["sport","showcar"], "note": "Линки занижения для пневмо.", "sourceUrl": "https://www.h-r.com/" },
+        { "id": "stance-show", "name": "Show low (концепт)", "priceTier": "high", "sourceType": "concept", "compatibility": "concept", "styles": ["showcar"], "note": "Максимально низко — концепт-вид.", "sourceUrl": "https://www.h-r.com/" }
+      ]
+    },
+    {
+      "id": "calipers", "title": "Суппорты", "section": 9, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "cal-black", "name": "Чёрный", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury","stealth"], "note": "Стандарт.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "#171717" },
+        { "id": "cal-red", "name": "Красный", "priceTier": "medium", "sourceType": "official", "compatibility": "likely", "styles": ["sport"], "note": "Опция/с пакетами тормозов.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "#b3121f" },
+        { "id": "cal-white", "name": "Белый (PSCB)", "priceTier": "high", "sourceType": "official", "compatibility": "likely", "styles": ["sport","showcar"], "note": "Porsche Surface Coated Brake — белые суппорты.", "sourceUrl": "https://www.porsche.com/usa/accessoriesandservice/porscheservice/parts/originalbrakes/", "swatch": "#eceae3" },
+        { "id": "cal-yellow", "name": "Жёлтый (PCCB)", "priceTier": "extreme", "sourceType": "official", "compatibility": "likely", "styles": ["showcar","sport"], "note": "Porsche Ceramic Composite Brake — жёлтые, топ-опция.", "sourceUrl": "https://www.porsche.com/usa/accessoriesandservice/porscheservice/parts/originalbrakes/", "swatch": "#e7c200" },
+        { "id": "cal-silver", "name": "Серебро", "priceTier": "high", "sourceType": "official", "compatibility": "needs-verification", "styles": ["sport"], "note": "Серебристые суппорты — наличие на 972 уточнить.", "sourceUrl": "https://www.porsche.com/usa/accessoriesandservice/porscheservice/parts/originalbrakes/", "swatch": "#b9bdc2" },
+        { "id": "cal-acid", "name": "Acid green", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["showcar"], "note": "Кастом окрас суппортов.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "#8bd400" },
+        { "id": "cal-blue", "name": "Синий", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["showcar"], "note": "Кастом окрас суппортов.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "#1f5fd6" },
+        { "id": "cal-body", "name": "В цвет кузова", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["showcar"], "note": "Окрас под цвет авто.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "swatch": "body" }
+      ]
+    },
+    {
+      "id": "exhaust", "title": "Выхлоп / звук", "section": 10, "mode": "single", "visual": "icon",
+      "options": [
+        { "id": "exh-stock", "name": "Сток", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Заводская система.", "sourceUrl": "https://www.porsche.com/international/models/panamera/" },
+        { "id": "exh-pse", "name": "Porsche Sport Exhaust", "priceTier": "high", "sourceType": "official", "compatibility": "likely", "styles": ["sport"], "note": "Заводская спорт-выхлопная опция (звук не гарантируем).", "sourceUrl": "https://www.porsche.com/international/models/panamera/" },
+        { "id": "exh-akra", "name": "Akrapovič (aftermarket)", "priceTier": "extreme", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["sport","showcar"], "note": "Наличие под 972 уточнять.", "sourceUrl": "https://www.akrapovic.com/" }
+      ]
+    },
+    {
+      "id": "interior", "title": "Салон", "section": 11, "mode": "single", "visual": "schematic",
+      "options": [
+        { "id": "int-black", "name": "Чёрный", "priceTier": "low", "sourceType": "official", "compatibility": "likely", "styles": ["luxury","stealth"], "note": "Стандарт кожа/Race-Tex.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#1a1a1c" },
+        { "id": "int-beige", "name": "Беж", "priceTier": "medium", "sourceType": "official", "compatibility": "likely", "styles": ["luxury"], "note": "Светлая кожа.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#cbb79a" },
+        { "id": "int-bordeaux", "name": "Bordeaux", "priceTier": "high", "sourceType": "exclusive", "compatibility": "needs-verification", "styles": ["luxury","showcar"], "note": "Exclusive Manufaktur цвет.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#5a1320" },
+        { "id": "int-brown", "name": "Truffle Brown", "priceTier": "high", "sourceType": "exclusive", "compatibility": "needs-verification", "styles": ["luxury"], "note": "Тёмно-коричневая кожа.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#4a3526" },
+        { "id": "int-carbon", "name": "Карбон-пакет", "priceTier": "high", "sourceType": "exclusive", "compatibility": "likely", "styles": ["sport","showcar"], "note": "Карбон-вставки интерьера.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "carbon" },
+        { "id": "int-wood", "name": "Дерево", "priceTier": "high", "sourceType": "official", "compatibility": "likely", "styles": ["luxury"], "note": "Деревянные вставки.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#6b4a2b" },
+        { "id": "int-racetex", "name": "Race-Tex sport", "priceTier": "medium", "sourceType": "official", "compatibility": "likely", "styles": ["sport"], "note": "Микрофибра, спорт-вид.", "sourceUrl": "https://www.porsche.com/international/exclusive-manufaktur/", "swatch": "#26282c" }
+      ]
+    },
+    {
+      "id": "ppf", "title": "Плёнка / финиш", "section": 12, "mode": "single", "visual": "finish",
+      "options": [
+        { "id": "ppf-none", "name": "Без плёнки (заводской глянец)", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury"], "note": "Родной лак.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "finish": "gloss" },
+        { "id": "ppf-gloss", "name": "PPF Gloss (защита)", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Прозрачная защитная плёнка.", "sourceUrl": "https://www.xpel.com/", "finish": "gloss" },
+        { "id": "ppf-matte", "name": "PPF Matte", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["stealth","showcar"], "note": "Матовый финиш (визуальная имитация).", "sourceUrl": "https://www.xpel.com/", "finish": "matte" },
+        { "id": "ppf-satin", "name": "PPF Satin", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["showcar","stealth"], "note": "Сатин-финиш (визуальная имитация).", "sourceUrl": "https://www.xpel.com/", "finish": "satin" },
+        { "id": "ppf-stealth", "name": "PPF Stealth", "priceTier": "extreme", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["stealth","showcar"], "note": "Глянец → стелс-мат (визуальная имитация).", "sourceUrl": "https://www.xpel.com/", "finish": "stealth" }
+      ]
+    },
+    {
+      "id": "ceramic", "title": "Керамика", "section": 12, "mode": "multi", "visual": "icon",
+      "options": [
+        { "id": "ceramic-coat", "name": "Ceramic coating", "priceTier": "medium", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Керамическое покрытие — бейдж в смете.", "sourceUrl": "https://www.xpel.com/" }
+      ]
+    },
+    {
+      "id": "tint", "title": "Тонировка", "section": 13, "mode": "single", "visual": "tint",
+      "options": [
+        { "id": "tint-none", "name": "Без тонировки", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Заводские стёкла.", "sourceUrl": "https://www.porsche.com/international/models/panamera/", "tint": 0 },
+        { "id": "tint-light", "name": "Лёгкая", "priceTier": "low", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["luxury"], "note": "Проверить местные нормы.", "sourceUrl": "https://www.llumar.com/", "tint": 0.18 },
+        { "id": "tint-medium", "name": "Средняя", "priceTier": "low", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["sport","stealth"], "note": "Проверить местные нормы.", "sourceUrl": "https://www.llumar.com/", "tint": 0.34 },
+        { "id": "tint-dark", "name": "Тёмная", "priceTier": "low", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["stealth","showcar"], "note": "Может быть незаконна на передних — проверить.", "sourceUrl": "https://www.llumar.com/", "tint": 0.52 }
+      ]
+    },
+    {
+      "id": "accessories", "title": "Аксессуары", "section": 14, "mode": "multi", "visual": "icon",
+      "options": [
+        { "id": "acc-roofbox", "name": "Бокс на крышу", "priceTier": "medium", "sourceType": "tequipment", "compatibility": "likely", "styles": ["practical"], "note": "Porsche Tequipment бокс + дуги.", "sourceUrl": "https://shop.porsche.com/" },
+        { "id": "acc-roofrack", "name": "Багажник-дуги", "priceTier": "low", "sourceType": "tequipment", "compatibility": "likely", "styles": ["practical"], "note": "Базовые поперечины Tequipment.", "sourceUrl": "https://shop.porsche.com/" },
+        { "id": "acc-mats", "name": "Коврики салона", "priceTier": "low", "sourceType": "tequipment", "compatibility": "likely", "styles": ["practical"], "note": "Tequipment всепогодные/велюр.", "sourceUrl": "https://shop.porsche.com/" },
+        { "id": "acc-trunkmat", "name": "Коврик багажника", "priceTier": "low", "sourceType": "tequipment", "compatibility": "likely", "styles": ["practical"], "note": "Защита багажника.", "sourceUrl": "https://shop.porsche.com/" },
+        { "id": "acc-dashcam", "name": "Видеорегистратор", "priceTier": "low", "sourceType": "aftermarket", "compatibility": "confirmed", "styles": ["practical"], "note": "Универсальный аксессуар.", "sourceUrl": "https://shop.porsche.com/" },
+        { "id": "acc-childseat", "name": "Детское кресло", "priceTier": "low", "sourceType": "tequipment", "compatibility": "likely", "styles": ["practical"], "note": "Porsche Junior Seat.", "sourceUrl": "https://shop.porsche.com/" }
+      ]
+    },
+    {
+      "id": "performance", "title": "Performance (инфо)", "section": 0, "mode": "single", "visual": "icon", "infoOnly": true,
+      "options": [
+        { "id": "perf-stock", "name": "Сток", "priceTier": "low", "sourceType": "official", "compatibility": "confirmed", "styles": ["luxury","practical"], "note": "Заводская мощность.", "sourceUrl": "https://www.porsche.com/international/models/panamera/" },
+        { "id": "perf-stage1", "name": "Stage 1 ECU — ИНФО", "priceTier": "high", "sourceType": "aftermarket", "compatibility": "needs-verification", "styles": ["sport"], "note": "⚠️ Гарантия/экология/ECU/гибрид-безопасность — только после проверки у специалиста. Не визуализируется.", "sourceUrl": "https://www.porsche.com/international/models/panamera/" }
+      ]
+    }
+  ],
+  "presets": [
+    { "id": "clean-oem", "name": "Clean OEM+", "style": "luxury", "color": "0Q", "view": "front-left", "set": { "wheelSize": "wheel-20", "wheelFinish": "wf-silver", "bodykit": "kit-stock", "blackout": "chrome-stock", "stance": "stance-stock", "calipers": "cal-black", "exhaust": "exh-stock", "interior": "int-black", "ppf": "ppf-gloss", "tint": "tint-light", "carbon": [], "accessories": ["acc-mats"] } },
+    { "id": "black-exec", "name": "Black Executive", "style": "stealth", "color": "A1", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-gloss-black", "bodykit": "kit-sportdesign", "blackout": "chrome-black", "stance": "stance-air-low", "calipers": "cal-black", "exhaust": "exh-pse", "interior": "int-black", "ppf": "ppf-gloss", "tint": "tint-dark", "carbon": ["carbon-mirrors"], "accessories": ["acc-mats"] } },
+    { "id": "sportdesign", "name": "SportDesign", "style": "sport", "color": "2H", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-satin-black", "bodykit": "kit-sportdesign", "blackout": "chrome-black", "stance": "stance-air-low", "calipers": "cal-red", "exhaust": "exh-pse", "interior": "int-racetex", "ppf": "ppf-gloss", "tint": "tint-medium", "carbon": ["carbon-mirrors","carbon-lip"], "accessories": [] } },
+    { "id": "carbon-pack", "name": "Carbon Pack", "style": "showcar", "color": "A1", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-gloss-black", "bodykit": "kit-sportdesign", "blackout": "chrome-black", "stance": "stance-drop", "calipers": "cal-silver", "exhaust": "exh-akra", "interior": "int-carbon", "ppf": "ppf-gloss", "tint": "tint-dark", "carbon": ["carbon-mirrors","carbon-lip","carbon-skirts","carbon-diffuser","carbon-spoiler"], "accessories": [] } },
+    { "id": "yachting-lux", "name": "Yachting Blue Luxury", "style": "luxury", "color": "pts-yachting-blue-metallic", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-diamond", "bodykit": "kit-stock", "blackout": "chrome-stock", "stance": "stance-stock", "calipers": "cal-silver", "exhaust": "exh-pse", "interior": "int-beige", "ppf": "ppf-gloss", "tint": "tint-light", "carbon": [], "accessories": ["acc-mats"] } },
+    { "id": "miami-summer", "name": "Miami Blue Summer", "style": "showcar", "color": "pts-miami-blue", "view": "side", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-gloss-black", "bodykit": "kit-sportdesign", "blackout": "chrome-black", "stance": "stance-air-low", "calipers": "cal-white", "exhaust": "exh-pse", "interior": "int-black", "ppf": "ppf-gloss", "tint": "tint-medium", "carbon": ["carbon-mirrors"], "accessories": [] } },
+    { "id": "viper-showcar", "name": "Viper Green Showcar", "style": "showcar", "color": "pts-viper-green", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-satin-black", "bodykit": "kit-techart", "blackout": "chrome-black", "stance": "stance-show", "calipers": "cal-black", "exhaust": "exh-akra", "interior": "int-racetex", "ppf": "ppf-gloss", "tint": "tint-dark", "carbon": ["carbon-mirrors","carbon-lip","carbon-spoiler"], "accessories": [] } },
+    { "id": "techart", "name": "TechArt Inspired", "style": "sport", "color": "2H", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-forged", "bodykit": "kit-techart", "blackout": "chrome-black", "stance": "stance-drop", "calipers": "cal-red", "exhaust": "exh-akra", "interior": "int-carbon", "ppf": "ppf-satin", "tint": "tint-dark", "carbon": ["carbon-mirrors","carbon-lip","carbon-skirts","carbon-diffuser"], "accessories": [] } },
+    { "id": "mansory", "name": "Mansory Inspired", "style": "showcar", "color": "A1", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-forged", "bodykit": "kit-widebody", "blackout": "chrome-black", "stance": "stance-show", "calipers": "cal-acid", "exhaust": "exh-akra", "interior": "int-bordeaux", "ppf": "ppf-gloss", "tint": "tint-dark", "carbon": ["carbon-mirrors","carbon-lip","carbon-skirts","carbon-diffuser","carbon-spoiler"], "accessories": [] } },
+    { "id": "vip-dark", "name": "VIP Dark", "style": "stealth", "color": "A1", "view": "rear-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-gloss-black", "bodykit": "kit-sportdesign", "blackout": "chrome-black", "stance": "stance-air-low", "calipers": "cal-black", "exhaust": "exh-pse", "interior": "int-bordeaux", "ppf": "ppf-stealth", "tint": "tint-dark", "carbon": ["carbon-mirrors"], "accessories": ["acc-mats"] } },
+    { "id": "winter-daily", "name": "Winter Daily", "style": "practical", "color": "G7", "view": "front-left", "set": { "wheelSize": "wheel-19", "wheelFinish": "wf-silver", "bodykit": "kit-stock", "blackout": "chrome-stock", "stance": "stance-stock", "calipers": "cal-black", "exhaust": "exh-stock", "interior": "int-black", "ppf": "ppf-gloss", "tint": "tint-light", "carbon": [], "accessories": ["acc-roofbox","acc-mats","acc-trunkmat"] } },
+    { "id": "rental-durable", "name": "Rental Durable", "style": "practical", "color": "0Q", "view": "front-left", "set": { "wheelSize": "wheel-20", "wheelFinish": "wf-silver", "bodykit": "kit-stock", "blackout": "chrome-stock", "stance": "stance-stock", "calipers": "cal-black", "exhaust": "exh-stock", "interior": "int-black", "ppf": "ppf-gloss", "tint": "tint-light", "carbon": [], "accessories": ["acc-mats","acc-trunkmat","acc-dashcam"] } },
+    { "id": "showcar-widebody", "name": "Showcar Widebody", "style": "showcar", "color": "pts-gulf-orange", "view": "side", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-bronze", "bodykit": "kit-widebody", "blackout": "chrome-black", "stance": "stance-show", "calipers": "cal-body", "exhaust": "exh-akra", "interior": "int-racetex", "ppf": "ppf-gloss", "tint": "tint-dark", "carbon": ["carbon-lip","carbon-skirts","carbon-diffuser","carbon-spoiler"], "accessories": [] } },
+    { "id": "track-look", "name": "Track Look", "style": "sport", "color": "0L", "view": "front-left", "set": { "wheelSize": "wheel-21", "wheelFinish": "wf-gloss-black", "bodykit": "kit-splitter", "blackout": "chrome-black", "stance": "stance-drop", "calipers": "cal-yellow", "exhaust": "exh-akra", "interior": "int-racetex", "ppf": "ppf-matte", "tint": "tint-dark", "carbon": ["carbon-lip","carbon-diffuser","carbon-spoiler"], "accessories": [] } }
+  ]
+}
