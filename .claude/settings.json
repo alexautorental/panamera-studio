@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sS -m 30 -X POST https://tg.ai-sasha.com/send_file *)",
+      "Bash(curl -sS -m 30 -X POST https://tg.ai-sasha.com/send *)",
+      "Bash(curl -sS -m 30 https://tg.ai-sasha.com/*)",
+      "Bash(curl -sS -m 20 https://tg.ai-sasha.com/*)",
+      "Bash(curl -sS https://tg.ai-sasha.com/*)",
+      "Bash(git fetch *)",
+      "Bash(git checkout origin/claude/chat-context-review-9mw7on -- love-cards)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push -u origin claude/*)",
+      "Bash(jq *)",
+      "Bash(ls *)",
+      "Bash(node *)"
+    ]
+  }
+}
