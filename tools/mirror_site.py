@@ -72,11 +72,14 @@ def main():
     h, stats['module_scripts'] = re.subn(r'<script[^>]*src="/_next/static/chunks/[^"]+"[^>]*>\s*</script>', '', h)
     h, stats['modulepreload'] = re.subn(r'<link rel="modulepreload"[^>]*>', '', h)
     h, stats['rsc_bootstrap'] = re.subn(r'<script>[^<]*vinext\.navigationRuntime[^<]*</script>', '', h)
-    # stylesheet -> assets/
-    css_path = re.search(r'/_next/static/css/[^"]+\.css', h).group(0)
-    css_name = os.path.basename(css_path)
-    h, stats['css_link'] = re.subn(r'<link rel="stylesheet" href="/_next/static/css/[^"]+"[^>]*/>',
-                                   f'<link rel="stylesheet" href="assets/{css_name}"/>', h)
+    # stylesheets -> assets/ (the origin may ship more than one CSS chunk; keep each under its own name)
+    css_paths = []
+    def css_link(m):
+        css_paths.append(m.group(1))
+        return f'<link rel="stylesheet" href="assets/{os.path.basename(m.group(1))}"/>'
+    h, stats['css_links'] = re.subn(r'<link rel="stylesheet" href="(/_next/static/css/[^"]+\.css)"[^>]*/>', css_link, h)
+    if not css_paths:
+        sys.exit('no stylesheet link found, adjust the script')
     # photos -> relative
     photos = sorted(set(re.findall(r'(?<![\w/.:])/photos/[^"\'\s)]+', h)))
     h, stats['photo_paths'] = re.subn(r'(?<![\w/.:])/photos/', 'photos/', h)
@@ -92,8 +95,9 @@ def main():
     os.makedirs(os.path.join(dst, 'assets'), exist_ok=True)
     with open(os.path.join(dst, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(h)
-    with open(os.path.join(dst, 'assets', css_name), 'wb') as f:
-        f.write(fetch(base + css_path))
+    for css_path in css_paths:
+        with open(os.path.join(dst, 'assets', os.path.basename(css_path)), 'wb') as f:
+            f.write(fetch(base + css_path))
 
     def grab(p):
         data = fetch(base + p)
@@ -109,7 +113,8 @@ def main():
     missing = [r for r in refs if not os.path.isfile(os.path.join(dst, r))]
     if missing:
         sys.exit(f'missing files after build: {missing[:5]}')
-    print(f"{dst}/index.html: {len(h)} bytes; {len(photos)} photos ({sum(sizes)/1e6:.1f} MB); css {css_name}; "
+    print(f"{dst}/index.html: {len(h)} bytes; {len(photos)} photos ({sum(sizes)/1e6:.1f} MB); "
+          f"css {', '.join(os.path.basename(c) for c in css_paths)}; "
           + ', '.join(f'{k}={v}' for k, v in stats.items()))
     print(f"referenced local files: {len(refs)}, all present; chatgpt.site mentions: {h.count('chatgpt.site')}")
 
