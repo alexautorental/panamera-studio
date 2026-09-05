@@ -60,18 +60,25 @@ bash ~/dev/panamera-studio/tools/delegate-kit/install-sasha.sh
 Оставлено как есть и это правильно: worktree + lock на писателя, frozen diff, ревьюеры вслепую, merge по смыслу,
 спор решает команда, а не мнение, `blocked` вместо догадок, ledger, safety-gate, глубина делегирования 1.
 
-## Что проверено здесь, что нет
+## Что проверено, что нет (обновлено 05.09 после прогона на Маке)
 
 | Проверка | Статус |
 |---|---|
-| delegate-kit: `tests/{caps,route,gate,inspect}.sh` | ✅ прошли в этой сессии (node 22, jq 1.7) |
-| `config.sasha.json` читается `agent-run preset/route` | ✅ проверено в этой сессии: `agent-run preset/route` отдают fable max / astra xhigh / opus xhigh |
-| Флаги `claude -p`: `--model fable/opus`, `--effort xhigh/max`, `--permission-mode plan`, `--output-format json`, `--resume` | ✅ по доке code.claude.com |
-| `codex exec`: `-m`, `-c model_reasoning_effort`, `-s read-only/workspace-write`, `--json`, `-o`, `--output-schema`, `exec resume` | ✅ по доке learn.chatgpt.com |
-| `gpt-6-astra` доступна под твоим ChatGPT Pro в Codex CLI | ⏳ не проверено — проверяет инсталлер |
-| `--disallowedTools` в `claude -p` (delegate-kit передаёт `Agent,Task`) | ⏳ в CLI-референсе не найден; если `claude -p` ругнётся — инсталлер покажет, правится одной строкой в `agent-run` |
-| Remote Control с телефона сохраняет локальные CLI (codex) | ✅ по доке |
-| Codex CLI и `codex login` на Маке | ⏳ не проверено из облака |
+| delegate-kit: `tests/{caps,route,gate,inspect}.sh` | ✅ прошли (node 22, jq 1.7) |
+| `config.sasha.json` читается `agent-run preset/route` | ✅ и в облаке, и на Маке: reviewer A → `codex gpt-6-astra xhigh`, `independent: true` |
+| Codex CLI на Маке, вход по ChatGPT Pro | ✅ codex-cli 0.153.1, «Logged in using ChatGPT» |
+| `gpt-6-astra` под логином Саши | ✅ есть в `~/.codex/models_cache.json` (плюс sol/terra/luna, gpt-5.5) |
+| Флаги `claude -p`, включая `--disallowedTools` | ✅ есть на Маке (claude 2.1.251) |
+| `codex exec` флаги | ✅ по доке learn.chatgpt.com |
+| `install-sasha.sh` из сессии Claude в auto-режиме | ⛔ классификатор разрешений блокирует (скрипт ставит PreToolUse-hook в `~/.claude/settings.json`). Запускать руками в терминале Мака |
+| Живой вызов GPT-воркера с Мака | ❌ два прогона по 20 мин: codex не достучался до `chatgpt.com` через туннель (utun1, fake-IP). `api.openai.com`/`auth.openai.com`/`github.com` живы. Лог: `install-log-2026-09-05.md` |
+
+### Канал chatgpt.com с Мака — что попробовать первым
+1. Открывается ли `https://chatgpt.com` в браузере на Маке. Если да — CLI просто не идёт через системный прокси:
+   `export HTTPS_PROXY=http://127.0.0.1:<mixed-port Karing/Hiddify>` в той же оболочке и повторить
+   `codex exec --skip-git-repo-check -s read-only -m gpt-6-astra 'Reply: OK'`.
+2. Если и в браузере нет — в правилах VPN-клиента отправить `chatgpt.com`, `*.openai.com`, `*.oaistatic.com` через прокси (Вильнюс/Амстердам), не direct: с белорусского IP chatgpt.com отдаёт 403.
+3. После оживления канала — повтор дымового теста командой из `install-log-2026-09-05.md`, п. 3.
 
 ## Ссылки
 

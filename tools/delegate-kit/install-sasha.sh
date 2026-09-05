@@ -2,6 +2,8 @@
 # Install delegate-kit on the Mac with Sasha's overrides.
 # Two subscriptions only: Claude Max (claude) + ChatGPT Pro (codex). No API keys.
 # Idempotent; re-run after `git pull`. Usage:  bash tools/delegate-kit/install-sasha.sh
+# Run it yourself in a Mac terminal: a Claude session in auto mode is blocked from installing
+# the PreToolUse hook into ~/.claude/settings.json (permission classifier), by design.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
