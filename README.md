@@ -10,6 +10,7 @@
 - **Конструктор (live):** https://alexautorental.github.io/panamera-studio/
 - Сайт цветов (отдельный, не изменялся): https://alexautorental.github.io/panamera/
 - Deep-link билда: `…/panamera-studio/#c=pts-gulf-blue&v=front-left&w=wf-black-gloss&t=tint-medium&f=ppf-gloss&l=day`
+- **Участки под Минском (зеркало, открывается без VPN):** https://alexautorental.github.io/panamera-studio/uchastki/
 
 ## Что МЕНЯЕТСЯ на фото вживую (canvas, без фейка)
 - **Цвет кузова** — 81 реальный Porsche-рендер (16 factory + 65 PTS).
@@ -47,7 +48,18 @@ public/tuning-assets/base/car|masks            — base-рендеры + мас�
 public/tuning-assets/base/glass|wheels         — маски стёкол (6) и дисков (3 ракурса) для live-перекраски
 public/panamera_official_assets … generated-renders … — скопированные рендеры цветов
 tools/build_masks.py, tools/recolor.py         — генерация масок и перекраска цвета
+public/uchastki/                               — зеркало сайта «Участки под Минском» (см. ниже)
+tools/mirror_site.py                           — сборка зеркала
 README.md · SOURCES.md · QA.md
+```
+
+## Зеркало «Участки под Минском»
+Оригинал живёт на `uchastki-pod-minskom.alexautorental.chatgpt.site` (хостинг OpenAI) и не открывается
+в РФ/РБ без VPN. Копия лежит в `public/uchastki/`: серверный HTML один в один, фото и стили внутри, пути
+относительные, React-рантайм заменён на 30 строк ванильного JS (листалка фото + «Поделиться»).
+Пересобрать после правок оригинала:
+```bash
+python3 tools/mirror_site.py https://uchastki-pod-minskom.alexautorental.chatgpt.site/ public/uchastki
 ```
 
 ## Обновить / задеплоить
