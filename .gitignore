@@ -3,3 +3,4 @@ node_modules/
 *.log
 .venv/
 tools/_masktest/
+__pycache__/
