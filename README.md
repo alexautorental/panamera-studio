@@ -50,6 +50,15 @@ tools/build_masks.py, tools/recolor.py         — генерация масок
 README.md · SOURCES.md · QA.md
 ```
 
+## Мультимодельный воркфлоу (оркестратор + роли + перекрёстное ревью)
+Навыки Claude Code в репо (`.claude/skills`, `.claude/agents`):
+- `/orchestrate` — план строит только оркестратор (Fable), задачи уходят субагентам по ролям
+  (`implementer`, `code-reviewer` Opus, `ux-reviewer` Opus), затем перекрёстное ревью и fix-loop.
+- `/cross-review` — два независимых ревьюера разных семейств (нативный Opus + GPT/Gemini через
+  Codex CLI / OpenRouter / триаду на Маке), слияние и проверка каждого finding.
+- `tools/review_packet.py` — собирает пакет (инструкция + diff + небольшие файлы) для текстового
+  внешнего ревьюера; вывод в `tools/_review/` (не коммитится), секреты режутся по маске.
+
 ## Обновить / задеплоить
 ```bash
 git add -A && git commit -m "update" && git push   # GitHub Actions выложит public/ за ~30 сек
