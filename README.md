@@ -50,14 +50,15 @@ tools/build_masks.py, tools/recolor.py         — генерация масок
 README.md · SOURCES.md · QA.md
 ```
 
-## Мультимодельный воркфлоу (оркестратор + роли + перекрёстное ревью)
-Навыки Claude Code в репо (`.claude/skills`, `.claude/agents`):
-- `/orchestrate` — план строит только оркестратор (Fable), задачи уходят субагентам по ролям
-  (`implementer`, `code-reviewer` Opus, `ux-reviewer` Opus), затем перекрёстное ревью и fix-loop.
-- `/cross-review` — два независимых ревьюера разных семейств (нативный Opus + GPT/Gemini через
-  Codex CLI / OpenRouter / триаду на Маке), слияние и проверка каждого finding.
-- `tools/review_packet.py` — собирает пакет (инструкция + diff + небольшие файлы) для текстового
-  внешнего ревьюера; вывод в `tools/_review/` (не коммитится), секреты режутся по маске.
+## Мультимодельный воркфлоу (две подписки: Claude Max + ChatGPT Pro)
+Основа — [delegate-kit](https://github.com/tomastaker/delegate-kit), сверху sasha-mode. Подробно: `docs/multi-model/README.md`.
+- `/orchestrate` — оркестратор (Fable) строит план, ревью плана другой семьёй, роли по worktree,
+  перекрёстное ревью Claude ↔ GPT (Codex CLI), fix → re-review, отчёт по-русски.
+- `/cross-review` — два ревьюера разных семейств вслепую, слияние и проверка каждого finding.
+- `tools/delegate-kit/install-sasha.sh` — установка на Маке с моделями `config.sasha.json`
+  (fable max / opus xhigh / gpt-6-astra xhigh).
+- `tools/review_packet.py` — пакет (инструкция + diff + файлы) для дочитки внешним ревьюером,
+  вывод в `tools/_review/` (не коммитится), секреты вырезаны.
 
 ## Обновить / задеплоить
 ```bash

@@ -1,0 +1,11 @@
+{
+  "preset": "auto",
+  "roles": {
+    "planner":     { "claude": ["fable", "max"],  "codex": ["gpt-6-astra", "xhigh"] },
+    "implementer": { "claude": ["opus", "high"],  "codex": ["gpt-6-astra", "high"] },
+    "reviewer":    { "claude": ["opus", "xhigh"], "codex": ["gpt-6-astra", "xhigh"] },
+    "review-lead": { "claude": ["fable", "max"],  "codex": ["gpt-6-astra", "xhigh"] },
+    "verifier":    { "claude": ["fable", "max"],  "codex": ["gpt-6-astra", "xhigh"] },
+    "researcher":  { "claude": ["opus", "high"],  "codex": ["gpt-5.6-sol", "high"] }
+  }
+}
