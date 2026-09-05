@@ -70,15 +70,19 @@ bash ~/dev/panamera-studio/tools/delegate-kit/install-sasha.sh
 | `gpt-6-astra` под логином Саши | ✅ есть в `~/.codex/models_cache.json` (плюс sol/terra/luna, gpt-5.5) |
 | Флаги `claude -p`, включая `--disallowedTools` | ✅ есть на Маке (claude 2.1.251) |
 | `codex exec` флаги | ✅ по доке learn.chatgpt.com |
-| `install-sasha.sh` из сессии Claude в auto-режиме | ⛔ классификатор разрешений блокирует (скрипт ставит PreToolUse-hook в `~/.claude/settings.json`). Запускать руками в терминале Мака |
-| Живой вызов GPT-воркера с Мака | ❌ два прогона по 20 мин: codex не достучался до `chatgpt.com` через туннель (utun1, fake-IP). `api.openai.com`/`auth.openai.com`/`github.com` живы. Лог: `install-log-2026-09-05.md` |
+| `install-sasha.sh` | ✅ выполнен 05.09 21:12 МСК из локальной сессии с подтверждениями (auto-режим его блокирует — это нормально) |
+| Живой вызов GPT-воркера с Мака | ✅ `gpt-6-astra xhigh`, 388 с, 6 findings по `recolor.py` (3 новых относительно Opus/Fable). Работает только с `HTTPS_PROXY=http://127.0.0.1:3067` (mixed-порт Karing): без прокси системный резолвер Мака не отдаёт `chatgpt.com`. Лог: `install-log-2026-09-05.md` |
 
-### Канал chatgpt.com с Мака — что попробовать первым
-1. Открывается ли `https://chatgpt.com` в браузере на Маке. Если да — CLI просто не идёт через системный прокси:
-   `export HTTPS_PROXY=http://127.0.0.1:<mixed-port Karing/Hiddify>` в той же оболочке и повторить
-   `codex exec --skip-git-repo-check -s read-only -m gpt-6-astra 'Reply: OK'`.
-2. Если и в браузере нет — в правилах VPN-клиента отправить `chatgpt.com`, `*.openai.com`, `*.oaistatic.com` через прокси (Вильнюс/Амстердам), не direct: с белорусского IP chatgpt.com отдаёт 403.
-3. После оживления канала — повтор дымового теста командой из `install-log-2026-09-05.md`, п. 3.
+### Открытые решения (за Сашей)
+1. **Где жить `HTTPS_PROXY`.** Без него любой новый терминал и `agent-run --backend codex` снова упрутся в мёртвый резолв.
+   Рекомендация — обёртка только для codex (`~/bin/codex` первым в PATH: задаёт прокси и `exec`-ает настоящий бинарь),
+   а не глобальный export: глобальный ломает весь терминал, когда Karing выключен. Проверить, что обёртку видит и
+   LaunchAgent `com.alex.claude-remote-control` (он не читает `~/.zshrc`).
+2. **Codex-воркер и apps/plugins.** `agent-run` гасит субагентов, но не `apps`/`plugins` (в `~/.codex/config.toml` включены
+   gmail, github, drive). Read-only sandbox на них не действует. До фикса в delegate-kit — та же обёртка добавляет к `codex exec`:
+   `--disable apps --disable plugins --disable remote_plugin --disable browser_use --disable computer_use --disable image_generation`.
+3. **`recolor.py`:** 14 подтверждённых пунктов от трёх ревьюеров, первым чинить C4 (path traversal через `color-id` может перезаписать
+   базовые рендеры), затем №2 + C2 (одна тональная кривая, продуктовое решение), C3 — сначала спека (lossless или допуск).
 
 ## Ссылки
 
